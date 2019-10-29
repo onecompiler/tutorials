@@ -1,6 +1,6 @@
 Distributed queuing means sending messages from one queue manager to another queue manager which can exist on same system or some other system.
 
-![DQM](/images/dqm.jpg)
+![DQM](dqm.jpg)
 
 Consider you are sending a message from QM1 to QM2 on your local machine where QM1 is running on 1415 and QM2 on 1416 ports. 
 
