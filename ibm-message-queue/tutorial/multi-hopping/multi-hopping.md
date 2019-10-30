@@ -6,7 +6,7 @@ IBM MQ imeplements multi-hopping using queue manager alias
 
 Consider you want to send a message from QM1 to QM3 through QM2(QM1->QM2->QM3). 
 
-![Multihopping](multi-hopping-3.jpg)
+![](images/multi-hopping-3.jpg)
 
 1. create the queue managers QM1, QM2, QM3 using `CRTMQM` and start them using `STRMQM`.
 

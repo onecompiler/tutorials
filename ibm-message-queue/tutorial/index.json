@@ -25,12 +25,7 @@
             {
                 "title" : "Channels",
                 "path" : "channels"
-            },
-            {
-                "title" : "Topics",
-                "path" : "topics"
-            }
-            
+            }            
         ]
     },
     {
@@ -43,5 +38,28 @@
             }
             
         ]
+    },
+    {
+        "title" : "Multi-Hopping",
+        "path" : "multi-hopping",
+        "links" : [
+            {
+                "title" : "Multi-Hopping",
+                "path" : "multi-hopping"
+            }
+            
+        ]
+    },
+    {
+        "title" : "Publish-Subscribe",
+        "path" : "publish-subscribe",
+        "links" : [
+            {
+                "title" : "Publish-Subscribe",
+                "path" : "publish-subscribe"
+            }
+            
+        ]
     }
+    
 ]
