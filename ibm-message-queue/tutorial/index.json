@@ -60,6 +60,17 @@
             }
             
         ]
+    },
+    {
+        "title" : "Clusters",
+        "path" : "clusters",
+        "links" : [
+            {
+                "title" : "Clusters",
+                "path" : "clusters"
+            }
+            
+        ]
     }
     
 ]
