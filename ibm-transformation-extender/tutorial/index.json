@@ -1,0 +1,42 @@
+[
+    {
+        "title" : "Introduction of IBM transformation extender",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction of IBM Transformation Extender",
+                "path" : "introduction"
+            }
+            
+        ]
+    },
+    {
+        "title" : "Type trees",
+        "path" : "type-trees",
+        "links" : [
+            {
+                "title" : "Type trees",
+                "path" : "type-trees"
+            }            
+        ]
+    },
+    {
+        "title" : "Mapping",
+        "path" : "mapping",
+        "links" : [
+            {
+                "title" : "maps",
+                "path" : "maps"
+            },
+            {
+                "title" : "Functional Map",
+                "path" : "functional-map"
+            },
+            {
+                "title" : "Inbuilt Functions",
+                "path" : "inbuilt-functions"
+            }
+            
+        ]
+    }  
+]
