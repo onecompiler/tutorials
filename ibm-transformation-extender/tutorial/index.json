@@ -29,10 +29,6 @@
                 "path" : "maps"
             },
             {
-                "title" : "Functional Map",
-                "path" : "functional-map"
-            },
-            {
                 "title" : "Inbuilt Functions",
                 "path" : "inbuilt-functions"
             }
