@@ -34,5 +34,25 @@
             }
             
         ]
-    }  
+    },
+    ,
+    {
+        "title" : "ITX with other middleware tools",
+        "path" : "itx-with-other-tools",
+        "links" : [
+            {
+                "title" : "ITX for IIB",
+                "path" : "itx-for-iib"
+            },
+            {
+                "title" : "ITX with Data Power",
+                "path" : "itx-with-dp"
+            },
+            {
+                "title" : "ITX with Sterling B2B Integrator",
+                "path" : "itx-for-si"
+            }
+            
+        ]
+    }    
 ]
