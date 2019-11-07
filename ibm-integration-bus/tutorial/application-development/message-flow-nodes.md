@@ -1,6 +1,6 @@
 Message flow nodes are used to transform the incoming message and to provide routing control information and also to connect databases.
 
-Thera are many in*built message nodes exist in IIB.
+There are many in-built message nodes exist in IIB.
 
 ## i. Transport nodes
 
