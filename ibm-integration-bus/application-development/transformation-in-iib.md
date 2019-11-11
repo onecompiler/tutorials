@@ -90,7 +90,7 @@ You can transform the message graphically with out writing code using message ma
 
 * Java is used to route, transform or enrich the message it received.
 
-* Similar to compute node but uses java instead of ESQL
+* Java compute node is similar to compute node but uses java instead of ESQL
 
 
 
