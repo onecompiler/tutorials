@@ -1,0 +1,54 @@
+[
+    {
+        "title" : "Introduction of IBM Integration Bus",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction of IBM Integration Bus",
+                "path" : "introduction"
+            }
+            
+        ]
+    },
+    {
+        "title" : "Application Development",
+        "path" : "application-development",
+        "links" : [
+            {
+                "title" : "Transformation in IIB",
+                "path" : "transformation-in-iib"
+            },
+            {
+                "title" : "Message Flow Nodes",
+                "path" : "message-flow-nodes"
+            },
+            {
+                "title" : "Sample application",
+                "path" : "sample-application"
+            },
+            {
+                "title" : "Accessing a Database",
+                "path" : "accessing-a-database"
+            },
+            {
+                "title" : "How to Create and Deploy Bar files",
+                "path" : "create-and-deploy-bar-file"
+            },
+            {
+                "title" : "Testing and Debugging",
+                "path" : "testing-and-debugging"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "Github Tutorials",
+        "path" : "github-tutorials",
+        "links" : [
+            {
+                "title" : "Github Tutorials",
+                "path" : "github-tutorials"
+            }
+            
+        ]
+    }
+]
