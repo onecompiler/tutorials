@@ -1,5 +1,5 @@
 
-## Sample C program
+## Sample C++ program
 
 ```c
 
