@@ -65,6 +65,7 @@ struct mobile {
 }m1, m2;
 
 //accessing structure variable - brand
+```
 
 ```c
 #include<stdio.h>
