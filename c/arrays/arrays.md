@@ -30,3 +30,5 @@ int a[5];
 int a[2][3];
 int b[][3]; // valid
 ```
+
+## Practice with more examples [here](https://onecompiler.com/c)

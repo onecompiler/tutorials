@@ -8,6 +8,7 @@ printf("Hello World!!");
 return 0;   
 }  
 ```
+## Practice with more examples [here](https://onecompiler.com/c)
 
 ## Printf and scanf
 

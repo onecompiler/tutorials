@@ -33,3 +33,4 @@ int main()
 }
 
 ```
+## Practice with more examples [here](https://onecompiler.com/c)

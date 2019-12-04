@@ -11,8 +11,11 @@ else
 {
     //code
 }
+```
 
 You can also use if-else for nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
+
+## Practice with more examples [here](https://onecompiler.com/c)
 
 ## SWITCH
 
@@ -26,12 +29,14 @@ case value1:
 case value2:    
  //code    
  break;  //optional  
-......    
+...    
     
 default:     
  code to be executed when all the above cases are not matched;    
 } 
 ```
+
+## Practice with more examples [here](https://onecompiler.com/c)
 
 ## FOR
 
@@ -43,6 +48,8 @@ for(Initialization; Condition; Increment/decrement){
 } 
 ```
 
+## Practice with more examples [here](https://onecompiler.com/c)
+
 ## WHILE
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
@@ -53,6 +60,8 @@ while(condition){
 }  
 ```
 
+## Practice with more examples [here](https://onecompiler.com/c)
+
 ## DO-WHILE
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
@@ -62,3 +71,4 @@ do{
 }while(condition); 
 ```
 
+## Practice with more examples [here](https://onecompiler.com/c)
