@@ -18,18 +18,18 @@
         ]
     },
     {
-        "title" : "Learn about EXPRESS",
+        "title" : "EXPRESS",
         "path" : "express",
         "links" : [
             {
-                "title" : "Learn about EXPRESS",
+                "title" : "EXPRESS Framework",
                 "path" : "express"
             }                                                 
         ]
     },
     {
         "title" : "Express using MongoDB",
-        "path" : "crud-express-mongodb",
+        "path" : "express-mongodb",
         "links" : [
             {
                 "title" : "CRUD operations",
