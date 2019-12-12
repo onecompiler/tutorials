@@ -28,12 +28,12 @@
         ]
     },
     {
-        "title" : "CRUD operations on NodeJS-Express using MongoDB",
-        "path" : "crud-nodejs-express-mongodb",
+        "title" : "Express using MongoDB",
+        "path" : "crud-express-mongodb",
         "links" : [
             {
-                "title" : "CRUD operations on NodeJS-Express using MongoDB",
-                "path" : "crud-nodejs-express-mongodb"
+                "title" : "CRUD operations",
+                "path" : "crud-express-mongodb"
             }
         ]
     },
