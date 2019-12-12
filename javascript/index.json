@@ -1,10 +1,10 @@
 [
     {
-        "title" : "Introduction to Modern Javascript Language",
+        "title" : "Introduction",
         "path" : "introduction",
         "links" : [
             {
-                "title" : "Introduction",
+                "title" : "Introduction to Modern Javascript Language",
                 "path" : "introduction"
             }
         ]
