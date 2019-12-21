@@ -1,0 +1,64 @@
+[
+    {
+        "title" : "Introduction to Python",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            }
+        ]
+    },
+    {
+        "title" : "Fundamentals",
+        "path" : "fundamentals",
+        "links" : [
+            {
+                "title" : "Variables and Datatypes",
+                "path" : "variables-and-data-types"
+            },                                                 
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            },                                                 
+            {
+                "title" : "Functions",
+                "path" : "functions"
+            },                                                 
+            {
+                "title" : "Collections",
+                "path" : "collections"
+            }
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }
+        ]
+    },
+    {
+        "title" : "Working with Files",
+        "path" : "working-with-files",
+        "links" : [
+            {
+                "title" : "CRUD Operations",
+                "path" : "crud-with-files"
+            }
+        ]
+    },
+    {
+        "title" : "Working with MongoDB",
+        "path" : "python-mongodb",
+        "links" : [
+            {
+                "title" : "CRUD Operations",
+                "path" : "crud-with-mongodb"
+            }
+        ]
+    }
+]
