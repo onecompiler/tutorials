@@ -1,8 +1,6 @@
-## Strings
-
 Strings can be enclosed with in either single quotes, or double quotes.
 
-### Multi-line strings
+## Multi-line strings
 
 Multi-line strings should be enclosed within three double quotes or three single quotes.
 
@@ -18,21 +16,21 @@ str = '''Line1
 line2
 line3...'''
 ```
-### Slicing
+## Slicing
 
 Below syntax shows how to extract a sub-string.
 ```py
 str[str_index:end_index]
 ```
 
-### Negative indexing
+## Negative indexing
 
 Negative indexing is used to extract the sub-string from the end.
 
 ```py
 str[-str_index:-end_index]
 ```
-### String functions
+## String functions
 
 |Method name|Syntax|Description|
 |------|-----|-----|
@@ -60,7 +58,7 @@ str[-str_index:-end_index]
 |swapcase()|str.swapcase()|	Swaps lower case to upper case and uppercase to lowercase in the given str|
 |zfill()|str.zfill(len)| pads the given string with a specified number of zeros at the beginning|
 
-### String boolean methods
+## String boolean methods
 
 |Method name|Syntax|Description|
 |------|-----|-----|
