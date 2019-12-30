@@ -67,7 +67,8 @@ void mobile::hello(){ //method definition
 
 ## 2. Encapsulation
 
-Encapsulation is a mechanism to protect private hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private. 
+Encapsulation is a mechanism to protect private hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private.  You can make public `set` and `get` methods to access private variables.
+
 
 ## 3. Abstraction
 
