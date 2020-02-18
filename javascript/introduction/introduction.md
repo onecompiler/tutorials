@@ -27,22 +27,22 @@ One can't deny that Javascript is everywhere. Below key qualities of modern Java
 * Easy and simple and scalable.
 * Tons of frameworks and great community support and especially it's an open-source language.
 
-## Javascript Fundamentals
+## Javascript Basics
 
-### Sample HelloWorld program
+## Sample HelloWorld program
 
 ```javascript
 console.log("Hello, World!"); // prints Hello, World! 
 ```
 console.log is used to print the message to get displayed to the user.
 
-### Statements and Semicolons
+## Statements and Semicolons
 * The above line of code is called a statement. 
 * Statements are seperated by semi-colon(;)
 * Javascript doesn't throw error in absence of semi-colons if a line break is present between them. Javscript interprets line break as implicit semicolon.
 * It's always a best practice to add semi-colon at the end of the statement.
 
-### Comments
+## Comments
 
 1. Single line comments
 
@@ -52,7 +52,7 @@ console.log is used to print the message to get displayed to the user.
 
 `/**/` is used to comment multiple lines.
 
-### Modern Mode
+## Modern Mode
 
 * You must explictly declare with directive `"use Strict"` or `'use Strict'` at the top of the script to tell the javascript should work in modern way.
 
