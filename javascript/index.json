@@ -10,28 +10,36 @@
         ]
     },
     {
-        "title" : "JS concepts",
-        "path" : "concepts",
+        "title" : "Fundamentals",
+        "path" : "fundamentals",
         "links" : [
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            },
             {
                 "title" : "Data Types",
                 "path" : "data-types"
+            },
+            {
+                "title" : "Operators",
+                "path" : "operators"
             },
             {
                 "title" : "Arrays",
                 "path" : "arrays"
             },
             {
-                "title" : "Control statements",
-                "path" : "control-statements"
+                "title" : "Conditional statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
             },
             {
                 "title" : "Classes",
                 "path" : "classes"
-            },
-            {
-                "title" : "Variables",
-                "path" : "let-const-var"
             },
             {
                 "title" : "Methods",

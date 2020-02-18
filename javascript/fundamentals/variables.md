@@ -1,5 +1,4 @@
-ES6 introduced these two powerful keywords called let and const.
-
+A variable is a name storage for data to access it later in the program. There are three ways to create variables.
 
 |Keyword|Description|Scope|
 |----|----|----|
@@ -7,20 +6,23 @@ ES6 introduced these two powerful keywords called let and const.
 |let| let is also used to declare variables(new way)|Global or block Scope|
 |const|const is used to declare const values. Once the value is assigned it can not be modified|Global or block Scope|
 
+## How to declare variables
 
-Let's get familiarize with the below scopes.
+```javascript
+let variable-name; // Just declaration
+let variable-name = value; // declaring variable and assigning it with some value
+let var1 = value1, var2 = value2, var3 = value3; // multiple variables declaration with their assigned values
+```
+You can change the value of the variable to multiple times with different data, Javascript will not throw any error if the value assigned is string for a integer value assinged variable.
 
-### Global scope
+```javascript
+let x = 10;
+x= "hello";
+```
 
-Variables declared globally will have global scope
+## Example program to understand the difference between var, let and const
 
-### Function scope
-
-Variables declared inside a function will have scope only in that function.
-
-### block scope
-
-Variables declared in a block like inside a loop will have block scope.
+Check the below program to understand issues with var. In the below example, age is a `var` variable whose value is not getting reflected back to 20 even after coming out of if block but with let, name will again becomes `foo`. Hence, `let` is recommended to use.
 
 ```javascript
 
@@ -45,4 +47,4 @@ console.log('id:', id); //id =1
 console.log('age:', age); // age will not become 20 and it remains 25 even after the block is ended         
 ```
 
-## Practice your understanding [here](https://onecompiler.com/javascript) 
+### Practice your understanding [here](https://onecompiler.com/javascript) 

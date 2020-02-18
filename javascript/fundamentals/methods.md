@@ -1,3 +1,5 @@
+Javascript has many in-built methods. Below are some of the string and number methods.
+
 ## String Methods
 
 |Method Name| Usage|description|
