@@ -1,6 +1,8 @@
-## 1. IF
+Below are the conditional statements present in Javascript.
 
-IF is used to execute a block of code based on a condition. 
+## 1. If
+
+If is used to execute a block of code based on a condition. 
 
 ### Syntax
 
@@ -18,9 +20,9 @@ if (age > 18) {
   console.log('Adult');
 }
 ```
-## 2. IF-ELSE
+## 2. If-else
 
-ELSE part is used to execute the block of code when the condition fails.
+If is used to execute a block of code based on a condition. and else part is used to execute the block of code when the condition fails.
 
 ### Syntax
 ```javascript
@@ -49,9 +51,9 @@ console.log('Infant');
 
 ### Practice your understanding [here](https://onecompiler.com/javascript) 
 
-## 3. SWITCH
+## 3. Switch
 
-SWITCH is used to replace nested IF-ELSE statements.
+Switch is used to replace nested If-else statements.
 
 ### Syntax
 ```javascript

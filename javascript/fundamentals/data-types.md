@@ -13,14 +13,14 @@ let x = 999;
 
 ## 2. String
 
-String datatype represents text or you can say series of characters. You can use double quotes (" ") or single quotes (' ') or back ticks (` `) to represent strings.
+String datatype represents text or you can say series of characters. You can use double quotes (" ") or single quotes (' ') or back ticks (``) to represent strings.
 
 ### Example
 ```javascript
 // all the three are correct
 let x ="OneCompiler";
-let y =`OneCompiler`;
-let z ='OneCompiler';
+let y ='OneCompiler';
+let z =`OneCompiler`;
 ```
 
 ## 3. BigInt 

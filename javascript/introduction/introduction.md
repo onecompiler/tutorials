@@ -27,7 +27,7 @@ One can't deny that Javascript is everywhere. Below key qualities of modern Java
 * Easy and simple and scalable.
 * Tons of frameworks and great community support and especially it's an open-source language.
 
-## Javascript Basics
+# Javascript Basics
 
 ## Sample HelloWorld program
 
@@ -46,18 +46,18 @@ console.log is used to print the message to get displayed to the user.
 
 1. Single line comments
 
-`//` is used to comment a single line
+  `//` is used to comment a single line
 
 2. Multi line comments
 
-`/**/` is used to comment multiple lines.
+  `/**/` is used to comment multiple lines.
 
 ## Modern Mode
 
 * You must explictly declare with directive `"use Strict"` or `'use Strict'` at the top of the script to tell the javascript should work in modern way.
 
 
-## You can practice Javascript [here](https://onecompiler.com/javascript) with out any IDEs or code editors.
+### You can practice Javascript [here](https://onecompiler.com/javascript) with out any IDEs or code editors.
 
 
 
