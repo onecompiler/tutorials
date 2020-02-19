@@ -80,6 +80,28 @@ func({}); //10 11 12   (hits the value defaults)
 ```
 ### Check the result [here](https://onecompiler.com/javascript/3vhq7skve) 
 
+## 4. Function Expressions
+
+You can assign function to a variable explictly.  In Javascript, function is a value and hence you can assign it to a variable like any other values.
+
+### Examples
+
+```javascript
+let message = function () {
+    console.log('Happy Learning!');
+}
+```
+You can copy function to an another variable.
+
+```javascript
+function greetings() {
+    console.log('Happy Learning!');
+}
+let message = greetings; // if there are parameters to the function then you should specify greetings();
+
+message(); // prints Happy Learning!
+greetings(); // prints Happy Learning!
+```
 
 ## Quick take away:
 
