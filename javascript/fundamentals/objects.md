@@ -22,7 +22,7 @@ In the above example, employee is an object and it has two properties:
 2. Property name / key is "id" and it's value is "123".
 
 
-### How to add a property to the existing Object
+## How to add a property to the existing Object
 
 Property values can be added using the dot notation like below, if the key name is a multi-word then use [""].
 
@@ -31,7 +31,7 @@ employee.isTrainee = true;
 employee.businessUnit = "IT"; 
 employee["last name"] = "bar"; // [] are used if the property name is a multi-word.
 ```
-### How to access property values
+## How to access property values
 
 Property values can be accessed using the dot notation like below:
 
@@ -40,7 +40,7 @@ console.log(employee.name);
 console.log(employee["last name"]); // [] are used if the property name is a multi-word.
 ```
 
-### How to remove a property from existing Object
+## How to remove a property from existing Object
 
 ```javascript
 delete employee.businessUnit;
