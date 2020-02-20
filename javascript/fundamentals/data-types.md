@@ -68,15 +68,11 @@ All the above six datatypes are called primitive datatypes as they contain some 
 ```javascript
 let employee = {  // object
      "name" : "foo", //object property
-     "last name" : "bar",
-     "id"   : 123
+     "last name" : "bar", //object property
+     "id"   : 123 //object property
 };
 ```
-You can access the object properties like below
-```javascript
-console.log(employee.name);
-console.log(employee["last name"]); // [] are used if the property name is a multi-word.
-```
+Let's us in-detail about Objects in further topics.
 
 ## Summary
 

@@ -41,6 +41,10 @@
                 "title" : "Classes",
                 "path" : "classes"
             },
+                        {
+                "title" : "Objects",
+                "path" : "objects"
+            },
             {
                 "title" : "Methods",
                 "path" : "methods"
