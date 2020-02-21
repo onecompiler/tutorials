@@ -22,6 +22,10 @@
                 "path" : "data-types"
             },
             {
+                "title" : "Date and Time",
+                "path" : "date-and-time"
+            },
+            {
                 "title" : "Operators",
                 "path" : "operators"
             },
