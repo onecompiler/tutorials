@@ -17,10 +17,51 @@ for(Initialization; Condition; Increment/decrement) {
 console.log('simple for loop');
 for(let i=1;i<=10;i++) {
   console.log(i);
-  
 }
 ```
-## 2. while()
+## 2. for..in()
+
+For..in loop is used to iterate over properties of an object.
+
+### Syntax
+```javascript
+for(variable in Object) {  
+//code  
+}  
+```
+### Example
+
+```javascript
+let info = {
+  name: "foo",
+  id: 123
+}
+
+for (let x in info) {
+  console.log(x); // prints keys of info which are name and id
+}
+```
+
+## 3. for..of()
+
+For..of loop is used to iterate over values of an iterable object.
+
+### Syntax
+```javascript
+for(variable of iterable-Object) {  
+//code  
+} 
+```
+### Example
+
+```javascript
+let mobiles = [ "iPhone", "Samsung", "OnePlus", "Pixel"];
+for(let mbl of mobiles) {  
+    console.log(mbl);
+} 
+```
+
+## 4. while()
 
 while is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
 
@@ -43,7 +84,7 @@ while(i<=10) {
 }
 ```
 
-## 3. do-while()
+## 5. do-while()
 
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
@@ -65,3 +106,4 @@ do {
 ```
 
 ### Practice your understanding [here](https://onecompiler.com/javascript) 
+
