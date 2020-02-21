@@ -1,31 +1,34 @@
 Date is a built-in javascript object. It stores date and time and allows methods to play around with the date and time format we want.
 
-## Syntax
+### Syntax
 
 You can create a new date object using `new Date()`.
 
 ```javascript
 new Date();
 ```
-## Example
+### Example
 ```javascript
 let now = new Date();
 console.log(now); // prints Date and time in the format 2020-02-21T06:02:08.516Z
 ```
 
-
-### To print date in the local format
+## To print date in the local format
 
 To  create date in local format where year should be 4 digits and months starts from 0.
+
+### Syntax
 
 ```javascript
 new Date(year, month, date, hours, minutes, seconds, ms)
 ```
+
+### Example
+
 ```javascript
 let now =new Date(2020, 0, 1, 0, 0, 0, 0); 
 console.log(now); // prints 2020-01-01T00:00:00.000Z
 ```
-
 
 ## Date Methods
 
