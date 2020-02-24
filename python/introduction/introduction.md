@@ -1,4 +1,4 @@
-Python is a very popular programming language which was created by Guido van Rossum, and released in 1991.
+Python is a very popular programming language which was created by Guido van Rossum, and it was released in 1991.
 
 ## Key features
 
@@ -11,16 +11,37 @@ Python is a very popular programming language which was created by Guido van Ros
 * very simple syntax, feels just like english language.
 * runs on almost all platforms.
 
+## Why you should learn Python
+
+* Python is the preferred language for most data scientists because of it's powerful capabilities.
+* Biggest advantage is it's opensource and easy to learn programming language.
+* Since it's cross-platform language, it is used over variety of platforms for almost 30 years.
+* Highly flexible and versatile language.
+* Python grabbed more demand in the market and hence python developers are offered with high salaries.
+* Recommended language for Artificial intelligence as it is image recognition and machine learning.
+* Used for web development.
+* It acts as a testing framework for validating the products with established enterprises.
+
+## Why Python is so popular?
+
+No one can deny the fact that Python is most widely used programming language. 
+
+1. Python is highly productive and capable of performing highly complex tasks.
+2. It's a very expressive language and much more concise and requires less time, effort, and fewer lines of code to perform the same operations when compared to other programming languages like C++, java etc
+3. Python offers rich set of libraries and frameworks.
+4. Large community support.
+5. Though it is not recommended for speed-intensive applications like games etc, it is a super cool language to use for web development, machine learning, artificial intelligence related applications, data science, testing etc.
+6. Very big companies like Google, Youtube, Yahoo, IBM, Instagram, Pinterest, Quora, Uber, Dropbox and many other companies are using Python. 
 
 ## Installation
 
-## On Windows
+## 1. On Windows
 
 * Go to [Python downloads](https://www.python.org/downloads/windows/)
 * Download the latest version  and extract the files. 
 * Run the python*.msi file and follow the instructions of the setup to install.
 
-## On Linux or Unix
+## 2. On Linux or Unix
 
 * check if you already have python on your machine
 ```sh
@@ -37,7 +58,7 @@ $ sudo apt-get install python3.6
 sudo yum install python36
 ```
 
-## Using OneCompiler
+## 3. Using OneCompiler
 
 * You don't need to install any software.
 * Just goto [OneCompiler](https://Onecompiler.com) and choose the programming language as `Python` and enjoy programming without any installation.
@@ -45,7 +66,7 @@ sudo yum install python36
 
 ## Sample Program
 
-* You can either use text editor or any IDE to write python(.py) programs. Or Simply open your browser and open [Onecompiler](https://https://onecompiler.com/python/)
+* You can either use text editor or any IDE to write python(.py) programs after installing python. Or **Simply open your browser and open [Onecompiler](https://https://onecompiler.com/python/)**
 
 * sample code of happylearning.py file
 
