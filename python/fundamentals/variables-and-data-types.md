@@ -41,9 +41,9 @@ name    = "Foo"       # String assignment
 number = 10          # An integer assignment
 cost   = 10.70       # A floating point assignment
 
-print (type(name))
-print (type(number))
-print (type(cost))
+print (type(name)) # to Print the data type of the variable name
+print (type(number))  # to Print the data type of the variable number
+print (type(cost))  # to Print the data type of the variable cost
 
 print ("Hi " + name + "! You have purchased " + str(number) + " fruits and your total bill is " + str(cost) + "dollars") 
 # here number and cost are integers and float values and you need to convert them to string in-order to print along with other string values.
