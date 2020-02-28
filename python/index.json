@@ -36,6 +36,10 @@
         "path" : "control-statements",
         "links" : [
             {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
                 "title" : "Loops",
                 "path" : "loops"
             }
