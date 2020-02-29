@@ -64,5 +64,15 @@
                 "path" : "crud-with-mongodb"
             }
         ]
+    },
+    {
+        "title" : "Data Science",
+        "path" : "data-science",
+        "links" : [
+            {
+                "title" : "NumPy Arrays",
+                "path" : "numpy-arrays"
+            }
+        ]
     }
 ]

@@ -1,10 +1,10 @@
 Python is an OOP(object oriented programming) language. It supports all the concepts of OOPS like Classes, objects, inheritance, encapsulation, abstraction, and polymorphism. 
 
-## What is OOP
+# What is OOP
 
 Object Oriented programming is a methodology based on objects instead of functions and procedures. OOP provides liberty to users to create objects as they want and create methods to handle the objects created. 
 
-## OOP concepts
+# OOP concepts
 
 ## 1. Classes and objects
 
