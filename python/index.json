@@ -72,6 +72,10 @@
             {
                 "title" : "NumPy Arrays",
                 "path" : "numpy-arrays"
+            },
+            {
+                "title" : "Pandas",
+                "path" : "pandas"
             }
         ]
     }
