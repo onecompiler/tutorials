@@ -1,0 +1,54 @@
+[
+    {
+        "title" : "Introduction to Java",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            }
+        ]
+    },
+    {
+        "title" : "Fundamentals",
+        "path" : "fundamentals",
+        "links" : [
+            {
+                "title" : "Datatypes",
+                "path" : "data-types"
+            },
+            {
+                "title" : "Variables and Operators",
+                "path" : "variables-and-operators"
+            },                                                              
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }
+        ]
+    },
+    {
+        "title" : "OOPS",
+        "path" : "oops",
+        "links" : [
+            {
+                "title" : "OOPS",
+                "path" : "oops"
+            }
+        ]
+    }
+]
