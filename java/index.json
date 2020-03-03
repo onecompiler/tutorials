@@ -18,9 +18,17 @@
                 "path" : "data-types"
             },
             {
-                "title" : "Variables and Operators",
-                "path" : "variables-and-operators"
-            },                                                              
+                "title" : "Variables",
+                "path" : "variables"
+            }, 
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            },
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            },                                                             
             {
                 "title" : "Arrays",
                 "path" : "arrays"
@@ -46,9 +54,89 @@
         "path" : "oops",
         "links" : [
             {
-                "title" : "OOPS",
-                "path" : "oops"
+                "title" : "Classes and Objects",
+                "path" : "classes-and-objects"
+            },
+            {
+                "title" : "Constructor",
+                "path" : "constructor"
+            },
+            {
+                "title" : "Encapsulation",
+                "path" : "encapsulation"
+            },
+            {
+                "title" : "Inheritance",
+                "path" : "inheritance"
+            },
+            {
+                "title" : "Polymorphism",
+                "path" : "polymorphism"
+            },
+            {
+                "title" : "Abstraction",
+                "path" : "abstraction"
+            },
+            {
+                "title" : "Interfaces in Java",
+                "path" : "interfaces-in-java"
             }
         ]
-    }
+    },
+    {
+        "title" : "Collections",
+        "path" : "collections",
+        "links" : [
+            {
+                "title" : "Collections",
+                "path" : "Collections-framework"
+            }
+        ]
+    },
+    {
+        "title" : "More Topics",
+        "path" : "more",
+        "links" : [
+            {
+                "title" : "Abstract class and Methods",
+                "path" : "abstract-class-and-methods"
+            },
+            {
+                "title" : "Access Modifiers",
+                "path" : "access-modifiers"
+            },
+            {
+                "title" : "Multi Threading",
+                "path" : "multi-threading"
+            },
+            {
+                "title" : "Regular Expressions",
+                "path" : "regex"
+            },
+            {
+                "title" : "Static and Dynamic binding",
+                "path" : "static-and-dynamic-binding"
+            },
+            {
+                "title" : "Exception Handling",
+                "path" : "exception-handling"
+            },
+            {
+                "title" : "Garbage Collection",
+                "path" : "garbage-collection"
+            },
+            {
+                "title" : "Annotations",
+                "path" : "annotations"
+            },
+            {
+                "title" : "Method Overloading",
+                "path" : "method-overloading"
+            },
+            {
+                "title" : "Method Overriding",
+                "path" : "method-overriding"
+            }
+        ]
+    }   
 ]

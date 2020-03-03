@@ -24,20 +24,3 @@ Class Sum {
     }
 }
 ```
-
-
-## Operators
-
-Operator is a symbol which is used to perform operations on variables.
-
-| Type | Description|
-|----|-----|
-| Unary Operator| ++ , -- ,  ~ , !|
-| Arithmetic Operator|+ , - , * , / , %|
-| Shift Operator|<< , >> , >>>|
-| Relational Operator| < , > , <= , >=, != , ==| 
-| Bitwise Operator| & , ^ , | 
-| Logical Operator| && , || |
-| Ternary Operator| ? : |
-| Assignment Operator|= , += , -= , *= , /= , %= , &= , ^= , |= , <<= , >>= , >>>=|
-
