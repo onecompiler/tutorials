@@ -139,6 +139,37 @@ Below are the assignment operators present in the Java.
 | /= |	Divide and assign|	int x=100; x /= 10;// x becomes 10|
 | %= |	Modulus and assign|	int x=100; x%=10; // x becomes 0|
 
+### Example
+
+```java
+public class assignmentOperators {
+
+    public static void main(String[] args) {
+        
+        int x = 10; // assigning 10 to x 
+        System.out.println("x value: " + x);
+        
+        x+=30;
+        System.out.println("x value after += operation: " + x);
+        
+        x-=10;
+        System.out.println("x value after -= operation: " + x);
+        
+        x*=10;
+        System.out.println("x value after *= operation: " + x);
+        
+        x/=10;
+        System.out.println("x value after /= operation: " + x);
+        
+        x%=10;
+        System.out.println("x value after %= operation: " + x);
+        
+    }
+}
+```
+
+#### Check Result [here](https://onecompiler.com/java/3vk2w9xvp)
+
 ## 6. Auto-increment and Auto-decrement Operators
 
 Below are the Auto-increment and Auto-decrement Operators in Java.
@@ -148,9 +179,29 @@ Below are the Auto-increment and Auto-decrement Operators in Java.
 | ++ | Used to perform Increment |	int a=10; a++; // a becomes 11|
 | -- | Used to perform Decrement |	int a=10; a--; // a becomes 9|
 
+### Example
+```java
+public class ShiftOperators {
+
+    public static void main(String[] args) {
+        
+        int x = 10;
+        
+        int y = x++;
+        int z = x--;
+        System.out.println("x value after ++ operation: " + y);
+        
+        System.out.println("x value after -- operation: "+ z);
+    }
+}
+```
+#### Check Result [here](https://onecompiler.com/java/3vk2txd3r)
+
 ## 7. Ternary Operator
 
 If the operator is applied on a three operands then it is called ternary. This is also known as conditional operator as a condition is followed by `?` and true-expression which is followed by a `:` and false expression. This is oftenly used as a shortcut to replace if-else statement
+
+### Example
 
 ```java
 public class TernaryOperator {
