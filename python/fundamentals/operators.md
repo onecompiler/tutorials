@@ -62,8 +62,8 @@ Below are the logical operators present in the Javascript.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&` |	Logical AND | `(x > y) && (y > z)`|
-| `|` |	Logical OR | `(x > y) || (y > z)`|
+| `&&` |	Logical AND | `(x > y) && (y > z)`|
+| `||` |	Logical OR | `(x > y) || (y > z)`|
 | `!` |	Logical NOT	| `(!x)`|
 
 ## 5. Assignment Operators
