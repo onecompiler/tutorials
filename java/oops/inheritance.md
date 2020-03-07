@@ -1,22 +1,27 @@
 Inheritance is a process of acquiring parent properties and behaviour by a child automatically. Hence you can either reuse or extend parent properties or behaviour in the child class. The main advantage of inheritance is code reusability. Use the keyword `extends` to inherit from a class.
 
 ### Type of Inheritance
+
 * Single inheritance
+
     When a child inherits properties from a single parent
 
 * Multiple inheritance
+
     When a child inherits its properties from two or more parents.
 
 * Hierarchical inheritance
+
     When multiple children inherit properties from a parent
 
 * Multilevel inheritance
+
     When a parent properties are inherited by a child which again get interited by another child. For example, B is inherited from A and C is inherited from B. 
 
     A -> B -> C
 * Hybrid inheritance
-    Hybrid inheritance is a combination or two or more inheritance types.
 
+    Hybrid inheritance is a combination or two or more inheritance types.
 
 Below is an example of single inheritance
 

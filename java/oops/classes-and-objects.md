@@ -10,7 +10,9 @@ Object Oriented programming is a methodology based on objects instead of functio
 
 ## 1. Classes and objects
 
-Object is a basic unit in OOP, and is an instance of the class. They have state and behaviour. Consider mobile as an object and let's see an example to understand state and behaviour. State of the objects can be represented by variables and behaviour of the objects can be represented by methods. Object is a real-world or run-time entity.
+Object is a basic unit in OOP, and is an instance of the class. They have state and behaviour. Consider mobile as an object and let's see an example to understand state and behaviour. 
+
+State of the objects can be represented by variables and behaviour of the objects can be represented by methods. Object is a real-world or run-time entity.
 
 **Object** : Mobile
 **State** : Model, Brand, Color, Size
