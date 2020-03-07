@@ -226,8 +226,8 @@ public class TernaryOperator {
 | Arithmetic Operator|+ , - , * , / , %|
 | comparision Operator| < , > , <= , >=, != , ==| 
 | Bitwise Operator| & , ^ , | 
-| Logical Operator| && , || |
-| Assignment Operator|= , += , -= , *= , /= , %= , &= , ^= , |= , <<= , >>= , >>>=|
+| Logical Operator| && , `||`, ! |
+| Assignment Operator|= , += , -= , *= , /= , %= |
 | Auto-increment and Auto-decrement Operators| ++ , -- |
 | Ternary Operator| ? : |
 

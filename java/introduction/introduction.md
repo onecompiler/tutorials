@@ -1,4 +1,4 @@
-Java is a very popular programming language. Java can be used to develop anything and almost evrything like web applications, web servers, application servers, mobile applications and so on. 
+Java is a very popular programming language. Java can be used to develop anything and almost everything like web applications, web servers, application servers, mobile applications and so on. 
 
 ## Key Features
 
@@ -26,7 +26,7 @@ Java is a very popular programming language. Java can be used to develop anythin
 * Java is in market from almost 25 years.
 * 3 billion devices run on Java like ATM's, Routers, Switches, SmartCards, Printers, Sensors and many other devices.
 * Fully object oriented programming language
-* Platform independent and hence run anywhere like mobiles, Windows, linnux, MacOS based machines or mainframe systems literally anywhere as long as JRE is in place. 
+* Platform independent and hence run anywhere like mobiles, Windows, linux, MacOS based machines or mainframe systems literally anywhere as long as JRE is in place. 
 * More secure
 
 ## Installation
@@ -44,7 +44,7 @@ Java is a very popular programming language. Java can be used to develop anythin
 ```sh
 sudo tar -xvf jdk*.tar.gz
 ```
-4. Add System variables at the end of /etc/profile file
+4. Add System variables at the end of `/etc/profile` file
 ```sh
 JAVA_HOME=<Java Extracted Directory>/jdkversion
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin

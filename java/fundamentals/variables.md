@@ -11,7 +11,7 @@ In the above syntax, assigning value is optional as you can just declare the var
 
 * In Java, Variable names are case sensitive and hence Name and name both are different.
 * variable name should begin with a `lower case letter` as per the java coding standards and if the variable name contains more than one word then second word should be a capital like this: firstName, pinCode etc.
-* Variables naming cannot contain white spaces like first name is invalid variable name.
+* Variables naming cannot contain white spaces like first name which is a invalid variable name.
 * special characters like `$` and `_` can be used to begin a variable name.
 
 ### Example
