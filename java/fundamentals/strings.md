@@ -41,7 +41,7 @@ Consider str = "onecompiler" for understanding the below methods.
 |String toUpperCase()|returns a string in uppercase.|str.toUpperCase();|
 |String trim()|removes beginning and trailing spaces of a given string.|str.trim();|
 
-Let's look into some exercises:
+# Exercises
 
 ## 1. How do you extract all integers from the given string?
 

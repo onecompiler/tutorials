@@ -89,7 +89,7 @@
         "links" : [
             {
                 "title" : "Collections",
-                "path" : "Collections-framework"
+                "path" : "collections-framework"
             },
             {
                 "title" : "Iterators",

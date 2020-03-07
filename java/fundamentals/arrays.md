@@ -71,7 +71,7 @@ public class MyClass {
 ```
 ### Find out [here](https://onecompiler.com/java/3vk38cj9f)
 
-Let us look in to some exercises:
+# Exercises
 
 ## 1. How do you convert an Array to String?
 
