@@ -71,3 +71,18 @@ public class MyClass {
 ```
 ### Find out [here](https://onecompiler.com/java/3vk38cj9f)
 
+Let us look in to some exercises:
+
+## 1. How do you convert an Array to String?
+
+## 2. How can you determine length or size of an Array in Java?
+
+## 3. How do you add an element to an Array
+
+## 4. How to check if a value is present in an array?
+
+## 5. How to convert vector to array?
+
+## 6. How to convert linkedlist to array?
+
+## 7. How to compare two arrays?

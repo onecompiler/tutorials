@@ -90,6 +90,10 @@
             {
                 "title" : "Collections",
                 "path" : "Collections-framework"
+            },
+            {
+                "title" : "Iterators",
+                "path" : "iterators-in-java"
             }
         ]
     },
@@ -136,6 +140,10 @@
             {
                 "title" : "Method Overriding",
                 "path" : "method-overriding"
+            },
+            {
+                "title" : "Wildcards in Java",
+                "path" : "wildcards-in-java"
             }
         ]
     }   

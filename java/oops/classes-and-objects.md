@@ -7,20 +7,36 @@ Object Oriented programming is a methodology based on objects instead of functio
 * Reusability
 * easier to maintain, modify and debug
 
-## OOP concepts
 
 ## 1. Classes and objects
 
-Object is a basic unit in OOP, and is an instance of the class.
+Object is a basic unit in OOP, and is an instance of the class. They have state and behaviour. Consider mobile as an object and let's see an example to understand state and behaviour. State of the objects can be represented by variables and behaviour of the objects can be represented by methods. Object is a real-world or run-time entity.
 
-Class is the blueprint of an object, which is also referred as user-defined data type with variables and functions.
+**Object** : Mobile
+**State** : Model, Brand, Color, Size
+**Behaviour** : Make a call, send a message, Click a picture
+
+Class is the blueprint of an object, which is also referred as user-defined data type with variables and functions. Class is a logical entity.
+
+Class can contain:
+
+* Fields or variables
+* Methods
+* Constructors
+* Blocks
+* Nested class and interfaces
 
 ### How to create a Class
 
 `class` keyword is required to create a class.
 
+```java
+class class_name {  
+    fields;  
+    methods;  
+}
+```
 ### Example
-
 
 ```java
 class mobile {
@@ -28,7 +44,6 @@ class mobile {
     string name; // string variable (attribute)
     int cost; // int variable (attribute)
 };
-
 ```
 ### How to create a Object
 
@@ -47,6 +62,5 @@ public class greeting {
     hello();
     }
 }
-
 ```
 ## Practice with more examples [here](https://onecompiler.com/java)
