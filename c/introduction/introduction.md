@@ -1,6 +1,6 @@
 C language is one of the most popular general-purpose programming language developed by Dennis Ritchie at Bell laboratories for UNIX operating system.
 
-It's one of the simple and flexible programming language and infact almost all of us would have started our programming language's language with C.
+It's one of the simple and flexible programming language and infact almost all of us would have started our programming language's learning with C.
 
 ## Key Features
 
@@ -17,7 +17,7 @@ It's one of the simple and flexible programming language and infact almost all o
 * easy to learn and structured programming language.
 * You will get opportunities to work on open source projects.
 * C is a middle level programming language means you can write system level programs as well as application level programs.
-* You will also get used to programming discipline.
+* You will also get used to programming discipline as C is a strongly typed language.
 
 ## Why C is popular?
 
@@ -27,7 +27,6 @@ It's one of the simple and flexible programming language and infact almost all o
 * Many popular compilers and interpreters are written in C. For example, python interpreter is written in C.
 * Not only compilers, interpreters, C is also used to write modern browsers, game engines etc.
 * C is very good for embedded programming.
-
 
 # C Basics
 
@@ -40,7 +39,7 @@ printf("Hello World!!");
 return 0;   
 }  
 ```
-#### Run [here](https://onecompiler.com/c)
+#### Run your program [here](https://onecompiler.com/c)
 
 Let's look into each line of the above sample program:
 
@@ -59,11 +58,11 @@ You can either use the shortcut `ctrl+F9` to compile and run or Go to Compile me
 
 1. Single line comments
 
-`//` is used to comment a single line
+    `//` is used to comment a single line
 
 2. Multi line comments
 
-`/**/` is used to comment multiple lines.
+    `/**/` is used to comment multiple lines.
 
  
 ## Installation

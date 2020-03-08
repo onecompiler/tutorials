@@ -63,11 +63,21 @@ Let's learn operators in detail in coming chapters.
 
 ## 5. Constants
 
-Constants are the fixed values. Constant values can't be changed once defined.
+Constants are the fixed values. Constant values can't be changed once defined. Constants can be defined in two ways.
+
+### 1. Using `const`:
 
 ``` c
-const datatype variable_name;
+const datatype <constant-name> = <constant-value>;
 ```
+### 2. Using `#define`:
+
+```c
+#define <constant-name> <constant-value>
+```
+#### Note: 
+
+It's a good programming practice to define constants in CAPITALS.
 
 ## 6. Special Characters
 

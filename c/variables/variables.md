@@ -1,3 +1,5 @@
+# Variables
+
 Variables are like containers which holds the data values. A variable specifies the name of the memory location. 
 
 ## How to declare variables
@@ -52,7 +54,11 @@ Float point literals are also numeric literals but has either a fractional form 
 
 Character literals are represented with in single quotes. For example, `a`, `1` etc.
 
-## 4. Escape Sequences
+## 4. String literals
+
+String literals are represented with in double quotes. For example, "OneCompiler", "Foo" etc.
+
+## 5. Escape Sequences
 
 There are few cases where you need to represent a character(s) which has special meaning in C or which can't be typed like newline, tab etc.
 
