@@ -1,5 +1,20 @@
 
-Token can be referred as the smallest possible unit in C. Token is divided into six categories as follows.
+Token can be referred as the smallest possible unit in C. C program consists of various tokens, which can be a keyword, an identifier, a constant, a string or a symbol.
+
+### Example
+
+The below statement consists of 5 tokens:
+```c    
+printf("Happy learning");
+```
+1. `printf` : an inbuilt library function
+2. `(` : symbol 
+3. `"Happy learning"` : string
+4. `)` : symbol
+5. `;`  : semicolon which is a statement terminator
+
+
+Token is divided into six categories as follows:
 
 ## 1. Keywords 
 
@@ -43,6 +58,8 @@ Operators are the symbols which specifies an action when applied on variables.
 * Assignment Operators
 * Conditional Operators
 * Bitwise Operators
+
+Let's learn operators in detail in coming chapters.
 
 ## 5. Constants
 

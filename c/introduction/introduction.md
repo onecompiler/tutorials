@@ -11,6 +11,25 @@ It's one of the simple and flexible programming language and infact almost all o
 * efficient and also handle low-level activities.
 * As fast as assembly language and hence used as system development language.
 
+## Why you should learn C?
+
+* C is considered as the best foundational language as you can understand the fundamental computer theories well.
+* easy to learn and structured programming language.
+* You will get opportunities to work on open source projects.
+* C is a middle level programming language means you can write system level programs as well as application level programs.
+* You will also get used to programming discipline.
+
+## Why C is popular?
+
+* C is used to write compilers, interpreters, editors, operating systems and embedded programs.
+* C is second popular language according to [Tiobe Index](https://www.tiobe.com/tiobe-index/)
+* Most of the operating system kernels are written in C
+* Many popular compilers and interpreters are written in C. For example, python interpreter is written in C.
+* Not only compilers, interpreters, C is also used to write modern browsers, game engines etc.
+* C is very good for embedded programming.
+
+
+# C Basics
 
 ## Installation
 

@@ -14,6 +14,36 @@
         ]
     },
     {
+        "title" : "Tokens",
+        "path" : "tokens",
+        "links" : [
+            {
+                "title" : "Tokens",
+                "path" : "tokens"
+            }
+        ]
+    },
+    {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
         "title" : "Control Statements",
         "path" : "control-statements",
         "links" : [
@@ -34,16 +64,6 @@
         ]
     },
     {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
         "title" : "Pointers",
         "path" : "pointers",
         "links" : [
@@ -60,16 +80,6 @@
             {
                 "title" : "Structures",
                 "path" : "structures"
-            }
-        ]
-    },
-    {
-        "title" : "Tokens",
-        "path" : "tokens",
-        "links" : [
-            {
-                "title" : "Tokens",
-                "path" : "tokens"
             }
         ]
     }
