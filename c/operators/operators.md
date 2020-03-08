@@ -217,7 +217,7 @@ int main()
  int x = 90;
  int y = sizeof(x);
 
- printf("Larger Number is: %d " , y);
+ printf("Size of x is: %d " , y);
 }
 ```
 #### Check Result [here](https://onecompiler.com/c/3vkehh6my)
