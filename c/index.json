@@ -1,15 +1,11 @@
 [
     {
-        "title" : "Introduction to C programming language",
+        "title" : "Introduction to C",
         "path" : "introduction",
         "links" : [
             {
-                "title" : "Introduction to C programming language",
+                "title" : "Introduction to C",
                 "path" : "introduction"
-            },
-            {
-                "title" : "Fundamentals",
-                "path" : "fundamentals"
             }
         ]
     },
