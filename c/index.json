@@ -54,8 +54,12 @@
         "path" : "control-statements",
         "links" : [
             {
-                "title" : "Control Statements",
-                "path" : "control-statements"
+                "title" : "Conditional Statements",
+                "path" : "conditionl-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
             }                                                 
         ]
     },
@@ -86,6 +90,36 @@
             {
                 "title" : "Structures",
                 "path" : "structures"
+            }
+        ]
+    },
+    {
+        "title" : "Unions",
+        "path" : "unions",
+        "links" : [
+            {
+                "title" : "Unions",
+                "path" : "unions"
+            }
+        ]
+    },
+    {
+        "title" : "Working with Files",
+        "path" : "files",
+        "links" : [
+            {
+                "title" : "Files I/O",
+                "path" : "files-io"
+            }
+        ]
+    },
+    {
+        "title" : "Error Handling",
+        "path" : "error-handling",
+        "links" : [
+            {
+                "title" : "Error Handling",
+                "path" : "error-handling"
             }
         ]
     }
