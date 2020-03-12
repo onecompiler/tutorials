@@ -35,7 +35,7 @@ int a[2][3];
 int b[][3]; // is also valid
 ```
 
-## How to initialize arrays
+# How to initialize arrays
 
 ### One dimentional Array:
 

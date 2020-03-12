@@ -1,6 +1,6 @@
 ## For
 
-For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of ierations is known in advance.
+For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations are known in advance.
 
 ### Syntax
 
@@ -25,7 +25,7 @@ public class ForExample {
 
 ## While
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ### Syntax
 
