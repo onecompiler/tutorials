@@ -6,7 +6,7 @@ Arrays can be one-dimensional, multi-dimensional in C language. The more popular
 
 Arrays store the collection of data sequentially in memory and they must share same data type.
 
-# How to Declare an array?
+# How to declare an array?
 
 ### One dimentional Array:
 
@@ -52,13 +52,13 @@ int a[2][3] = {
               };
 ```
 
-# How to access Array elements
+# How to access array elements
 
 Array elements can be accessed by using indices. Array indices starts from `0`.  Array[n-1] can be used to access nth element of an array.
 
 ## Examples
 
-### One dimentional Array:
+### One dimentional array:
 
 ```c
 #include <stdio.h>
@@ -73,7 +73,7 @@ int main()
 ```
 ### Check result [here](https://onecompiler.com/c/3vku4yuj5)
 
-### Two dimentional Array:
+### Two dimentional array:
 
 ```c
 #include <stdio.h>

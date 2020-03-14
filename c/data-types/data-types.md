@@ -49,7 +49,7 @@ printf("\nsize of char is: %d " , sizeof(c));
 
 ## 2. Derived Data types
 
-Derived Data types are the ones which are derived from funcdamental data types. arrays, pointers, structures, etc. are examples of Derived data types. Let's learn more about them in next chapters.
+Derived Data types are the ones which are derived from funcdamental data types. Arrays, Pointers, Structures, etc. are examples of derived data types. Let's learn more about them in next chapters.
 
 ## 3. Enumeration Data types
 

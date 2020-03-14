@@ -1,8 +1,6 @@
-# If Family
+When ever you want to perform a set of operations based on a condition(s) If / If-Else / Nested ifs are used.
 
-When ever you want to perform a set of operations based on a condition(s) If/If-Else/Nested ifs are used.
-
-You can also use if-else for nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
+You can also use if-else , nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
 
 ## If
 
