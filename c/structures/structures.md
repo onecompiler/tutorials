@@ -1,6 +1,6 @@
 Structures is a user-defined data type where it allows you to combine data of different data types. In a way, Structres are similar to arrays but the difference is in type of the data. Arrays is a collection of similar data but structures combine different types of data.
 
-## How to define a structure
+# How to define a structure
 
 `struct` keyword is used to define a structure. 
 
@@ -14,7 +14,7 @@ struct structure_name {
 } [one or more structure variables]; 
 ```
 
-## How to declare structure variables
+# How to declare structure variables
 
 Structure variables can be declared in two ways.
 
@@ -37,12 +37,7 @@ struct structure_name {
 } one or more structure variables; 
 ```
 
-## How to access structure members
-
-You can access the structure member using variable_name.membername
-
-
-## Example
+## Example 
 
 ```c
 // structure definition
@@ -64,9 +59,15 @@ struct mobile {
     int cost; 
 }m1, m2;
 
-//accessing structure variable - brand
 ```
 
+
+## How to access structure members
+
+You can access the structure member using `variable_name.membername`
+
+
+## Example 
 ```c
 #include<stdio.h>
 #include<string.h>
@@ -84,11 +85,12 @@ int main()
 // string copy is used to store value to the structure member where m1 is variable name and brand is structure member name   
     strcpy(m1.brand, "Apple");
 
-// display the value of structure variable 
+// display the value of structure variable and accessing structure variable - brand
+
     printf("Brand of the mobile: %s\n", m1.brand);
     
     return 0;
 }
 ```
 
-## Practice with more examples [here](https://onecompiler.com/c)
+### Check result [here](https://onecompiler.com/c/3vm5g453v)
