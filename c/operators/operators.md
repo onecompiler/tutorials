@@ -18,7 +18,7 @@ int main() {
    return(0);
 }
 ```
-#### **Check result [here](https://onecompiler.com/c/3vke66v52)**
+### Check result [here](https://onecompiler.com/c/3vke66v52)
 
 ### 2. Operand
 
@@ -74,7 +74,8 @@ int main() {
    return(0);
 }
 ```
-#### **Check Result [here](https://onecompiler.com/c/3vke6dadr)**
+### Check Result [here](https://onecompiler.com/c/3vke6dadr)
+
 ## 2. Comparison Operators
 
 C comparison operators are used to compare two operands. 
@@ -113,7 +114,7 @@ int main() {
   }
 }
 ```
-#### **Check Result [here](https://onecompiler.com/c/3vke6rqjc)**
+### Check Result [here](https://onecompiler.com/c/3vke6rqjc)
 
 ## 3. Bitwise Operators
 
@@ -182,7 +183,7 @@ printf("\nx value after %= operation:%d " , x);
 }
 ```
 
-#### **Check Result [here](https://onecompiler.com/c/3vke7snnv)**
+### Check Result [here](https://onecompiler.com/c/3vke7snnv)
 
 ## 6. Misc Operator
 
@@ -203,7 +204,7 @@ int main()
     printf("Larger Number is: %d " , z);
 }
 ```
-#### **Check Result [here](https://onecompiler.com/c/3vkeha3f9)**
+### Check Result [here](https://onecompiler.com/c/3vkeha3f9)
 
 * sizeof()
 
@@ -219,7 +220,7 @@ int main()
  printf("Size of x is: %d " , y);
 }
 ```
-#### **Check Result [here](https://onecompiler.com/c/3vkehh6my)**
+### Check Result [here](https://onecompiler.com/c/3vkehh6my)
 
 ## Summary
 
