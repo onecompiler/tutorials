@@ -4,17 +4,17 @@ It's one of the simple and flexible programming language and infact almost all o
 
 ## Key Features
 
-* Structured Programming
-* popular system programming language
+* Structured programming
+* Popular system programming language
 * UNIX, MySQL are completely written in C.
-* supports variety of platforms
-* efficient and also handle low-level activities.
+* Supports variety of platforms
+* Efficient and also handle low-level activities.
 * As fast as assembly language and hence used as system development language.
 
 ## Why you should learn C?
 
 * C is considered as the best foundational language as you can understand the fundamental computer theories well.
-* easy to learn and structured programming language.
+* Easy to learn and structured programming language.
 * You will get opportunities to work on open source projects.
 * C is a middle level programming language means you can write system level programs as well as application level programs.
 * You will also get used to programming discipline as C is a strongly typed language.
@@ -39,14 +39,14 @@ printf("Hello World!!");
 return 0;   
 }  
 ```
-#### Run your program [here](https://onecompiler.com/c)
+### Run your program [here](https://onecompiler.com/c)
 
 Let's look into each line of the above sample program:
 
 * `#include` is a keyword which is used to include the library file `<stdio.h>`. 
 * `<stdio.h>` library file is used to read the data from terminal and to display the data on terminal. It has several in-built functions like printf(), scanf() etc.
 * `main()` function is the entry point of any C program.
-* `Printf and scanf` are inbuilt library functions which are used for input and output in C language. They are defined in `stdio.h` header file.
+* `printf and scanf` are inbuilt library functions which are used for input and output in C language. They are defined in `stdio.h` header file.
 * `return 0` is used to terminate the main() function and returns the value 0
 
 ## How to compile and run a C program
