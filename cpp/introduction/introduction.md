@@ -14,7 +14,7 @@ C++ is a widely used middle-level programming language.
 * C and C++ are used in developing major operating systems such as Windows, Linux, Android, Ubuntu, iOS, etc.
 * C++ has large community support.
 * C++ is used in writing compilers, web browsers, Games and even in embedded systems.
-* C++ developers are offered with high salaries
+* C++ developers are offered with high salaries.
 * C++ is considered as a foundational language to learn advanced programming languages.
  
 ## Why C++ is popular?

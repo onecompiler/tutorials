@@ -24,22 +24,16 @@
         ]
     },
     {
-        "title" : "Data Types",
-        "path" : "data-types",
-        "links" : [
-            {
-                "title" : "Data Types",
-                "path" : "data-types"
-            }
-        ]
-    },
-    {
-        "title" : "Variables",
-        "path" : "variables",
+        "title" : "Variables & Constants",
+        "path" : "variables-and-constants",
         "links" : [
             {
                 "title" : "Variables",
                 "path" : "variables"
+            },
+            {
+                "title" : "Constants",
+                "path" : "constants"
             }
         ]
     },
@@ -50,6 +44,16 @@
             {
                 "title" : "Operators",
                 "path" : "operators"
+            }
+        ]
+    },
+    {
+        "title" : "Data Types",
+        "path" : "data-types",
+        "links" : [
+            {
+                "title" : "Data Types",
+                "path" : "data-types"
             }
         ]
     },
@@ -70,6 +74,20 @@
             {
                 "title" : "Strings",
                 "path" : "strings"
+            }
+        ]
+    },
+    {
+        "title" : "Enumeration and Typedef",
+        "path" : "enum-and-typedef",
+        "links" : [
+            {
+                "title" : "Enumeration",
+                "path" : "enum"
+            },
+            {
+                "title" : "Typedef",
+                "path" : "typedef"
             }
         ]
     },

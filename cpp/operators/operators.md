@@ -5,20 +5,22 @@ Let us understand the below terms before we get into more details.
 An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. In the below example, `+` is the operator. 
 
 ```c
-#include<stdio.h>
- 
-int main() {
+#include <iostream>
+using namespace std;
+
+int main() 
+{
    int x, y, sum;
    x = 10;
    y = 20;
  
    sum = x + y;
-   printf("Sum : %d", sum);
+   cout << "Sum : " << sum;
  
    return(0);
 }
 ```
-### Check result [here](https://onecompiler.com/c/3vke66v52)
+### Check result [here](https://onecompiler.com/cpp/3vmb5yays)
 
 ### 2. Operand
 
@@ -28,7 +30,7 @@ An operand is what operators are applied on. In the above example `x` and `y` ar
 
 ## 1. Arithmetic Operators
 
-C arithmetic operators are used to perform arithmetic operations on operands.
+C++ arithmetic operators are used to perform arithmetic operations on operands.
 
 |Operator|	Description	| Example|
 |----|----|----|
@@ -44,41 +46,45 @@ C arithmetic operators are used to perform arithmetic operations on operands.
 ### Example
 
 ```c
-#include<stdio.h>
-int main() {
+#include <iostream>
+using namespace std;
+
+int main() 
+{
    int x, y, sum, diff, product, division, mod, inc, dec;
    x = 90;
    y = 10;
  
    sum = x + y;
-   printf("Sum : %d", sum);
+   cout << "Sum : " << sum << endl;
    
    diff = x - y;
-   printf("\nDifference : %d", diff);
+   cout << "Difference : " << diff << endl;
    
    product = x * y;
-   printf("\nProduct : %d", product);
+   cout << "Product : " << product << endl;
    
    division = x / y;
-   printf("\nDivision : %d", division);
+   cout << "Division : " << division << endl;
    
    mod = x % y;
-   printf("\nRemainder : %d", mod);
+   cout << "Remainder : " << mod << endl;
    
    inc = x++;
-   printf("\nx value after incrementing : %d", x);
+   cout << "x value after incrementing : " << x << endl;
    
    dec = x--;
-   printf("\nx value after decrementing : %d", x);
+   cout << "x value after decrementing : " << x;
  
    return(0);
+
 }
 ```
-### Check Result [here](https://onecompiler.com/c/3vke6dadr)
+### Check Result [here](https://onecompiler.com/cpp/3vmb6bf4b)
 
-## 2. Comparison Operators
+## 2. Relational Operators
 
-C comparison operators are used to compare two operands. 
+C++ relational operators are used to compare two operands. 
 
 | Operator | Description| Usage|
 |----|----|----|
@@ -92,33 +98,36 @@ C comparison operators are used to compare two operands.
 ### Example
 
 ```C
-#include<stdio.h>
-int main() {
+#include <iostream>
+using namespace std;
+
+int main() 
+{
    int x = 90;
    int y = 10;
    
   if ( x == y) {
-    printf("x and y are equal");
+    cout << "x and y are equal" << endl;
   }
   
   if ( x != y) {
-    printf("\nx and y are not equal");
+    cout << "x and y are not equal" << endl;
   }
   
   if ( x > y) {
-    printf("\nx is greater than y");
+    cout << "x is greater than y" << endl;
   }
   
   if ( x < y) {
-    printf("\nx is less than y");
+    cout << "x is less than y" << endl;
   }
 }
 ```
-### Check Result [here](https://onecompiler.com/c/3vke6rqjc)
+### Check Result [here](https://onecompiler.com/cpp/3vmb6ppv9)
 
 ## 3. Bitwise Operators
 
-C bitwise operators are used to perform bitwise operations on operands.
+C++ bitwise operators are used to perform bitwise operations on operands.
 
 |Operator|	Description| Usage|
 |----|----|----|
@@ -131,7 +140,7 @@ C bitwise operators are used to perform bitwise operations on operands.
 
 ## 4. Logical operators
 
-Below are the logical operators present in the C.
+Below are the logical operators present in the C++.
 
 |Operator|	Description| Usage|
 |----|----|----|
@@ -141,7 +150,7 @@ Below are the logical operators present in the C.
 
 ## 5. Assignment Operators
 
-Below are the assignment operators present in the C.
+Below are the assignment operators present in the C++.
 
 |Operator|	Description| Usage|
 |----|----|----|
@@ -160,30 +169,33 @@ Below are the assignment operators present in the C.
 ### Example
 
 ```C
-#include <stdio.h>
-int main()
+#include <iostream>
+using namespace std;
+
+int main() 
 {
-int x = 10; // assigning 10 to x 
-printf("x value:%d " , x);
+ int x = 10; // assigning 10 to x 
+cout << "x value: " << x << endl;
         
 x+=30;
-printf("\nx value after += operation:%d " , x);
+cout << "x value after += operation: " << x << endl;
         
 x-=10;
-printf("\nx value after -= operation: %d" , x);
+cout << "x value after -= operation: " << x << endl;
         
 x*=10;
-printf("\nx value after *= operation:%d " , x);
+cout <<"x value after *= operation: " << x << endl;
         
 x/=10;
-printf("\nx value after /= operation:%d " , x);
+cout <<"x value after /= operation: " << x << endl;
         
 x%=10;
-printf("\nx value after %= operation:%d " , x);   
+cout <<"x value after %= operation: " << x;   
+   
 }
 ```
 
-### Check Result [here](https://onecompiler.com/c/3vke7snnv)
+### Check Result [here](https://onecompiler.com/cpp/3vmb6zaez)
 
 ## 6. Misc Operator
 
@@ -193,34 +205,39 @@ If the operator is applied on a three operands then it is called ternary. This i
 ### Example
 
 ```c
-#include <stdio.h>
-int main()
+#include <iostream>
+using namespace std;
+
+int main() 
 {
     int x = 10;
     int y = 90;
 
     int z = x > y ? x : y;
 
-    printf("Larger Number is: %d " , z);
+    cout << "Larger Number is: " << z;
 }
 ```
-### Check Result [here](https://onecompiler.com/c/3vkeha3f9)
+### Check Result [here](https://onecompiler.com/cpp/3vmb79s3q)
 
 * sizeof()
 
 This operator is used to return the size of a variable.
 
 ```c
-#include <stdio.h>
-int main()
+#include <iostream>
+using namespace std;
+
+int main() 
 {
+  
  int x = 90;
  int y = sizeof(x);
 
- printf("Size of x is: %d " , y);
+ cout <<"Size of x is: " <<  y;
 }
 ```
-### Check Result [here](https://onecompiler.com/c/3vkehh6my)
+### Check Result [here](https://onecompiler.com/cpp/3vmb7cnag)
 
 ## Summary
 
