@@ -97,7 +97,7 @@ int main()
         cout << a[i][j] << " ";
     }
         cout << endl;
-}   
+  }   
 }
 ```
 ### Check result [here](https://onecompiler.com/cpp/3vmbfbbzg)
