@@ -9,6 +9,8 @@ Declaring strings is similar to one-dimensional character array. Below is the sy
 
 ```c
 char var-name[size];
+// or
+string str;
 ```
 
 # How to initialize strings
@@ -21,7 +23,9 @@ char str[20] = "OneCompiler";
 
 char str[] ={'O','n','e','C','o','m','p','i','l','e','r','\0'};
 
-char str[20] ={'O','n','e','C','o','m','p','i','l','e','r','\0'}
+char str[20] ={'O','n','e','C','o','m','p','i','l','e','r','\0'};
+
+string str = "OneCompiler";
 ```
 
 # How to read strings from console
