@@ -1,4 +1,7 @@
-String is a sequence of characters terminated with a null character `\0` at the end.
+String is a sequence of characters terminated with a null character `\0` at the end. There are two types of strings in C++.
+
+1. C-Strings
+2. Strings that are objects of string class
 
 # How to declare strings
 
@@ -24,34 +27,36 @@ char str[20] ={'O','n','e','C','o','m','p','i','l','e','r','\0'}
 # How to read strings from console
 
 ```c
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main()
 {
     char str[20];
-    scanf("%s", str); // to read the string values from stdin
-    printf("You have entered: %s", str); // to print the sting
+    cin >> str; // to read the string values from stdin
+    cout << "You have entered: " << str; // to print the sting
     return 0;
 }
 ```
-### Check Result [here](https://onecompiler.com/c/3vm5393vz)
+### Check Result [here](https://onecompiler.com/cpp/3vmbntfpm)
 
 Consider if you have given `One Compiler` as input in the stdin. Surprisingly you get `One` alone as output. That is because a white space is present between `One` and `Compiler`.  So how can you read a entire line which also has white spaces in it.
 
 Consider your input string is `Hello Everyone.. Happy Learning!!`
 
 ```c
-#include <stdio.h>
+#include <iostream>
+using namespace std;
+
 int main()
 {
-    char str[50];
-    fgets(str, sizeof(str), stdin);  // to read string from stdin
-    printf("You entered: ");
-    puts(str);    // to print entire string
+    string str;
+    getline(cin, str);  // to read string from stdin
+    cout << "String entered is : " << str ;
     return 0;
 }
 ```
 
-### Check Result [here](https://onecompiler.com/c/3vm53mc6r)
+### Check Result [here](https://onecompiler.com/cpp/3vmbnzg24)
 
 # String Functions
 
@@ -70,45 +75,39 @@ C has various in-built string functions which can manipulate null-terminated str
 ## Examples
 
 ```c
-#include <stdio.h>
-#include <string.h>
+#include <iostream>
+using namespace std;
+#include <cstring>
 
-int main () {
+int main() 
+{
 
    char str1[20] = "Happy";
    char str2[20] = "learning";
    char str3[20];
    char str4[20] = "learning";
-   char str[50] = "Hello world, learning is fun.";
 
    int  length, cmp , cmp1 ;
-   int *ptr, * ptr1;  
-   
+
    length = strlen(str1); // to find length of a string
-   printf("length of string is :  %d\n", length );
+   cout << "length of string is :  " << length << endl;
    
    strcat( str1, str2); // concatenates str1 and str2 
-   printf("Concatenation of str1 and str2:   %s\n", str1 );
+   cout << "Concatenation of str1 and str2: " << str1 << endl;
 
    strcpy(str3, str1); // to copy a string into another
-   printf("string copy of str1 to str3 :  %s\n", str3 );
+   cout << "string copy of str1 to str3 :  " << str3 << endl;
 
    cmp = strcmp(str2,str4); // to compare two strings
-   printf("string compare result :  %d\n", cmp );
+   cout << "string compare result :  "<< cmp << endl;
    
    
    cmp1 = strcmp(str1,str4); // to compare two strings
-   printf("string compare result :  %d\n", cmp1 );
+   cout << "string compare result :  " << cmp1 << endl;
    
-   ptr = strchr(str1, 'p'); // usage of strchr
-   printf("pointer to the first occurrence of p in string Happy :  %d\n", ptr );
-   
-   ptr1 = strstr(str, str2); // usage of strstr
-   printf("pointer to the first occurrence of str2 in str :  %d\n", ptr1 );
-   
-
    return 0;
+
 }
 ```
 
-### Check result [here](https://onecompiler.com/c/3vm54ajd2)
+### Check result [here](https://onecompiler.com/cpp/3vmbp94k9)
