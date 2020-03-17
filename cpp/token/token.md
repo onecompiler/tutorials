@@ -78,4 +78,6 @@ Few characters have special meaning and hence these can't be used for other purp
 * `,` : used to seperate variables, constants etc
 * `*` : used for pointers
 * `#` : used as a macro processor.
+* `~` : used as a destructor to free memory
+* `.` : used to access a member of a structure
 

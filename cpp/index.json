@@ -14,22 +14,42 @@
         ]
     },
     {
-        "title" : "Control Statements",
-        "path" : "control-statements",
+        "title" : "Tokens",
+        "path" : "tokens",
         "links" : [
             {
-                "title" : "Control Statements",
-                "path" : "control-statements"
-            }                                                 
+                "title" : "Tokens",
+                "path" : "tokens"
+            }
         ]
     },
     {
-        "title" : "Functions",
-        "path" : "functions",
+        "title" : "Data Types",
+        "path" : "data-types",
         "links" : [
             {
-                "title" : "Functions",
-                "path" : "functions"
+                "title" : "Data Types",
+                "path" : "data-types"
+            }
+        ]
+    },
+    {
+        "title" : "Variables",
+        "path" : "variables",
+        "links" : [
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            }
+        ]
+    },
+    {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
             }
         ]
     },
@@ -40,6 +60,40 @@
             {
                 "title" : "Arrays",
                 "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "Functions",
+        "path" : "functions",
+        "links" : [
+            {
+                "title" : "Functions",
+                "path" : "functions"
             }
         ]
     },
@@ -64,12 +118,22 @@
         ]
     },
     {
-        "title" : "Tokens",
-        "path" : "tokens",
+        "title" : "Unions",
+        "path" : "unions",
         "links" : [
             {
-                "title" : "Tokens",
-                "path" : "tokens"
+                "title" : "Unions",
+                "path" : "unions"
+            }
+        ]
+    },
+    {
+        "title" : "Working with Files",
+        "path" : "files",
+        "links" : [
+            {
+                "title" : "Files I/O",
+                "path" : "file-io"
             }
         ]
     },
@@ -80,6 +144,16 @@
             {
                 "title" : "OOPS",
                 "path" : "oops"
+            }
+        ]
+    },
+    {
+        "title" : "Exception Handling",
+        "path" : "exception-handling",
+        "links" : [
+            {
+                "title" : "Exception Handling",
+                "path" : "exception-handling"
             }
         ]
     }

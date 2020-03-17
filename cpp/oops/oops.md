@@ -18,7 +18,6 @@ Class is the blueprint of an object, which is also referred as user-defined data
 
 ### Example
 
-
 ```c
 class mobile {
     public:    // access specifier which specifies that accessibility of class members 

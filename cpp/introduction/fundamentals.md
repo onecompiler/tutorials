@@ -1,15 +1,12 @@
-
 ## Sample C++ program
 
 ```c
-
 #include <iostream>
 using namespace std;
 int main() {
     cout << "Hello World!!";
     return 0;
 }  
-
 ```
 
 ## #include <iostream>
@@ -27,9 +24,11 @@ cout is used to print the output.
 ## main()
 main function is the entry point of any C++ program.
 
-## return o
+## return 0
 
 To end the main function
+
+# Compile & Run
 
 ## How to compile a program in C++
 
@@ -45,18 +44,10 @@ sudo g++ -o firstprogram firstprogram.cpp
 ./firstprogram
 ```
 
-## Data types in C++
+## Using Onecompiler
 
-There are 4 different categories of data types in C++.
-
-|Types|	Data Types|
-|----|----|
-|Basic Data Type | int, char, float, double, short, short int, long int etc|
-|Derived Data Type |	array, pointer, etc|
-|Enumeration Data Type | enum|
-|User Defined Data Type | structure|
-
-
+* You don't need to install any software or compiler.
+* Just goto [OneCompiler](https://onecompiler.com/cpp) and  enjoy programming without any installation.
 
 ## Comments
 
@@ -67,3 +58,4 @@ There are 4 different categories of data types in C++.
 2. Multi line comments
 
 `/**/` is used to comment multiple lines.
+

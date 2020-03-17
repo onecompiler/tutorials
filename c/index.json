@@ -20,12 +20,12 @@
         ]
     },
     {
-        "title" : "Operators",
-        "path" : "operators",
+        "title" : "Data Types",
+        "path" : "data-types",
         "links" : [
             {
-                "title" : "Operators",
-                "path" : "operators"
+                "title" : "Data Types",
+                "path" : "data-types"
             }
         ]
     },
@@ -40,12 +40,32 @@
         ]
     },
     {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        ]
+    },
+    {
         "title" : "Arrays",
         "path" : "arrays",
         "links" : [
             {
                 "title" : "Arrays",
                 "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
             }
         ]
     },
@@ -61,16 +81,6 @@
                 "title" : "Loops",
                 "path" : "loops"
             }                                                 
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
         ]
     },
     {
