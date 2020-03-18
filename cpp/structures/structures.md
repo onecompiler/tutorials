@@ -21,7 +21,7 @@ Structure variables can be declared in two ways.
 1. Declaring variables seperately from its definition.
 
 ```c
-struct structure_name variable name;
+[struct] structure_name variable name;
 ```
 
 2. Declaring variables along with definition(this method is not recommended)
@@ -49,7 +49,7 @@ struct mobile {
 
 // Declaring variables seperately from its definition
 
-struct mobile m1, m2;
+mobile m1, m2;
 
 //Declaring variables along with definition
 
@@ -61,36 +61,45 @@ struct mobile {
 
 ```
 
-
 ## How to access structure members
 
 You can access the structure member using `variable_name.membername`
 
 
-## Example 
+### Example 
 ```c
-#include<stdio.h>
-#include<string.h>
+#include <iostream>
+using namespace std;
 
 struct mobile {
-    char model[30];
-    char brand[30];
+    string model;
+    string brand;
     int cost; 
 };
 
+
 int main()
 {
-   struct mobile m1;
+  mobile m1;
+  m1.brand = "Apple";
 
-// string copy is used to store value to the structure member where m1 is variable name and brand is structure member name   
-    strcpy(m1.brand, "Apple");
-
-// display the value of structure variable and accessing structure variable - brand
-
-    printf("Brand of the mobile: %s\n", m1.brand);
+  // display the value of structure variable and accessing structure variable - brand
+  cout << "Brand of the mobile: " << m1.brand;
     
-    return 0;
+  return 0;
 }
+
 ```
 
-### Check result [here](https://onecompiler.com/c/3vm5g453v)
+### Check result [here](https://onecompiler.com/cpp/3vmdham3n)
+
+## Difference between C structures and C++ structures
+
+| C Structures | C++ Structures |
+|----|----|
+| Member functions are not allowed inside structures| Member functions are allowed inside structures|
+| Direct initialization of members are not possible| Direct initialization of memebers can be done |
+| struct keyword is compulsory to declare structure variables | struct keyword is not required to declare structure variables |
+| Constructor can't be present in structures | Can have constructor in structure|
+| Can not have static members | Can have static members |
+
