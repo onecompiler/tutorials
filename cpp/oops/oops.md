@@ -63,11 +63,9 @@ void mobile::hello(){ //method definition
 }
 ```
 
-
 ## 2. Encapsulation
 
 Encapsulation is a mechanism to protect private hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private.  You can make public `set` and `get` methods to access private variables.
-
 
 ## 3. Abstraction
 
@@ -99,6 +97,4 @@ Inheritance is a process of acquiring parent properties and behaviour by a child
 Polymorphism gives the meaning many forms, usually it occurs when multiple classes are present and have been inherited.
 
 Consider an example of installing an application in your mobile, where your base class is `Mobile` and method is `installation()` and its derived classes could be installApp1, installApp2, installApp3 etc which will have its own implementation but installation method can be common which can be inherited from its base class.
-
-
 

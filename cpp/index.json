@@ -136,42 +136,12 @@
         ]
     },
     {
-        "title" : "Unions",
-        "path" : "unions",
-        "links" : [
-            {
-                "title" : "Unions",
-                "path" : "unions"
-            }
-        ]
-    },
-    {
-        "title" : "Working with Files",
-        "path" : "files",
-        "links" : [
-            {
-                "title" : "Files I/O",
-                "path" : "file-io"
-            }
-        ]
-    },
-    {
         "title" : "OOPS",
         "path" : "oops",
         "links" : [
             {
                 "title" : "OOPS",
                 "path" : "oops"
-            }
-        ]
-    },
-    {
-        "title" : "Exception Handling",
-        "path" : "exception-handling",
-        "links" : [
-            {
-                "title" : "Exception Handling",
-                "path" : "exception-handling"
             }
         ]
     }
