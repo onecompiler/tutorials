@@ -1,0 +1,43 @@
+[
+    {
+        "title" : "Introduction to Groovy",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            }
+        ]
+    },
+    {
+        "title" : "Datatypes",
+        "path" : "data-types",
+        "links" : [
+            {
+                "title" : "Datatypes",
+                "path" : "data-types"
+            }
+        ]
+    },
+    {
+        "title" : "Variables",
+        "path" : "variables",
+        "links" : [
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            }
+        ]
+    },
+    {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        ]
+    }
+    
+]
