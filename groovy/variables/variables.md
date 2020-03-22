@@ -3,7 +3,7 @@ Variables are like containers which holds the data values. A variable specifies 
 
 ## How to declare variables
 
-There are two ways to declare variables in Groovy.
+There are three ways to declare variables in Groovy.
 
 1. Native syntax similar to Java
 
@@ -14,6 +14,11 @@ data-type variable-name = value;
 
 ```java
 def variable-name = value;
+```
+3. Variables in groovy do not require a type definition.
+
+```java
+variable-name = value; // no type definition is required
 ```
 
 In the above syntax, assigning value is optional as you can just declare the variable and then assign value at later point in the program. Also, the value of a variable can be changed at any time.
