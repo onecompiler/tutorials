@@ -72,5 +72,15 @@
                 "path" : "maps"
             }
         ]
+    },
+    {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }
+        ]
     }
 ]
