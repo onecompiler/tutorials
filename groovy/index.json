@@ -62,6 +62,15 @@
                 "path" : "lists"
             }
         ]
+    },
+    {
+        "title" : "Maps",
+        "path" : "maps",
+        "links" : [
+            {
+                "title" : "Maps",
+                "path" : "maps"
+            }
+        ]
     }
-    
 ]
