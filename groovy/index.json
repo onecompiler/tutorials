@@ -84,6 +84,16 @@
         ]
     },
     {
+        "title" : "Methods",
+        "path" : "methods",
+        "links" : [
+            {
+                "title" : "Methods",
+                "path" : "methods"
+            }
+        ]
+    },
+    {
         "title" : "Groovy Closures",
         "path" : "closures",
         "links" : [
