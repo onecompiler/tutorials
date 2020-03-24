@@ -94,6 +94,16 @@
         ]
     },
     {
+        "title" : "OOPS in Groovy",
+        "path" : "oops",
+        "links" : [
+            {
+                "title" : "OOP Principles",
+                "path" : "oops"
+            }
+        ]
+    },
+    {
         "title" : "Groovy Closures",
         "path" : "closures",
         "links" : [
