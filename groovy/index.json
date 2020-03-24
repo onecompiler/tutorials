@@ -10,11 +10,11 @@
         ]
     },
     {
-        "title" : "Datatypes",
+        "title" : "Data Types",
         "path" : "data-types",
         "links" : [
             {
-                "title" : "Datatypes",
+                "title" : "Data Types",
                 "path" : "data-types"
             }
         ]
@@ -80,6 +80,16 @@
             {
                 "title" : "Strings",
                 "path" : "strings"
+            }
+        ]
+    },
+    {
+        "title" : "Groovy Closures",
+        "path" : "closures",
+        "links" : [
+            {
+                "title" : "Closures",
+                "path" : "groovy-closures"
             }
         ]
     }

@@ -8,15 +8,16 @@ Apache Groovy is a dynamic and agile language which is similar to Python, Ruby, 
 * Concise and much simpler compared to Java
 * Can be used as both programming language and scripting language.
 
-## Installation
+# Installation
 
-## On Windows
+## 1. On Windows
 
 1. Download the software from [Groovy Downloads](http://www.groovy-lang.org/download.html)
 2. Double click on the exe file and the setup will guide you through the installation process and any settings if required.
 3. run the command `groovysh` in the command prompt to check if the installation is done correctly. 
 
-## On Mac OSX, Linux, Cygwin, Solaris or FreeBSD
+## 2. On Mac OSX, Linux, Cygwin, Solaris or FreeBSD
+
 1. Installation of Groovy is very easy with the help of SDKMAN( Software Development Kit Manager).
 2. Open terminal and execute the below command
 
@@ -36,7 +37,7 @@ Apache Groovy is a dynamic and agile language which is similar to Python, Ruby, 
     ```sh
     $ groovy -version
     ```
-## Using OneCompiler
+## 3. Using OneCompiler
 
 1. You don't need to install any software or compiler.
 2. Just goto [OneCompiler](https://onecompiler.com/groovy) and choose the programming language as `Groovy` and enjoy programming without any installation.
@@ -46,7 +47,7 @@ Apache Groovy is a dynamic and agile language which is similar to Python, Ruby, 
 ```java
 println "Hello World!"
 ```
-#### Check Result [here](https://onecompiler.com/groovy)
+### Try yourself [here](https://onecompiler.com/groovy)
 
 The above program when written in Java:
 
@@ -59,5 +60,5 @@ public class HelloWorld {
 }
 ```
 
-As you can see Groovy is much simpler and concise. You don't need to worry on curly braces or paranthesis and no need to write your program in main(). Even the print statement is much concise. 
+As you can see Groovy is much simpler and concise. You don't need to worry on curly braces or paranthesis and no need to write your program in main(). Even the print statement is much concise. This is because Groovy internally converts the script into the program similar to java program with class and main().
  

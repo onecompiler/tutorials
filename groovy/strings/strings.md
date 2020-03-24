@@ -1,117 +1,99 @@
-String is a sequence of characters terminated with a null character `\0` at the end. There are two types of strings in C++.
+Strings in Groovy are an ordered series of characters usually enclosed in quotations. single quotes (’), double quotes (“), or triple quotes (“””) can be used to enclose strings in Groovy. You can also use forward slash `/` or dollar-forward slash `$/` is used to enclose strings. If a string contains multiple lines, then triple quotes `“””`, or forward slash `/` or dollar-forward slash `$/` are used.
 
-1. C-Strings
-2. Strings that are objects of string class
+Similar to arrays, individual characters of a string can be accessed by it's indexing. Indices starts from `0` and hence string[0] represents it's first character present in the string. Negative indices indicates to count back from the end of the string.
 
-# How to declare strings
+## How to declare strings
 
-Declaring strings is similar to one-dimensional character array. Below is the syntax:
-
-```c
-char var-name[size];
-// or
-string str;
+```java
+String string-var = value; 
 ```
+value should be enclosed in either single quotes `’`, double quotes `“`, or triple quotes `“””` or forward slash `/` or dollar-forward slash `$/`.
 
-# How to initialize strings
+## Example
 
-Strings can be initialized in a number of ways:
-```c
-char str[] = "OneCompiler";
+```java
+String str = "Happy learning!"; 
+String str2 = 'Hello World';
+String str3 = """Hey
+Good 
+Morning"""
 
-char str[20] = "OneCompiler";
+println(str)
+println(str2)
+println(str3)
 
-char str[] ={'O','n','e','C','o','m','p','i','l','e','r','\0'};
-
-char str[20] ={'O','n','e','C','o','m','p','i','l','e','r','\0'};
-
-string str = "OneCompiler";
+println(str[0]); // Prints first character of the string
+println(str[-1]); //Print first character from the back 
+println(str2[6..10]);//Prints series of characters starting from Index 6 to 10
+println(str2[10..6]);//Prints series of characters starting from Index 10 to 6
 ```
+### Check result [here](https://onecompiler.com/groovy/3vmvsd3kp)
 
-# How to read strings from console
+## Basic String operations
 
-```c
-#include <iostream>
-using namespace std;
-int main()
-{
-    char str[20];
-    cin >> str; // to read the string values from stdin
-    cout << "You have entered: " << str; // to print the sting
-    return 0;
-}
-```
-### Check Result [here](https://onecompiler.com/cpp/3vmbntfpm)
-
-Consider if you have given `One Compiler` as input in the stdin. Surprisingly you get `One` alone as output. That is because a white space is present between `One` and `Compiler`.  So how can you read a entire line which also has white spaces in it.
-
-Consider your input string is `Hello Everyone.. Happy Learning!!`
-
-```c
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    string str;
-    getline(cin, str);  // to read string from stdin
-    cout << "String entered is : " << str ;
-    return 0;
-}
-```
-
-### Check Result [here](https://onecompiler.com/cpp/3vmbnzg24)
-
-# String Functions
-
-C has various in-built string functions which can manipulate null-terminated strings.
-
-| Function name | Description|
+|String Operation| Description|
 |----|----|
-|strlen(str)| to return the length of string str|
-|strcat(str1, str2)| to concatenate string str2 onto the end of string str1.|
-|strcpy(str1, str2)| To copy string str2 into string str1.|
-|strcmp(str1, str2)| returns 0 if str1 and str2 are the same and less than 0 if str1 < str2 and a positive number if str1 > str2|
-|strchr(str, c)| Returns a pointer to the first occurrence of character c in string str|
-|strstr(str1, str2)| Returns a pointer to the first occurrence of string str2 in string str1|
+| Concatenation|concatenation of strings can be done by using `+` operator.|
+| Repetition|  repetition of strings can be done by using `*` operator.|
+| String length | length() method is used to determine length of the string |
 
+### Example
 
-## Examples
+```java
+// Different ways of declaring strings
+String str = "Happy learning!"; 
+String str2 = 'Hello World';
+String str3 = """Hey
+Good 
+Morning"""
+String str4 = /hello/
+String str5 = /learning
+is 
+fun
+!!/
+String str6 = $/learning
+is 
+more
+exciting..
+/$
 
-```c
-#include <iostream>
-using namespace std;
-#include <cstring>
+println(str)
+println(str2)
+println(str3)
+println(str4)
+println(str5)
+println(str6)
 
-int main() 
-{
+println("first character of string is $str[0]"); // Prints first character of the string
+println(str[-1]); //Print first character from the back 
+println(str2[6..10]);//Prints series of characters starting from Index 6 to 10
+println(str2[10..6]);//Prints series of characters starting from Index 10 to 6
 
-   char str1[20] = "Happy";
-   char str2[20] = "learning";
-   char str3[20];
-   char str4[20] = "learning";
-
-   int  length, cmp , cmp1 ;
-
-   length = strlen(str1); // to find length of a string
-   cout << "length of string is :  " << length << endl;
-   
-   strcat( str1, str2); // concatenates str1 and str2 
-   cout << "Concatenation of str1 and str2: " << str1 << endl;
-
-   strcpy(str3, str1); // to copy a string into another
-   cout << "string copy of str1 to str3 :  " << str3 << endl;
-
-   cmp = strcmp(str2,str4); // to compare two strings
-   cout << "string compare result :  "<< cmp << endl;
-   
-   
-   cmp1 = strcmp(str1,str4); // to compare two strings
-   cout << "string compare result :  " << cmp1 << endl;
-   
-   return 0;
-
-}
 ```
+### Check result [here](https://onecompiler.com/groovy/3vmvwpgq7)
 
-### Check result [here](https://onecompiler.com/cpp/3vmbp94k9)
+## String Methods
+
+|String Method| Description|
+|----|----|
+| indexOf() |Returns the index of first occurrence of the specified substring or character in the given string.|
+| subString() | Returns a new String which is a substring of the given String.|
+| toUpperCase() | Converts all of the characters in the given String to upper case.|
+| toLowerCase() | Converts all of the characters in the given String to lower case.|
+| matches() | Checks whether the given String matches the specified regular expression.|
+| padLeft() | Pad the given String with white spaces padded to the left.|
+| padRight()| Pad the given String with white spaces padded to the right.|
+| center()| to return a new String of length numberOfChars consisting of the recipient padded on the left and right with space characters.
+| compareToIgnoreCase() | Compares two strings lexicographically by ignoring case differences.|
+| concat() | Concatenates the given String to the end of another String.
+| eachMatch() | Processes each regex group to perform an action for each matched substring of the given String.|
+| endsWith() | to check whether the given string ends with a specified suffix.|
+| equalsIgnoreCase() | Compares the given String with another String by ignoring case differences.|
+| getAt() | Returns string value at the given index position|
+| minus() | Removes the specified value part of the given String.|
+| next() | It increments the last character in the given String. This method is called by the ++ operator.|
+| plus() | Appends a given String|
+| previous() | Usually this method is called by the -- operator for the CharSequence.|
+| replaceAll() | Replaces all occurrences of a substring with another given string|
+| reverse() | Creates a new String which is the reverse of the given String.|
+| split() | Splits the given String around matches of the given regular expression.|
