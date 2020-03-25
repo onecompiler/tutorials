@@ -112,5 +112,15 @@
                 "path" : "groovy-closures"
             }
         ]
+    },
+    {
+        "title" : "Regular expressions",
+        "path" : "regular-expressions",
+        "links" : [
+            {
+                "title" : "Regular expressions",
+                "path" : "reg-ex"
+            }
+        ]
     }
 ]
