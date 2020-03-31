@@ -1,0 +1,116 @@
+[
+    {
+        "title" : "Introduction to Perl",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            }
+        ]
+    },
+    {
+        "title" : "Data Types",
+        "path" : "data-types",
+        "links" : [
+            {
+                "title" : "Data Types",
+                "path" : "data-types"
+            }
+        ]
+    },
+    {
+        "title" : "Variables",
+        "path" : "variables",
+        "links" : [
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            }
+        ]
+    },
+    {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        ]
+    },
+    {
+        "title" : "Lists",
+        "path" : "lists",
+        "links" : [
+            {
+                "title" : "Lists",
+                "path" : "lists"
+            }
+        ]
+    },
+    {
+        "title" : "Hashes",
+        "path" : "hashes",
+        "links" : [
+            {
+                "title" : "Hashes",
+                "path" : "hashes"
+            }
+        ]
+    },
+    {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }
+        ]
+    },
+    {
+        "title" : "Numbers",
+        "path" : "numbers",
+        "links" : [
+            {
+                "title" : "Numbers",
+                "path" : "numbers"
+            }
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "OOPS in Perl",
+        "path" : "oops",
+        "links" : [
+            {
+                "title" : "OOP Principles",
+                "path" : "oops"
+            }
+        ]
+    },
+    {
+        "title" : "Regular expressions",
+        "path" : "regular-expressions",
+        "links" : [
+            {
+                "title" : "Regular expressions",
+                "path" : "reg-ex"
+            }
+        ]
+    }
+]
