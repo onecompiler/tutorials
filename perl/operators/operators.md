@@ -4,33 +4,23 @@ Let us understand the below terms before we get into more details.
 
 An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. In the below example, `+` is the operator. 
 
-```c
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-   int x, y, sum;
-   x = 10;
-   y = 20;
- 
-   sum = x + y;
-   cout << "Sum : " << sum;
- 
-   return(0);
-}
+```perl
+$x = 10;
+$y = 20;
+$sum = $x + $y;
+print($sum);
 ```
-### Check result [here](https://onecompiler.com/cpp/3vmb5yays)
+### Check result [here](https://onecompiler.com/perl/3vnhpvaqe)
 
 ### 2. Operand
 
 An operand is what operators are applied on. In the above example `x` and `y` are the operands.
 
-# Types of Operators in C
+# Types of Operators in Perl
 
 ## 1. Arithmetic Operators
 
-C++ arithmetic operators are used to perform arithmetic operations on operands.
+Perl arithmetic operators are used to perform arithmetic operations on operands.
 
 |Operator|	Description	| Example|
 |----|----|----|
@@ -39,52 +29,44 @@ C++ arithmetic operators are used to perform arithmetic operations on operands.
 | * | Used to perform Multiplication |	5*2 = 10|
 | / | Used to perform Division	| 100/10 = 10|
 | % | Used to return Remainder	| 40%10 = 0|
-| ++ | Used to perform Increment |	int a=10; a++; // a becomes 11|
-| -- | Used to perform Decrement |	int a=10; a--; // a becomes 9|
-
+| ** | Used to perform Exponentation |	10**2 means 10 to the power of 2|
 
 ### Example
 
-```c
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-   int x, y, sum, diff, product, division, mod, inc, dec;
-   x = 90;
-   y = 10;
+```perl
+   $x = 90;
+   $y = 10;
  
-   sum = x + y;
-   cout << "Sum : " << sum << endl;
+   $sum = $x + $y;
+   print ("Sum : " , $sum ,"\n");
    
-   diff = x - y;
-   cout << "Difference : " << diff << endl;
+   $diff = $x - $y;
+   print ( "Difference : " , $diff  ,"\n");
    
-   product = x * y;
-   cout << "Product : " << product << endl;
+   $product = $x * $y;
+   print ( "Product : " , $product  ,"\n");
    
-   division = x / y;
-   cout << "Division : " << division << endl;
+   $division = $x / $y;
+   print ( "Division : " , $division  ,"\n");
    
-   mod = x % y;
-   cout << "Remainder : " << mod << endl;
+   $mod = $x % $y;
+   print ( "Remainder : " , $mod  ,"\n");
    
-   inc = x++;
-   cout << "x value after incrementing : " << x << endl;
+   $inc = $x++;
+   print ( "x value after incrementing : " , $x  ,"\n");
    
-   dec = x--;
-   cout << "x value after decrementing : " << x;
+   $dec = $x--;
+   print ( "x value after decrementing : " , $x ,"\n");
  
-   return(0);
-
-}
+   $pow = $y ** 2;
+   print ( "$y to the power of 2 : " , $pow  ,"\n");
+   
 ```
-### Check Result [here](https://onecompiler.com/cpp/3vmb6bf4b)
+### Check Result [here](https://onecompiler.com/perl/3vnqjre9n)
 
-## 2. Relational Operators
+## 2. Equality Operators
 
-C++ relational operators are used to compare two operands. 
+Equality operators are used to compare two operands. 
 
 | Operator | Description| Usage|
 |----|----|----|
@@ -97,156 +79,98 @@ C++ relational operators are used to compare two operands.
 
 ### Example
 
-```C
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-   int x = 90;
-   int y = 10;
+```perl
+   $x = 90;
+   $y = 10;
    
-  if ( x == y) {
-    cout << "x and y are equal" << endl;
+  if ( $x == $y) {
+    print "x and y are equal \n";
   }
   
-  if ( x != y) {
-    cout << "x and y are not equal" << endl;
+  if ( $x != $y) {
+    print "x and y are not equal \n";
   }
   
-  if ( x > y) {
-    cout << "x is greater than y" << endl;
+  if ( $x > $y) {
+    print "x is greater than y \n";
   }
   
-  if ( x < y) {
-    cout << "x is less than y" << endl;
+  if ( $x < $y) {
+    print "x is less than y \n";
   }
-}
+
 ```
-### Check Result [here](https://onecompiler.com/cpp/3vmb6ppv9)
+### Check Result [here](https://onecompiler.com/perl/3vnqk9rur)
 
 ## 3. Bitwise Operators
 
-C++ bitwise operators are used to perform bitwise operations on operands.
+Bitwise operators are used to perform bitwise operations on operands.
 
-|Operator|	Description| Usage|
+|Operator| Description| Usage|
 |----|----|----|
-| `&` |	Bitwise AND | `(x > y) & (y > z)`|
-| `|` |	Bitwise OR | `(x > y) | (y > z)`|
-| `^` |	Bitwise XOR | `(x > y) ^ (y > z)`|
-| `~` |	Bitwise NOT	| `(~x)`|
-| `<<` | Bitwise Left Shift| `x << y`|
-| `>>` | Bitwise Right Shift| `x >> y`|
+| `&` |	Bitwise AND | `($x > $y) & ($y > $z)`|
+| `|` |	Bitwise OR | `($x > $y) | ($y > $z)`|
+| `^` |	Bitwise $xOR | `($x > $y) ^ ($y > $z)`|
+| `~` |	Bitwise NOT	| `(~$x)`|
+| `<<` | Bitwise Left Shift| `$x << $y`|
+| `>>` | Bitwise Right Shift| `$x >> $y`|
 
 ## 4. Logical operators
 
-Below are the logical operators present in the C++.
+Below are the logical operators present in Perl.
 
-|Operator|	Description| Usage|
+| Operator| Description| Usage|
 |----|----|----|
-| `&&` |	Logical AND | `(x > y) && (y > z)`|
-| `||` |	Logical OR | `(x > y) || (y > z)`|
-| `!` |	Logical NOT	| `(!x)`|
+| `&&` | Logical AND | `($x > $y) && ($y > $z)`|
+| `||` | Logical OR | `($x > $y) || ($y > $z)`|
+| `!` |	Logical NOT	| `!($x)`|
 
 ## 5. Assignment Operators
 
-Below are the assignment operators present in the C++.
+Below are the assignment operators present in Perl.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| =	| Assign| int x = 10;|
-| += |	Add and assign|	int x=10; x+=30; // x becomes 40|
-| -= |	Subtract and assign| int x=40; x-=10; // x becomes 30|
-| *= |	Multiply and assign| int x=10; x*=40; // x becomes 400|
-| /= |	Divide and assign|	int x=100; x /= 10;// x becomes 10|
-| %= |	Modulus and assign|	int x=100; x%=10; // x becomes 0|
-| <<= | Left shift and assign|	x <<= 2 is same as x = x << 2|
-| >>= | Right shift and assign|	x >>= 2 is same as x = x >> 2|
-| &= | Bitwise and assign| x &= 10 is same as x = x & 10|
-| ^= | Bitwise exclusive OR and assign| x ^= 10 is same as x = x ^ 10|
-| `|=` |Bitwise inclusive OR and assign	| `x |= 10 is same as x = x | 10`|
+| = | Assign| $x = 10;|
+| += |	Add and assign|	$x=10; $x+=30; # x becomes 40|
+| -= |	Subtract and assign| $x=40; x-=10; # x becomes 30|
+| *= |	Multiply and assign| $x=10; x*=40; # x becomes 400|
+| /= |	Divide and assign|	$x=100; $x /= 10;# x becomes 10|
+| %= |	Modulus and assign|	$x=100; $x%=10; # x becomes 0|
+| <<= | Left shift and assign|	$x <<= 2 is same as $x = $x << 2|
+| >>= | Right shift and assign|	$x >>= 2 is same as $x = $x >> 2|
+| &= | Bitwise and assign| $x &= 10 is same as $x = $x & 10|
+| ^= | Bitwise exclusive OR and assign| $x ^= 10 is same as $x = $x ^ 10|
+| `|=` |Bitwise inclusive OR and assign	| `$x |= 10 is same as $x = $x | 10`|
 
 ### Example
 
-```C
-#include <iostream>
-using namespace std;
-
-int main() 
-{
- int x = 10; // assigning 10 to x 
-cout << "x value: " << x << endl;
+```perl
+$x = 10; #assigning 10 to x 
+print "x value: $x \n ";
         
-x+=30;
-cout << "x value after += operation: " << x << endl;
+$x+=30;
+print "x value after += operation: $x \n ";
         
-x-=10;
-cout << "x value after -= operation: " << x << endl;
+$x-=10;
+print "x value after -= operation: $x \n ";
         
-x*=10;
-cout <<"x value after *= operation: " << x << endl;
+$x*=10;
+print "x value after *= operation: $x \n ";
         
-x/=10;
-cout <<"x value after /= operation: " << x << endl;
+$x/=10;
+print "x value after /= operation: $x \n ";
         
-x%=10;
-cout <<"x value after %= operation: " << x;   
-   
-}
+$x%=10;
+print "x value after %= operation: $x";   
 ```
 
-### Check Result [here](https://onecompiler.com/cpp/3vmb6zaez)
+### Check Result [here](https://onecompiler.com/perl/3vnqmhza4)
 
-## 6. Misc Operator
+## 6. Quote like operators
 
-* Ternary Operator
-If the operator is applied on a three operands then it is called ternary. This is also known as conditional operator as a condition is followed by `?` and true-expression which is followed by a `:` and false expression. This is oftenly used as a shortcut to replace if-else statement
-
-### Example
-
-```c
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-    int x = 10;
-    int y = 90;
-
-    int z = x > y ? x : y;
-
-    cout << "Larger Number is: " << z;
-}
-```
-### Check Result [here](https://onecompiler.com/cpp/3vmb79s3q)
-
-* sizeof()
-
-This operator is used to return the size of a variable.
-
-```c
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-  
- int x = 90;
- int y = sizeof(x);
-
- cout <<"Size of x is: " <<  y;
-}
-```
-### Check Result [here](https://onecompiler.com/cpp/3vmb7cnag)
-
-## Summary
-
-| Operator type | Description|
-|----|-----|
-| Arithmetic Operator|+ , - , * , / , %|
-| comparision Operator| < , > , <= , >=, != , ==| 
-| Bitwise Operator| & , ^ , | 
-| Logical Operator| && , `||`, ! |
-| Assignment Operator|= , += , -= , *= , /= , %=, <<=, >>=, &=, ^=, `|=` |
-| Ternary Operator| ? : |
-| sizeof operator| sizeof() |
+|Operator|	Description| Example |
+|----|----|----|
+|q{ } | Encloses the given string within single quotes | q{One Compiler} is same as 'One Compiler'|
+|qq{ }| Encloses the given string within double quotes | qq{One Compiler} is same as "One Compiler"|
+|qx{ }| Encloses the given string within invert quotes | qx{One Compiler} is same as `One Compiler`|

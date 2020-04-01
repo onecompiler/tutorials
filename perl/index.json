@@ -30,6 +30,16 @@
         ]
     },
     {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }
+        ]
+    },
+    {
         "title" : "Operators",
         "path" : "operators",
         "links" : [
@@ -56,26 +66,6 @@
             {
                 "title" : "Hashes",
                 "path" : "hashes"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
-        ]
-    },
-    {
-        "title" : "Numbers",
-        "path" : "numbers",
-        "links" : [
-            {
-                "title" : "Numbers",
-                "path" : "numbers"
             }
         ]
     },
