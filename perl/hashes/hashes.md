@@ -79,7 +79,7 @@ print ("\n");
 # delete a key-value pair
 delete $nationalGame{'India'};
 
-print("Hash elements are deleting India:\n");
+print("Hash elements after deleting India:\n");
 for(keys %nationalGame){
  print("$_ : $nationalGame{$_}\n");
 }

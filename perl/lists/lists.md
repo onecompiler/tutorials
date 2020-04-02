@@ -1,4 +1,4 @@
-List is a series of scalar values separated by commas and enclosed in round brackets. 
+List is a series of scalar values separated by commas and enclosed in round brackets. A list is immutable and hence once defined, you cannot change it directly.
 
 ## Example
 
@@ -37,3 +37,16 @@ print((1,2,3,4,5)[4]); # to access last element
 print "\n"; 
 ```
 ### Check result [here](https://onecompiler.com/perl/3vnr7p2q9)
+
+## qw() function
+
+qw() function allows you to get a list by extracting words out of a string using `space` as a delimiter. Both gives same result.
+
+```perl
+print('Apple','Mango','Orange','Kiwi'); 
+print("\n");
+ 
+print(qw(Apple Mango Orange Kiwi)); 
+print("\n");
+```
+### Check result [here](https://onecompiler.com/perl/3vnra587p)
