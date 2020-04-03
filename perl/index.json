@@ -84,6 +84,16 @@
         ]
     },
     {
+        "title" : "Sub-routines in Perl",
+        "path" : "sub-routine",
+        "links" : [
+            {
+                "title" : "Sub-routine",
+                "path" : "sub-routine"
+            }
+        ]
+    },
+    {
         "title" : "OOPS in Perl",
         "path" : "oops",
         "links" : [
