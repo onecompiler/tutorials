@@ -182,5 +182,3 @@ when(value3){#code}
 ...
 } 
 ```
-### Example
-```perl
