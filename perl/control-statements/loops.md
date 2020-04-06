@@ -1,4 +1,4 @@
-# 1. For
+# For
 
 For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations are known in advance. In perl, `for` and `foreach` loops are interchangeable, and hence you can use foreach loop in where you use the for loop.
 
@@ -51,7 +51,7 @@ for(keys %nationalGame){
 ```
 ### Check result [here](https://onecompiler.com/perl/3vnwnghgy)
 
-# 2. While
+# While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
 
@@ -74,7 +74,7 @@ while ( $i <= 5) {
 ```
 ### Check result [here](https://onecompiler.com/perl/3vnwnmp75)
 
-# 3. Do-while
+# Do-while
 
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
@@ -99,7 +99,7 @@ do {
 
 ### Check result [here](https://onecompiler.com/perl/3vnwntcpj)
 
-# 4. Until
+# Until
 
 Until is just opposite of while loop and executes a block of code as long as the condition is false.
 
@@ -122,7 +122,7 @@ until ( $i > 5) {
 ```
 ### Check result [here](https://onecompiler.com/perl/3vnwpabyg)
 
-# 5. Do-Until
+# Do-Until
 
 Do-Until is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once and it executes a block of code as long as the condition is false.
 
