@@ -30,6 +30,16 @@
         ]
     },
     {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
         "title" : "Strings",
         "path" : "strings",
         "links" : [
@@ -88,7 +98,7 @@
         "path" : "sub-routine",
         "links" : [
             {
-                "title" : "Sub-routine",
+                "title" : "Sub-routines",
                 "path" : "sub-routine"
             }
         ]
@@ -104,12 +114,22 @@
         ]
     },
     {
-        "title" : "Regular expressions",
-        "path" : "regular-expressions",
+        "title" : "Working with Databases",
+        "path" : "working-with-databases",
         "links" : [
             {
-                "title" : "Regular expressions",
-                "path" : "reg-ex"
+                "title" : "Working with Database",
+                "path" : "database"
+            }
+        ]
+    },
+    {
+        "title" : "Working with Files",
+        "path" : "working-with-files",
+        "links" : [
+            {
+                "title" : "Files I/O",
+                "path" : "files"
             }
         ]
     }
