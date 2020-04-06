@@ -30,16 +30,6 @@
         ]
     },
     {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
         "title" : "Strings",
         "path" : "strings",
         "links" : [
@@ -66,6 +56,16 @@
             {
                 "title" : "Lists",
                 "path" : "lists"
+            }
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
             }
         ]
     },
@@ -105,7 +105,7 @@
     },
     {
         "title" : "OOPS in Perl",
-        "path" : "oops",
+        "path" : "oops-in-perl",
         "links" : [
             {
                 "title" : "OOP Principles",

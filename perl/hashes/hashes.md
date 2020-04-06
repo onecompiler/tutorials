@@ -1,6 +1,6 @@
 Hash is an unordered set of key/value pairs. They are preceded by `%`. 
 
-Array elements are accessed by using it's indices. But Hashes are accesed using it's descriptive keys.
+Array elements are accessed by using it's indices. But Hashes are accessed using it's descriptive keys.
 
 ## Example
 

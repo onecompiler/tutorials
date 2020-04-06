@@ -40,7 +40,7 @@ print "I love $fruits"
 ```
 ### Check result [here](https://onecompiler.com/perl/3vnmn3yty)
 
-You might expect the output as `I love mango` but you might be surprised to see the output as `I love`. This is because `fruit` and `fruits` are two different variables and `fruits` is not assigned with any value. To avoid these king of mistakes while programming, Perl provides a pragma called strict which requires you to declare variable explicitly before using the variable is used. `my` is used to declare variables when you use `strict`.
+You might expect the output as `I love mango` but you might be surprised to see the output as `I love` without throwing any error. This is because `fruit` and `fruits` are two different variables and `fruits` is not assigned with any value. To avoid these king of mistakes while programming, Perl provides a pragma called `strict` which requires you to declare variable explicitly before using the variable is used. `my` is used to declare variables when you use `strict`.
 
 The above example when you use `strict`
 

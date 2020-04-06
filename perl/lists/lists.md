@@ -24,7 +24,7 @@ print("happy", 16) # prints happy16
 ```
 ### Check result [here](https://onecompiler.com/perl/3vnqnmnss)
 
-Lists are indexed like arrays and indices starts from zero, means list[0] refers to first element and to access nth element, you should list[n-1].
+Lists are indexed like arrays and indices starts from zero, means `list[0]` refers to first element and to access nth element, you should use `list[n-1]`.
 
 ```perl
 print((1,2,3,4,5)[0]); # to access first element

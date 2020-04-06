@@ -1,8 +1,9 @@
 Sub-routine is a function which contains set of statements. Usually they are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
-Sub-routine allows you to divide your large lines of code into smaller ones. Usually the division happens logically such that each function performs a specific task and is up to developer. You can define a sub-routine anywhere in you program. You can also use sub-routines defined in some other programs. `use`, `do` or `require` statements are used to load sub-routines defined in other programs.
+Sub-routine allows you to divide your large lines of code into smaller ones. Usually the division happens logically such that each function performs a specific task and is up to developer. You can define a sub-routine anywhere in your program. You can also use sub-routines defined in some other programs. `use`, `do` or `require` statements are used to load sub-routines defined in other programs.
 
-`eval()` function is used to generate a sub-routine at run-time. `sub` is the keyword used to define a sub-routine
+* `eval()` function is used to generate a sub-routine at run-time. 
+* `sub` is the keyword used to define a sub-routine
 
 ## How to define a sub-routine
 

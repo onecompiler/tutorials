@@ -1,5 +1,5 @@
 
-Perl(Practical Extraction and Report Language) is especially desined for text processing by Larry Wall. Perl is a high level programming language and hence one can easily undertand Perl as the programs are in simple english.
+Perl(Practical Extraction and Report Language) is especially designed for text processing by Larry Wall. Perl is a high level programming language and hence one can easily undertand Perl as the programs are in simple english.
 
 ## Key features
 * Cross-platform programming language
@@ -35,41 +35,41 @@ print "Hello World!!"; // to display "Hello World!!"
 3. Follow the installation steps to finish the setup.
 4. Once the installation is completed, check the installation by using the below command in command prompt. 
 
-```sh
-perl -v
-```
+    ```sh
+    perl -v
+    ```
 
 ## 2. On Linux
 1. Most Linux  modern Linux distributions come with a recent version of Perl. If not, you can download the software form [Perl Downloads](https://www.perl.org/get.html)
 2. Execute the below commands
-```sh
-tar -xzf perl-5.30.2.tar.gz
-cd perl-5.30.2
-$./Configure -de
-$make
-$make test
-$make install
-```
+    ```sh
+    tar -xzf perl-5.30.2.tar.gz
+    cd perl-5.30.2
+    $./Configure -de
+    $make
+    $make test
+    $make install
+    ```
 
 ### Note :
 Change the version based on the file you have downloaded in the above commands
 
 ## 3. On MacOS
 
-1. Recent MacOS come with a recent version of Perl. If not, you can download the software form [Perl Downloads](https://www.perl.org/get.html)
+1. Recent MacOS will have Perl installed in-built. If not, you can download the software form [Perl Downloads](https://www.perl.org/get.html)
 2. change the directory
-```sh
-cd ~/Downloads
-```
+    ```sh
+    cd ~/Downloads
+    ```
 3. Run the below commands
-```sh
-tar -xzf perl-5.30.2.tar.gz
-cd perl-5.30.2
-./Configure -de
-make
-make test
-make install
-```
+    ```sh
+    tar -xzf perl-5.30.2.tar.gz
+    cd perl-5.30.2
+    ./Configure -de
+    make
+    make test
+    make install
+    ```
 
 ### Note :
 Change the version based on the file you have downloaded in the above commands

@@ -3,8 +3,8 @@ Perl is a loosely typed language and hence you no need to define the type of the
 Perl has three basic data types: 
 
 1. Scalars
-2. arrays 
-3. hashes 
+2. Arrays 
+3. Hashes 
 
 ## 1. Scalars
 

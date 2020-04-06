@@ -74,4 +74,4 @@ Encapsulation is a mechanism to protect private hidden data from other users. It
 
 Polymorphism gives the meaning many forms, usually it occurs when multiple classes are present and have been inherited.
 
-Consider an example of installing an application in your mobile, where your base class is `Mobile` and method is `installation()` and its derived classes could be installApp1, installApp2, installApp3 etc which will have its own implementation but installation method can be common which can be inherited from its base class.
+Consider an example of installing an application in your mobile, where your base class is `News` and method is `subscribeNews()` and its derived classes could be Sports, Politics, Business, Weather etc which will have its own implementation but the method `subscribeNews()` can be common which can be inherited from its base class.
