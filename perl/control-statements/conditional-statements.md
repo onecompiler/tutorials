@@ -2,9 +2,9 @@ When ever you want to perform a set of operations based on a condition(s) If / I
 
 You can also use if-else , nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
 
-#  If
+# 1. If
 
-### Syntax
+## Syntax
 
 ```perl
 if(conditional-expression)
@@ -12,7 +12,7 @@ if(conditional-expression)
     #code
 }
 ```
-### Example
+## Example
 
 ```perl
   $x = 30;
@@ -22,11 +22,11 @@ if(conditional-expression)
     print "x and y are equal";
   }
 ```
-#### Check result [here](https://onecompiler.com/perl/3vnufqbpw)
+### Check result [here](https://onecompiler.com/perl/3vnufqbpw)
 
-## If-else
+# 2. If-else
 
-### Syntax
+## Syntax
 
 ```perl
 if(conditional-expression)
@@ -36,7 +36,7 @@ if(conditional-expression)
     #code
 }
 ```
-### Example
+## Example
 
 ```perl
 $x = 30;
@@ -48,11 +48,11 @@ if ( $x == $y) {
     print "x and y are not equal";  
 }
 ```
-#### Check result [here](https://onecompiler.com/perl/3vnufv3jb)
+### Check result [here](https://onecompiler.com/perl/3vnufv3jb)
 
-## If-else-if ladder
+# 3. If-else-if ladder
 
-### Syntax
+## Syntax
 ```perl
 if(conditional-expression-1)
 {
@@ -68,7 +68,7 @@ else {
 }
 ```
 
-### Example
+## Example
 ```perl
   $age = 79;
 
@@ -86,13 +86,13 @@ else {
         print "Invalid $age";
     }
 ```
-#### Check result [here](https://onecompiler.com/perl/3vnufzdz5)
+### Check result [here](https://onecompiler.com/perl/3vnufzdz5)
 
-## Nested-If
+# 4. Nested-If
 
 Nested-Ifs represents if block within another if block. 
 
-### Syntax
+## Syntax
 ```perl
 if(conditional-expression-1) {    
      #code    
@@ -105,7 +105,7 @@ if(conditional-expression-1) {
 }
 ```
 
-### Example
+## Example
 ```perl
  $age = 50;
  $resident = 'Y';
@@ -116,13 +116,13 @@ if(conditional-expression-1) {
     }
   }
 ```
-#### Check result [here](https://onecompiler.com/perl/3vnugaqs2)
+### Check result [here](https://onecompiler.com/perl/3vnugaqs2)
 
-## Unless
+# 5. Unless
 
 Unless is similar to If and is equivalent to `if-not`. Perl executes the code block if the condition evaluates to false,  otherwise it skips the code block.
 
-### Syntax
+## Syntax
 
 ```perl
 statement unless(condition-expression);
@@ -133,7 +133,7 @@ unless(condition-expression){
    #code 
 }
 ```
-### Example
+## Example
 ```perl
 $age = 35;
  
@@ -143,9 +143,9 @@ unless($age < 18){
 ```
 ###  Check Result [here](https://onecompiler.com/perl/3vnuj6xme)
 
-## Unless-else
+# 6. Unless-else
 
-### syntax
+## syntax
 
 ```perl
 unless(condition-expression){
@@ -155,7 +155,7 @@ unless(condition-expression){
 }
 ```
 
-### Example
+## Example
 
 ```perl
 $x = 30;
@@ -169,11 +169,11 @@ unless ( $x == $y) {
 ```
 ### Check result [here](https://onecompiler.com/perl/3vnujet2w)
 
-## Given
+# 7. Given
 
 Given is similar to Switch in other programming languages. Given is an alternative to IF-ELSE-IF ladder and to select one among many blocks of code.
 
-### Syntax
+## Syntax
 ```perl
 given(conditional-expression){    
 when(value1){#code}
