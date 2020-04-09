@@ -1,0 +1,12 @@
+[
+    {
+        "title" : "Introduction to Go",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            }
+        ]
+    }
+]
