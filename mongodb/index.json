@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is MongoDB",
+                "path": "what-is-mongodb"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Creating Database",
+                "path": "creating-database"
+            },
+            {
+                "title": "Inserting Data",
+                "path": "creating-data"
+            },
+            {
+                "title": "Reading Data",
+                "path": "reading-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Topics",
+        "path": "advanced-topics",
+        "links": [
+            {
+                "title": "Aggregations",
+                "path": "aggregations"
+            },
+            {
+                "title": "Indexes",
+                "path": "indexes"
+            }
+        ]
+    }
+]

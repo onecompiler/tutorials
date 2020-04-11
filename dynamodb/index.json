@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is DynamoDB",
+                "path": "what-is-dynamodb"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Creating Table",
+                "path": "creating-table"
+            },
+            {
+                "title": "Inserting Data",
+                "path": "inserting-data"
+            },
+            {
+                "title": "Reading Data",
+                "path": "reading-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Topics",
+        "path": "advanced",
+        "links": [
+            {
+                "title": "Secondary Indexes",
+                "path": "secondary-indexes"
+            },
+            {
+                "title": "DynamoDB Streams",
+                "path": "dynamodb-streams"
+            }
+        ]
+    }
+]

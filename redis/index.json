@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is Redis",
+                "path": "what-is-redis"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "Redis Operations",
+        "path": "redis-operations",
+        "links": [
+            {
+                "title": "Redis Commands",
+                "path": "commands"
+            },
+            {
+                "title": "String",
+                "path": "string-commands"
+            },
+            {
+                "title": "List",
+                "path": "list-commands"
+            },
+            {
+                "title": "Set",
+                "path": "set-commands"
+            },
+            {
+                "title": "Hash",
+                "path": "hash-commands"
+            },
+            {
+                "title": "Sorted-Set",
+                "path": "sorted-set-commands"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Topics",
+        "path": "advanced-topics",
+        "links": [
+            {
+                "title": "Transactions",
+                "path": "transactions"
+            }
+        ]
+    }
+]

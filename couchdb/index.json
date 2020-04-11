@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is CouchDb",
+                "path": "what-is-couchdb"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Creating database",
+                "path": "creating-database"
+            },
+            {
+                "title": "Deleting database",
+                "path": "deleting-database"
+            },
+            {
+                "title": "Creating Data",
+                "path": "creating-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            }
+        ]
+    }
+]

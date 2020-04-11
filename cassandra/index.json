@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is Cassandra",
+                "path": "what-is-cassandra"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Creating Keyspace",
+                "path": "creating-keyspace"
+            },
+            {
+                "title": "Deleting Keyspace",
+                "path": "deleting-keyspace"
+            },
+            {
+                "title": "Creating Table",
+                "path": "creating-table"
+            },
+            {
+                "title": "Inserting Data",
+                "path": "creating-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Topics",
+        "path": "advanced",
+        "links": [
+            {
+                "title": "Collection Data types",
+                "path": "collection-data-types"
+            }
+        ]
+    }
+]

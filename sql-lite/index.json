@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is SQLite",
+                "path": "what-is-sqlite"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Creating Database",
+                "path": "create-database"
+            },
+            {
+                "title": "Attach Database",
+                "path": "attach-database"
+            },
+            {
+                "title": "Detach Database",
+                "path": "detach-database"
+            },
+            {
+                "title": "Creating Table",
+                "path": "create-table"
+            },
+            {
+                "title": "Inserting Data",
+                "path": "create-data"
+            },
+            {
+                "title": "Reading Data",
+                "path": "reading-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            }
+        ]
+    }
+]

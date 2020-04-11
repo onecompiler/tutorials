@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title": "What is ElasticSearch",
+                "path": "what-is-elasticsearch"
+            },
+            {
+                "title": "Key Concepts",
+                "path": "key-concepts"
+            },
+            {
+                "title": "Installation",
+                "path": "installation"
+            }
+        ]
+    },
+    {
+        "title": "CRUD Operations",
+        "path": "crud-operations",
+        "links": [
+            {
+                "title": "Inserting Data",
+                "path": "inserting-data"
+            },
+            {
+                "title": "Reading Data",
+                "path": "reading-data"
+            },
+            {
+                "title": "Updating Data",
+                "path": "updating-data"
+            },
+            {
+                "title": "Deleting Data",
+                "path": "deleting-data"
+            },
+            {
+                "title": "Search Database",
+                "path": "search-database"
+            }
+        ]
+    },
+    {
+        "title": "Aggregations",
+        "path": "aggregations",
+        "links": [
+            {
+                "title": "Metrics Aggregations",
+                "path": "metrics-aggregation"
+            },
+            {
+                "title": "Bucket Aggregations",
+                "path": "bucket-aggregations"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Topics",
+        "path": "advanced-topics",
+        "links": [
+            {
+                "title": "Indexes",
+                "path": "indexes"
+            },
+            {
+                "title": "Replication",
+                "path": "replication"
+            },
+            {
+                "title": "Sharding",
+                "path": "sharding"
+            }
+        ]
+    }
+]

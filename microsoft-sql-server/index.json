@@ -1,0 +1,121 @@
+[
+    {
+        "title": "Introduction",
+        "path": "introduction",
+        "links": [
+            {
+                "title" : "About Microsoft SQL Server",
+                "path" : "about-mssqlserver"
+            },
+            {
+                "title" : "Installation on Linux and Windows",
+                "path" : "installation"
+
+            }
+        ]
+    },
+    {
+        "title": "Data Types",
+        "path": "data-types",
+        "links": [
+            {
+                "title": "Numeric Data Types",
+                "path": "numeric-data-types"
+            },
+            {
+                "title": "Date and Time",
+                "path": "date-and-time"
+            },
+            {
+                "title": "String Data Types",
+                "path": "string-data-types"
+            }
+        ]
+    },
+    {
+        "title": "Constraints",
+        "path": "constraints",
+        "links": [
+            {
+                "title": "Constraints",
+                "path": "constraints"
+            }
+        ]
+    },
+    {
+        "title": "Microsoft SQL Server Commands",
+        "path": "commands",
+        "links": [
+            {
+                "title": "Commands",
+                "path": "commands"
+            },
+            {
+                "title": "DDL Commands",
+                "path": "ddl-commands"
+            },
+            {
+                "title": "DML Commands",
+                "path": "dml-commands"
+            },
+            {
+                "title": "DCL Commands",
+                "path": "dcl-commands"
+            },
+            {
+                "title": "TCL Commands",
+                "path": "tcl-commands"
+            }
+        ]
+    },
+    {
+        "title": "Joins",
+        "path": "joins",
+        "links": [
+            {
+                "title": "Joins",
+                "path": "joins"
+            }
+        ]
+    },
+    {
+        "title": "Indexes",
+        "path": "indexes",
+        "links": [
+            {
+                "title": "Indexes",
+                "path": "indexes"
+            }
+        ]
+    },
+    {
+        "title": "Triggers",
+        "path": "triggers",
+        "links": [
+            {
+                "title": "Triggers",
+                "path": "triggers"
+            }
+        ]
+    },
+    {
+        "title": "Views",
+        "path": "views",
+        "links": [
+            {
+                "title": "Views",
+                "path": "views"
+            }
+        ]
+    },
+    {
+        "title": "Stored Procedures",
+        "path": "stored-procedures",
+        "links": [
+            {
+                "title": "Stored Procedures",
+                "path": "stored-procedures"
+            }
+        ]
+    }
+]
