@@ -28,5 +28,29 @@
                 "path" : "variables"
             }
         ]
+    },
+    {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }                                                 
+        ]
     }
 ]
