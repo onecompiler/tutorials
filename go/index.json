@@ -52,5 +52,36 @@
                 "path" : "loops"
             }                                                 
         ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Functions",
+        "path" : "functions",
+        "links" : [
+            {
+                "title" : "Functions",
+                "path" : "functions"
+            }
+        ]
+    },
+    {
+        "title" : "Maps",
+        "path" : "maps",
+        "links" : [
+            {
+                "title" : "Maps",
+                "path" : "maps"
+            }
+        ]
     }
+    
 ]
