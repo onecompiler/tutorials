@@ -64,6 +64,16 @@
         ]
     },
     {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }
+        ]
+    },
+    {
         "title" : "Functions",
         "path" : "functions",
         "links" : [
@@ -93,4 +103,14 @@
             }
         ]
     },
+    {
+        "title" : "Structures",
+        "path" : "structures",
+        "links" : [
+            {
+                "title" : "Structures",
+                "path" : "structures"
+            }
+        ]
+    }
 ]
