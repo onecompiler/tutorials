@@ -64,6 +64,16 @@
         ]
     },
     {
+        "title" : "Slice",
+        "path" : "slice",
+        "links" : [
+            {
+                "title" : "Slice",
+                "path" : "slice"
+            }
+        ]
+    },
+    {
         "title" : "Strings",
         "path" : "strings",
         "links" : [
@@ -110,6 +120,16 @@
             {
                 "title" : "Structures",
                 "path" : "structures"
+            }
+        ]
+    },
+    {
+        "title" : "Concurrency",
+        "path" : "concurrency",
+        "links" : [
+            {
+                "title" : "Concurrency",
+                "path" : "concurrency"
             }
         ]
     }
