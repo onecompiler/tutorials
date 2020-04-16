@@ -16,7 +16,7 @@ Some of the products developed using Go are Kubernetes, Docker, Dropbox, Infoblo
 * Easy to write concurrent programs
 * There is good documentation available.
 * Go comes with a built-in testing tool 
-* Easy to learn as the sytax is simple and easy.
+* Easy to learn as the syntax is simple and easy.
 
 ## Why Go is popular?
 
@@ -31,7 +31,7 @@ Some of the products developed using Go are Kubernetes, Docker, Dropbox, Infoblo
 
 ## Sample Go program
 
-```go
+```c
 package main
 import "fmt"
 
@@ -47,11 +47,6 @@ Let's look into each line of the above sample program:
 * `import "fmt"` is used to import built-in fmt package.
 * `func main()` function is the starting point of execution of any Go program.
 * `fmt.printf` are inbuilt library functions which are used for print the given message.
-
-
-## How to compile and run a C program
-
-You can either use the shortcut `ctrl+F9` to compile and run or Go to Compile menu and then click on compile and then run.
 
 
 ## Comments

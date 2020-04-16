@@ -6,13 +6,13 @@ Pointer is a variable which holds the memory information(address) of another var
 
 ## Syntax
 
-```go
+```c
 var pointername *datatype;
 ```
 
 ## Example : 1
 
-```go
+```c
 package main
 import "fmt"
 
@@ -33,7 +33,7 @@ func main() {
 
 ## Example : 2
 
-```go
+```c
 package main
 import "fmt"
 
@@ -42,9 +42,9 @@ func main() {
 x := 10;     
 var ptr *int;   // pointer variable
 
-/* ptr = x; // Error because ptr is adress and x is value
+/* ptr = x; // Error because ptr is address and x is value
 
-*ptr = &x;  // Error because &x is adress and *ptr is value  */
+*ptr = &x;  // Error because &x is address and *ptr is value  */
 
 ptr = &x; // valid because &x and ptr are addresses
 

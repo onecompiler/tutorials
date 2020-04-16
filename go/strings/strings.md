@@ -4,16 +4,16 @@ String is a read-only slice of bytes. Strings are immutable in Go means once you
 
 ## Syntax
 
-```go
+```c
 var string-name = value;
 ```
 For example, you can define a string variable like below:
-```go
+```c
 var str = "OneCompiler";
 ```
 ## Example
 
-```go
+```c
 package main  
 import ("fmt"  
       "reflect"  
@@ -57,7 +57,7 @@ Go has various in-built string functions which can manipulate strings. Below are
 
 ## Examples
 
-```go
+```c
 package main
 import "fmt"
 import "strings"

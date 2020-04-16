@@ -18,7 +18,7 @@ for Initialization; Condition; Increment/decrement {
 ```
 ### Example
 
-```go
+```c
 package main
 import "fmt"
 
@@ -37,14 +37,14 @@ This loop looks similar to while loop in other programming languages.
 
 ### Syntax
 
-```go
+```c
 for condition {  
 //code  
 } 
 ```
 ### Example
 
-```go
+```c
 package main
 import "fmt"
 

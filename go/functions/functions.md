@@ -1,8 +1,8 @@
-Functions is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
+Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
 ## How to define a Function
 
-```go
+```c
 func function_name(parameters) return_type{
   //code
 }
@@ -11,13 +11,13 @@ In the above syntax parameters and return type are optional. Also you can return
 
 ## How to call a Function
 
-```go
+```c
 function_name(parameters)
 ```
 
 ## Go Functions with return value
 
-```go
+```c
 package main
 import "fmt"
 
@@ -36,7 +36,7 @@ func main() {
 
 ## Go function with arguments
 
-```go
+```c
 package main
 import "fmt"
 
@@ -58,7 +58,7 @@ func sum(args ... int) int {
 
 ## Go function with multiple return values
 
-```go
+```c
 package main
 import "fmt"
 

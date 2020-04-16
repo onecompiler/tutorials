@@ -4,7 +4,7 @@ Let us understand the below terms before we get into more details.
 
 An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. In the below example, `+` is the operator. 
 
-```go
+```c
 package main
 import "fmt"
 func main() {
@@ -39,7 +39,7 @@ Go arithmetic operators are used to perform arithmetic operations on operands.
 
 ### Example
 
-```go
+```c
 package main
 import "fmt"
 
@@ -81,7 +81,7 @@ Go comparison operators are used to compare two operands.
 
 ### Example
 
-```Go
+```c
 package main
 import "fmt"
 
@@ -149,7 +149,7 @@ Below are the assignment operators present in the Go.
 
 ### Example
 
-```Go
+```c
 package main
 import "fmt"
 

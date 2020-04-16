@@ -10,18 +10,18 @@ But the beauty of Goroutines is, it will not wait for the execution of function 
 
 ## Syntax
 
-```go
+```c
 go function-name([arguments])
 ```
 
 ## Example
 
-```go
+```c
 go sum()
 ```
 In the below example, we can see the execution of main function gets finished even before goroutine function starts it's execution.
 
-```go
+```c
 package main
 import "fmt"
     
@@ -44,7 +44,7 @@ func main() {
 
 To understand better, lets use Sleep function in main to see the execution of goroutine function.
 
-```go
+```c
 package main
 import "fmt"
 import "time"
@@ -76,18 +76,18 @@ A channel is bidirectional means same channel can be used for both sending and r
 
 ## How to declare channels
 
-```go
+```c
 var channel-name chan Data-Type
 ```
 or
 
-```go
+```c
 channel-name:= make(chan Data-Type)
 ```
 
 ## Example
 
-```go
+```c
 package main 
   
 import "fmt"

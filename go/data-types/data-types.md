@@ -37,7 +37,8 @@ As the name suggests, data-type specifies the type of the data present in the va
 |string|sequence of characters|
 
 ### Example
-```go
+
+```c
 package main
 
 import (
@@ -46,18 +47,18 @@ import (
 )
 
 var (
-	integer uint32     =  1<<32 - 1
+	integer uint32 =  1<<32 - 1
 	flt float64 = 3.14
-    complexNum      complex128 = cmplx.Sqrt(8 - 6i)
+    complexNum complex128 = cmplx.Sqrt(8 - 6i)
     str string = "Hello World"
-    boolean   bool       = true
+    boolean bool = true
 )
 
 func main() {
 	fmt.Printf("Value: %v is of Type: %T\n", integer, integer)
 	fmt.Printf("Value: %v is of Type: %T\n", flt, flt)
 	fmt.Printf("Value: %v is of Type: %T\n", complexNum, complexNum)
-    fmt.Printf("Value: %v is of Type: %T\n", str, str)
+	fmt.Printf("Value: %v is of Type: %T\n", str, str)
 	fmt.Printf("Value: %v is of Type: %T\n", boolean, boolean)
 }
 ```

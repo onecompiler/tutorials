@@ -2,7 +2,7 @@ When ever you want to perform a set of operations based on a condition(s) If / I
 
 You can also use if-else , nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
 
-## If
+## 1. If
 
 ### Syntax
 
@@ -14,7 +14,7 @@ if(conditional-expression)
 ```
 ### Example
 
-```go
+```c
 package main
 import "fmt"
 
@@ -28,9 +28,9 @@ func main() {
 
 }
 ```
-#### Check result [here](https://onecompiler.com/go/3vpq3azq3)
+### Check result [here](https://onecompiler.com/go/3vpq3azq3)
 
-## If-else
+## 2. If-else
 
 ### Syntax
 
@@ -44,7 +44,7 @@ if(conditional-expression)
 ```
 ### Example
 
-```go
+```c
 package main
 import "fmt"
 
@@ -60,9 +60,9 @@ func main() {
 
 }
 ```
-#### Check result [here](https://onecompiler.com/go/3vpq3ewjt)
+### Check result [here](https://onecompiler.com/go/3vpq3ewjt)
 
-## If-else-if ladder
+## 3. If-else-if ladder
 
 ### Syntax
 ```c
@@ -81,7 +81,7 @@ else {
 ```
 
 ### Example
-```go
+```c
 package main
 import "fmt"
 
@@ -103,9 +103,9 @@ if ( age <= 1 && age >= 0) {
    }
 }
 ```
-#### Check result [here](https://onecompiler.com/go/3vpq3mfy3)
+### Check result [here](https://onecompiler.com/go/3vpq3mfy3)
 
-## Nested-If
+## 4. Nested-If
 
 Nested-Ifs represents if block within another if block. 
 
@@ -123,7 +123,7 @@ if(conditional-expression-1) {
 ```
 
 ### Example
-```go
+```c
 package main
 import "fmt"
 
@@ -138,9 +138,9 @@ if (age > 18) {
 }
 }
 ```
-#### Check result [here](https://onecompiler.com/go/3vpq3q7g5)
+### Check result [here](https://onecompiler.com/go/3vpq3q7g5)
 
-## SWITCH
+## 5. SWITCH
 
 Switch is an alternative to IF-ELSE-IF ladder and to select one among many blocks of code.
 
@@ -161,7 +161,7 @@ default:
 } 
 ```
 ### Example
-```go
+```c
 package main
 import "fmt"
 
@@ -190,4 +190,4 @@ switch(day){
 }
 
 ```
-####  Check Result [here](https://onecompiler.com/go/3vpq434cg)
+###  Check Result [here](https://onecompiler.com/go/3vpq434cg)

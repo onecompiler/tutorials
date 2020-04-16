@@ -1,20 +1,20 @@
-Maps is an unordered collection of key and its value which is one of the powerful data types provided by Go. You can retrive valuesby using it's keys very fast. Key is used to retrieve it's associated value at a later stage.
+Maps is an unordered collection of key and its value. Map is one of the powerful data types provided by Go.  Key is used to retrieve it's associated value at a later stage and they are pretty fast in retrieving the value.
 
 ## How to declare a Map?
 
-```go
+```c
 var map-name map[key-data-type]value-data-type
 ```
 
 ## How to define a Map?
 
-```go
+```c
 map-name = make(map[key-data-type]value-data-type)
 ```
 
 ## Example for Insert & Update Operations in Maps
 
-```go
+```c
 package main
 import "fmt"
 
@@ -48,7 +48,7 @@ func main() {
 
 ## Example for retrieve operation
 
-```go
+```c
 package main
 import "fmt"
 
@@ -77,7 +77,7 @@ func main() {
 
 delete() is used to delete a value using it's key from a map.
 
-```go
+```c
 package main
 import "fmt"
 
@@ -103,7 +103,7 @@ func main() {
 ```
 
 ## How to check if a key is present in a map?
-```go
+```c
 package main
 import "fmt"
 

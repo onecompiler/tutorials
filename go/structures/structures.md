@@ -1,10 +1,10 @@
-Structures is a user-defined data type where it allows you to combine data of different data types. In a way, Structres are similar to arrays but the difference is in type of the data. Arrays is a collection of similar data but structures combine different types of data.
+Structure is a user-defined data type where it allows you to combine data of different data types. In a way, Structures are similar to arrays but the difference is in type of the data. Array is a collection of similar data but structures combine different types of data.
 
 ## How to define a structure
 
 `struct` keyword is used to define a structure. 
 
-```go
+```c
 type structure_name struct{
 
    member definition;
@@ -18,13 +18,13 @@ type structure_name struct{
 
 Structure variables can be declared as below:
 
-```go
+```c
 var structure-variable structure-name 
 ```
 
 ## Example 
 
-```go
+```c
 // structure definition
 type mobile struct {
     model string
@@ -42,7 +42,7 @@ You can access the structure member using `variable_name.membername`
 
 
 ## Example 
-```go
+```c
 package main
 import "fmt"
 // structure definition
