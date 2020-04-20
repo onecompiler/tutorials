@@ -131,7 +131,7 @@ C bitwise operators are used to perform bitwise operations on operands.
 
 ## 4. Logical operators
 
-Below are the logical operators present in the C.
+Below are the logical operators present in C language.
 
 |Operator|	Description| Usage|
 |----|----|----|
@@ -141,7 +141,7 @@ Below are the logical operators present in the C.
 
 ## 5. Assignment Operators
 
-Below are the assignment operators present in the C.
+Below are the assignment operators present in C language.
 
 |Operator|	Description| Usage|
 |----|----|----|
@@ -187,8 +187,9 @@ printf("\nx value after %= operation:%d " , x);
 
 ## 6. Misc Operator
 
-* Ternary Operator
-If the operator is applied on a three operands then it is called ternary. This is also known as conditional operator as a condition is followed by `?` and true-expression which is followed by a `:` and false expression. This is oftenly used as a shortcut to replace if-else statement
+* **Ternary Operator**
+
+If the operator is applied on three operands then it is called ternary. This is also known as conditional operator as a condition is followed by `?` and true-expression which is followed by a `:` and false expression. This is oftenly used as a shortcut to replace if-else statement
 
 ### Example
 
@@ -206,7 +207,7 @@ int main()
 ```
 ### Check Result [here](https://onecompiler.com/c/3vkeha3f9)
 
-* sizeof()
+* **sizeof()**
 
 This operator is used to return the size of a variable.
 

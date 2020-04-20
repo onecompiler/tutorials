@@ -81,7 +81,7 @@ You can either use the shortcut `ctrl+F9` to compile and run or Go to Compile me
 
 ## 3. on Linux
 
-* Most Linux operating systems are pre- installed with GCC.
+* Most Linux operating systems are pre-installed with GCC.
 
 ```shell
 gcc -version

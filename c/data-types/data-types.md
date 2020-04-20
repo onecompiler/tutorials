@@ -45,11 +45,11 @@ char c = 'a';
 printf("\nsize of char is: %d " , sizeof(c));
 }
 ```
-#### Run [here](https://onecompiler.com/c/3vkf2hsrg)
+### Check result [here](https://onecompiler.com/c/3vkf2hsrg)
 
 ## 2. Derived Data types
 
-Derived Data types are the ones which are derived from funcdamental data types. Arrays, Pointers, Structures, etc. are examples of derived data types. Let's learn more about them in next chapters.
+Derived Data types are the ones which are derived from fundamental data types. Arrays, Pointers, Structures, etc. are examples of derived data types. Let's learn more about them in next chapters.
 
 ## 3. Enumeration Data types
 
@@ -75,11 +75,11 @@ int main()
     return 0; 
 } 
 ```
-### Run [here](https://onecompiler.com/c/3vkf3vuuu)
+### Check result [here](https://onecompiler.com/c/3vkf3vuuu)
 
 ## 4. Void Data types
 
-Void is specifies that there is no return value. Generally void is used in the below situations.
+Void specifies that there is no return value. Generally void is used in the below situations.
 
 * If the funtion has return type mentioned as Void, then it specifies that the function returns no value.
 * A function with out any parameters can accept void. For example., char greetings(void)

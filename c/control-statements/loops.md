@@ -1,4 +1,4 @@
-## For
+## 1. For
 
 For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations are known in advance.
 
@@ -21,9 +21,9 @@ int main()
 }
 ```
 
-#### Check Result [here](https://onecompiler.com/c/3vkumntmg)
+### Check Result [here](https://onecompiler.com/c/3vkumntmg)
 
-## While
+## 2. While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
 
@@ -47,9 +47,9 @@ while ( i <= 5) {
   }
 }
 ```
-#### Check result [here](https://onecompiler.com/c/3vkumvqrm)
+### Check result [here](https://onecompiler.com/c/3vkumvqrm)
 
-## Do-while
+## 3. Do-while
 
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
@@ -74,4 +74,4 @@ int main()
 }
 ```
 
-#### Check result [here](https://onecompiler.com/c/3vkumzhwu)
+### Check result [here](https://onecompiler.com/c/3vkumzhwu)

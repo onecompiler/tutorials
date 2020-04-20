@@ -1,4 +1,4 @@
-Structures is a user-defined data type where it allows you to combine data of different data types. In a way, Structres are similar to arrays but the difference is in type of the data. Arrays is a collection of similar data but structures combine different types of data.
+Structure is a user-defined data type where it allows you to combine data of different data types. In a way, Structres are similar to arrays but the difference is in type of the data. Arrays is a collection of similar data but structures combine different types of data.
 
 # How to define a structure
 
@@ -23,20 +23,6 @@ Structure variables can be declared in two ways.
 ```c
 struct structure_name variable name;
 ```
-
-2. Declaring variables along with definition(this method is not recommended)
-
-
-```c
-struct structure_name {
-
-   member definition;
-   member definition;
-   ...
-   member definition;
-} one or more structure variables; 
-```
-
 ## Example 
 
 ```c
@@ -48,24 +34,34 @@ struct mobile {
 }
 
 // Declaring variables seperately from its definition
-
 struct mobile m1, m2;
+```
 
+2. Declaring variables along with definition(this method is not recommended)
+
+
+```c
+struct structure_name {
+   member definition;
+   member definition;
+   ...
+   member definition;
+} one or more structure variables; 
+```
+
+## Example 
+```c
 //Declaring variables along with definition
-
 struct mobile {
     char model[30];
     char brand[30];
     int cost; 
 }m1, m2;
-
 ```
-
 
 ## How to access structure members
 
 You can access the structure member using `variable_name.membername`
-
 
 ## Example 
 ```c

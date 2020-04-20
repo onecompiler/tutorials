@@ -1,14 +1,14 @@
-Functions is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
+Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
 Two types of functions are present in C
 
 1. Library Functions
 
-Library functions are the in-built functions which are declared in header files like printf(),scanf(),puts(),gets() etc.,
+  Library functions are the in-built functions which are declared in header files like printf(),scanf(),puts(),gets() etc.,
 
 2. User defined functions
 
-User defined functions are the ones which are written by the programmer based on the requirement.
+  User defined functions are the ones which are written by the programmer based on the requirement.
 
 ## How to declare a Function
 
@@ -23,20 +23,22 @@ function_name (parameters)
 ```
 ## How to define a Function
 
+```c
 return_type function_name(parameters){  
 //code
 }
+```
 
 # Different ways of calling a user-defined functions
 
-You can call functions in different ways as given below based on the criteria.
+You can call functions in different ways as given below based on your requirement.
 
 1. Function with no arguments and no return value.
 2. Function with no arguments and a return value.
 3. Function with arguments and no return value.
 4. Function with arguments and a return value.
 
-Let's look examples for the above types.
+Let's look into examples for the above types.
 
 ## 1. Function with no arguments and no return value.
 

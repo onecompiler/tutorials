@@ -83,9 +83,9 @@ It's a good programming practice to define constants in CAPITALS.
 
 Few characters have special meaning and hence these can't be used for other purposes.
 
-* `{}` : spcifies start and end of code blocks
-* `[]` : Used for arrays
-* `()` : Used for functions
+* `{}` : specifies start and end of code blocks
+* `[]` : used for arrays
+* `()` : used for functions
 * `,` : used to seperate variables, constants etc
 * `*` : used for pointers
 * `#` : used as a macro processor.

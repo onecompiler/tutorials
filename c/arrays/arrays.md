@@ -2,7 +2,7 @@ Array is a collection of similar data which is stored in continuous memory addre
 
 Index starts from 0 to size-1.
 
-Arrays can be one-dimensional, multi-dimensional in C language. The more popular and frequently used arrays are one-dimensional and two-dimensional arrays.
+Arrays can be one-dimensional or multi-dimensional in C language. The more popular and frequently used arrays are one-dimensional and two-dimensional arrays.
 
 Arrays store the collection of data sequentially in memory and they must share same data type.
 
@@ -54,7 +54,7 @@ int a[2][3] = {
 
 # How to access array elements
 
-Array elements can be accessed by using indices. Array indices starts from `0`.  Array[n-1] can be used to access nth element of an array.
+Array elements can be accessed by using indices. Array indices starts from `0` and  `Array[n-1]` can be used to access nth element of an array.
 
 ## Examples
 
@@ -97,7 +97,7 @@ int main()
 
 ## Summary
 
-* Arrays is a collection of homogeneous data.
+* Array is a collection of homogeneous data.
 * Arrays stores data sequentially in memory.
 * Arrays are finite.
 

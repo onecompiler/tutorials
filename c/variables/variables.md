@@ -12,7 +12,7 @@ In the above syntax, assigning value is optional as you can just declare the var
 ## Naming convention of variables
 
 * Variable names can have only letters (both uppercase and lowercase letters), digits and underscore(`_`).
-* Variables naming cannot contain white spaces like first name which is a invalid variable name.
+* Variable names cannot contain white spaces like first name which is a invalid variable name.
 * First letter of a variable should be either a letter or an underscore(`_`).
 * Variable type can't be changed once declared as C is a strongly typed language.
 * In C, Variable names are case sensitive and hence Name and name both are different.
@@ -40,7 +40,7 @@ Literals are used to represent fixed values which can be used directly in the co
 
 ## 1. Integer literals
 
-Interger literals are numeric literals. They are of three types
+Integer literals are numeric literals. They are of three types
 
 * decimal (base 10) 
 * octal (base 8)
@@ -52,7 +52,7 @@ Float point literals are also numeric literals but has either a fractional form 
 
 ## 3. Character literals
 
-Character literals are represented with in single quotes. For example, `a`, `1` etc.
+Character literals are represented with in single quotes. For example, \`a`, \`1` etc.
 
 ## 4. String literals
 

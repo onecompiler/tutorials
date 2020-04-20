@@ -2,7 +2,7 @@ String is a sequence of characters terminated with a null character `\0` at the 
 
 # How to declare strings
 
-Declaring strings is similar to one-dimensional character array. Below is the syntax:
+Declaring string is similar to one-dimensional character array. Below is the syntax:
 
 ```c
 char var-name[size];

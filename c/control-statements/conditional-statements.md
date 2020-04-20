@@ -2,7 +2,7 @@ When ever you want to perform a set of operations based on a condition(s) If / I
 
 You can also use if-else , nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
 
-## If
+## 1. If
 
 ### Syntax
 
@@ -26,9 +26,9 @@ int main()
         }
 }
 ```
-#### Check result [here](https://onecompiler.com/c/3vkukmz3s)
+### Check result [here](https://onecompiler.com/c/3vkukmz3s)
 
-## If-else
+## 2. If-else
 
 ### Syntax
 
@@ -56,9 +56,9 @@ int main()
     }
 }
 ```
-#### Check result [here](https://onecompiler.com/c/3vkukqf28)
+### Check result [here](https://onecompiler.com/c/3vkukqf28)
 
-## If-else-if ladder
+## 3. If-else-if ladder
 
 ### Syntax
 ```c
@@ -98,9 +98,9 @@ int main()
     }
 }
 ```
-#### Check result [here](https://onecompiler.com/c/3vkuku699)
+### Check result [here](https://onecompiler.com/c/3vkuku699)
 
-## Nested-If
+## 4. Nested-If
 
 Nested-Ifs represents if block within another if block. 
 
@@ -118,6 +118,7 @@ if(conditional-expression-1) {
 ```
 
 ### Example
+
 ```c
 #include <stdio.h>
 int main()
@@ -132,7 +133,7 @@ int main()
   }
 }
 ```
-#### Check result [here](https://onecompiler.com/c/3vkukyt2j)
+### Check result [here](https://onecompiler.com/c/3vkukyt2j)
 
 ## SWITCH
 
@@ -181,4 +182,4 @@ int main()
       }
 }
 ```
-####  Check Result [here](https://onecompiler.com/c/3vkumg7ys)
+###  Check Result [here](https://onecompiler.com/c/3vkumg7ys)
