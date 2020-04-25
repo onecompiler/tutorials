@@ -19,6 +19,7 @@ const squaresOfEvenNumbers = numbers.filter(ele => ele % 2 == 0)
 
 console.log(squaresOfEvenNumbers);
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48m78h)
 
 ## 2. With Multiple arguments
 
@@ -35,6 +36,7 @@ let sum= (a,b,c) => {
 }
 console.log(sum(10,20,30));
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48ndc4)
 
 ## Benefits:
 

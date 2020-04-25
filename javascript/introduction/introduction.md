@@ -1,4 +1,4 @@
-Javascript(JS) is a object-oriented programming language which adhere to ECMA Script Standards. Javascript is required to design the behaviour of the web pages.
+Javascript(JS) is a object-oriented programming language which adhere to ECMA Script Standards. Javascript was designed to specify the behaviour of the web pages.
 
 ## Key Features
 * Open-source
@@ -54,7 +54,7 @@ console.log is used to print the message to get displayed to the user.
 
 ## Modern Mode
 
-* You must explictly declare with directive `"use Strict"` or `'use Strict'` at the top of the script to tell the javascript should work in modern way.
+* You must explictly declare with directive `"use Strict"` or `'use Strict'` at the top of the script to tell the javascript should work in strict mode.
 
 
 ### You can practice Javascript [here](https://onecompiler.com/javascript) with out any IDEs or code editors.

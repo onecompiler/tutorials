@@ -48,6 +48,7 @@ promise.
 		console.log('Rejected'); 
 	}); 
 ```
+### Run [here](https://onecompiler.com/javascript/3vr4b4h7g)
 
 # Async-Await
 
@@ -66,7 +67,7 @@ async function functioname(parameters){
 ## Example
 
 ```javascript
-async getTodos(userObj){
+async function getTodos(userObj){
 	const res = await fetch([url]);
 	const data = await res.json()    
 	return data;

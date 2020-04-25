@@ -1,4 +1,4 @@
-Javascript is an event-driven and asynchronous programming language means we initiate any action now and finish them later without disturbing the flow of the program.
+Javascript is an event-driven and asynchronous programming language means we can initiate any action now and finish them later without disturbing the flow of the program.
 
 In Javascript, almost everything is treated as objects. Functions are no exception to it. Hence functions can even take another function as it's argument and can be returned by other functions. In simpler terms, any function that is passed as an argument is called a callback function. JavaScript Callback Functions can be used synchronously or asynchronously.
 

@@ -32,6 +32,8 @@ console.log('outside block name:', name); //here name will be foo again
 console.log('id:', id); //id =1
 console.log('age:', age); // age will not become 20 and it remains 25 even after the block is ended         
 ```
+### Try yourself [here](https://onecompiler.com/javascript/3vr47v9hd)
+
 ## How to declare variables
 
 ```javascript
@@ -45,6 +47,5 @@ You can change the value of a variable multiple times with different data, Javas
 let x = 10;
 x= "hello"; // don't throw any error and x will assigned to "hello"
 ```
-
 
 ### Practice your understanding [here](https://onecompiler.com/javascript) 

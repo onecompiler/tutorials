@@ -19,6 +19,8 @@ for(let i=1;i<=10;i++) {
   console.log(i);
 }
 ```
+### Run [here](https://onecompiler.com/javascript/3vr496bu7)
+
 ## 2. for..in()
 
 For..in loop is used to iterate over properties of an object.
@@ -41,6 +43,7 @@ for (let x in info) {
   console.log(x); // prints keys of info which are name and id
 }
 ```
+### Run [here](https://onecompiler.com/javascript/3vr497r5m)
 
 ## 3. for..of()
 
@@ -60,6 +63,7 @@ for(let mbl of mobiles) {
     console.log(mbl);
 } 
 ```
+### Run [here](https://onecompiler.com/javascript/3vr499gfb)
 
 ## 4. while()
 
@@ -83,6 +87,7 @@ while(i<=10) {
   i++;
 }
 ```
+### Run [here](https://onecompiler.com/javascript/3vr49amxk)
 
 ## 5. do-while()
 
@@ -105,5 +110,5 @@ do {
 } while(i<=10);
 ```
 
-### Practice your understanding [here](https://onecompiler.com/javascript) 
+### Run [here](https://onecompiler.com/javascript/3vr49c32n) 
 

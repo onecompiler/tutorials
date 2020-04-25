@@ -104,8 +104,10 @@ const squaresOfEvenNumbers = numbers
 .map(ele => ele ** 2)
 .reduce((acc, ele) => acc + ele);
 
+console.log("sum of squares of even numbers:");
 console.log(squaresOfEvenNumbers);
 ```
+### Run [here](https://onecompiler.com/javascript/3vr486kyt)
 
 ## 5. find()
 
@@ -133,6 +135,7 @@ let emp = [
 firstMatch = emp.find(emp => emp.age > 18)
 console.log(firstMatch);
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48b7kr)
 
 ## 6. indexOf()
 
@@ -155,6 +158,8 @@ if(arr.indexOf('mark') > -1) {
   console.log('value is not present in the array');
 } 
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48cm5x)
+
 Note: lastIndexOf() is similar to indexOf() but returns the index of last occurence of the element.
 
 ## 7. from()
@@ -175,6 +180,8 @@ let numbers = [1, 2, 3, 4];
 const squaresOfNumbers= Array.from(numbers, value => value * value);
 console.log(squaresOfNumbers); 
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48dz9j)
+
 ## 8. every()
 
 This method returns true if all the elements present in the array passes the criteria else false.
@@ -198,6 +205,7 @@ let emp = [
 adultCheck = emp.every(emp => emp.age > 18)
 console.log(adultCheck);
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48fs37)
 
 ## 9. some()
 
@@ -222,6 +230,7 @@ let emp = [
 adultPresent = emp.some(emp => emp.age > 18)
 console.log(adultPresent);
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48gync)
 
 ## 10. includes()
 
@@ -241,3 +250,4 @@ let arr = ['foo', 'bar', 'mark'];
 console.log(arr.includes('bar'));
 console.log(arr.includes('bar',1)); // optional second parameter specifies the position to start the search.
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48j82d)

@@ -20,6 +20,8 @@ if (age > 18) {
   console.log('Adult');
 }
 ```
+### Run [here](https://onecompiler.com/javascript/3vr48qj5g)
+
 ## 2. If-else
 
 If is used to execute a block of code based on a condition. and else part is used to execute the block of code when the condition fails.
@@ -49,7 +51,7 @@ console.log('Infant');
 }
 ```
 
-### Practice your understanding [here](https://onecompiler.com/javascript) 
+### Run [here](https://onecompiler.com/javascript/3vr48sf3k) 
 
 ## 3. Switch
 
@@ -98,4 +100,4 @@ switch(language){
     console.log('Hello');
 }
 ```
-### Practice your understanding [here](https://onecompiler.com/javascript) 
+### Run [here](https://onecompiler.com/javascript/3vr48u39s)

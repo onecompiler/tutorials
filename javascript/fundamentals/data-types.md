@@ -72,7 +72,7 @@ let employee = {  // object
      "id"   : 123 //object property
 };
 ```
-Let's us in-detail about Objects in further topics.
+Let's us see in-detail about Objects in further topics.
 
 ## Summary
 
@@ -82,7 +82,7 @@ Let's us in-detail about Objects in further topics.
 |string| represents one or more characters|
 |bigint| represents integers of arbitrary length|
 |null| represents unknown values|
-|undefined| respresents undefined values|
+|undefined| represents undefined values|
 |object| represents complex data structures|
 |boolean| represents either true or false
 
