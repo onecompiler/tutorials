@@ -1,16 +1,16 @@
 There are four types of collections in Python.
 
-## 1. List
+# 1. List
 
 List is a collection which is ordered and can be changed. Lists are specified in square brackets.
 
-### Example
+## Example
 
 ```py
 mylist=["iPhone","Pixel","Samsung"]
 print(mylist) # prints ['iPhone', 'Pixel', 'Samsung']
 ```
-### How to access List items
+## How to access List items?
 
 You can access the list items similar to arrays using Indexes. Indexes starts with 0.
 
@@ -20,11 +20,11 @@ print(mylist[0]) # prints iPhone
 print(mylist[7]) # throws IndexError : list index out of range
 print(mylist[-1]) # prints Samsung
 ```
-#### Note:
+### Note:
 
 You can specify negative indexes if you want to start the search from the end of the list.
 
-### How to print range of Indexes
+## How to print range of Indexes
 
 Just like accessing a single element in the list, you can also specify the range of indexes.
 
@@ -34,7 +34,7 @@ mylist = ["iPhone", "Pixel","Samsung", "Oppo", "Vivo", "Redmi", "Nokia" ]
 print(mylist[1:5]) # Prints ['Pixel', 'Samsung', 'Oppo', 'Vivo']
 ```
 
-### How to change an item in the list
+## How to change an item in the list
 
 You can change the specific item by it's index number like below:
 
@@ -45,18 +45,18 @@ mylist[1] = "OnePlus"
 print(mylist) # prints ['iPhone', 'OnePlus', 'Samsung', 'Nokia']
 ```
 
-## 2. Tuple
+# 2. Tuple
 
 Tuple is a collection which is ordered and can not be changed. Tuples are specified in round brackets.
 
-### Example
+## Example
 
 ```py
 myTuple=("iPhone", "Pixel", "Samsung")
 print(myTuple) # Prints ('iPhone', 'Pixel', 'Samsung')
 ```
 
-### How to access Tuple items
+## How to access Tuple items
 
 You can access the Tuple items similar to Lists or Arrays using Indexes. Indexes starts with 0.
 
@@ -66,11 +66,11 @@ print(myTuple[0]) # prints iPhone
 print(myTuple[7]) # throws IndexError: tuple index out of range
 print(myTuple[-1]) # prints Samsung
 ```
-#### Note:
+### Note:
 
 You can specify negative indexes if you want to start the search from the end of the list.
 
-### How to print range of Indexes
+## How to print range of Indexes
 
 Just like accessing a single element in the tuple, you can also specify the range of indexes.
 
@@ -80,7 +80,7 @@ myTuple = ("iPhone", "Pixel", "Samsung", "Oppo", "Vivo", "Redmi", "Nokia" )
 print(myTuple[1:5]) # Prints ('Pixel', 'Samsung', 'Oppo', 'Vivo')
 ```
 
-### How to change an item in the tuple
+## How to change an item in the tuple
 
 You can't change the item in a tuple directly. Below throws an error if you assign another value to tuple again.
 
@@ -90,7 +90,7 @@ myTuple[1] = "onePlus" # throws error as TypeError: 'tuple' object does not supp
 print(myTuple)
 ```
 
-`If you want to change a specific item then you need to convert it into List first.` Here is how you can do it.
+**If you want to change a specific item then you need to convert it into List first.** Here is how you can do it.
 
 ```py
 myTuple = ("iPhone", "Pixel", "Samsung")
@@ -100,17 +100,17 @@ myTuple = tuple(myList)
 print(myTuple)
 ```
 
-## 3. Set
+# 3. Set
 
 Set is a collection which is unordered and unindexed. Sets are specified in curly brackets.
 
-### Example
+## Example
 
 ```py
 myset{"iPhone","Pixel","Samsung"}
 print{myset}
 ```
-### How to access Set items
+## How to access Set items
 
 You can't access the set items using indexes because they are unordered and unindexed. Hence you can use for loop in order to loop through set items.
 
@@ -121,7 +121,7 @@ for mbl in mySet:
   print(mbl)
 ```
 
-### How to add an item in a set
+## How to add an item in a set
 
 You can't change the item in a set once created. But, you can add items to a set using `add` method.
 
@@ -153,11 +153,11 @@ Python provides in-built methods to use on sets like add method. Check below:
 |union() |	to return a set containing the union of sets|  mySet3 = mySet1.union(mySet2)|
 |update() | to update the set with the union of this set and others| mySet1.update(mySet2)|
 
-## 4. Dictionary
+# 4. Dictionary
 
 Dictionary is a collection of key value pairs which is unordered, can be changed, and indexed. They are written in curly brackets with key - value pairs. 
 
-### Example
+## Example
 ```py
 mydict = {
     "brand" :"iPhone",
@@ -165,7 +165,7 @@ mydict = {
 }
 print(mydict)
 ```
-### How to access an item present in a dictionary
+## How to access an item present in a dictionary
 
 You can access the items present in a dictionary using key name present in a square brackets.
 
@@ -175,7 +175,7 @@ mydict = {
     "model": "iPhone 11"
 }
 val = mydict["brand"]
-print(val)
+print(val) # prints iPhone
 ```
 You can also use get() method which gives the same result.
 
@@ -185,10 +185,10 @@ mydict = {
     "model": "iPhone 11"
 }
 val = mydict.get("brand")
-print(val)
+print(val) # prints iPhone
 ```
 
-### How to change a value present in a dictionary
+## How to change a value present in a dictionary
 
 You can change the value of a specific item by referring it's key name.
 
@@ -203,7 +203,7 @@ mydict["cost"] ="$999"
 print(mydict) # prints {'brand': 'iPhone', 'model': 'iPhone 11', 'cost': '$999'}
 ```
 
-### How to loop through items in a dictionary
+## How to loop through items in a dictionary
 
 `for` can be used to loop through the items present in a dictionary.
 
@@ -218,7 +218,7 @@ for mbl in mydict:
   print(mydict)
 ```
 
-### How to add items in a dictionary
+## How to add items in a dictionary
 
 You can add items to a dictionary using a new index key and assign value to it.
 
@@ -231,11 +231,11 @@ mydict = {
 mydict["color"] = "Black"
 print(mydict) # prints {'brand': 'iPhone', 'model': 'iPhone 11', 'cost': '$1000', 'color': 'Black'}
 ```
-### How to remove items from a dictionary
+## How to remove items from a dictionary
 
 There are several methods to remove an item from a dictionary.
 
-### 1. pop()
+## 1. pop()
 
 `pop()` method is used to remove an item from a dictionary.
 
@@ -250,7 +250,7 @@ mydict.pop("color")
 print(mydict) # prints {'brand': 'iPhone', 'model': 'iPhone 11', 'cost': '$1000'}
 ```
 
-### 2. del()
+## 2. del()
 
 * `del()` method is used to remove an item from a dictionary.
 

@@ -1,13 +1,13 @@
 open() function is used to do CRUD(create,read,update,delete) operations on files in Python.
 
-### Syntax of open function
+## Syntax of open function
 
 ```py
 open(filename,mode)
 ```
-filename - specifies the name of the file
-mode - `c`(create), `r`(read),`a`(append), `w`(write)
-Along with the above mode options, you can also specify the operation mode as either `t`(text) or `b`(binary)
+* filename - specifies the name of the file
+* mode - `c`(create), `r`(read),`a`(append), `w`(write)
+* Along with the above mode options, you can also specify the operation mode as either `t`(text) or `b`(binary)
 
 ## Create
 

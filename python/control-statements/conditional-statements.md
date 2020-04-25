@@ -1,18 +1,16 @@
-# Python conditional statements
-
-## If family
+# If family
 
 When ever you want to perform a set of operations based on a condition if and if-else are used.
 
-### Syntax
+## Syntax
 
-#### 1. If
+### 1. If
 
 ```py
-if conditional-expression
+if conditional-expression :
     #code
 ```
-#### Example
+### Example
 
 ```py
 x = 10
@@ -23,7 +21,7 @@ if (x != y) :
 ```
 ### Check result [here](https://onecompiler.com/python/3vjkc68vc)
 
-#### 2. If-else
+## 2. If-else
 
 ```py
 if conditional-expression :
@@ -31,7 +29,7 @@ if conditional-expression :
 else :
     #code
 ```
-#### Example
+### Example
 
 ```py
 x = 10
@@ -44,7 +42,7 @@ else :
 ```
 ### Check result [here](https://onecompiler.com/python/3vjkc4nsu)
 
-#### 3. Nested If-else
+### 3. Nested If-else
 
 ```py
 if conditional-expression :
@@ -55,7 +53,7 @@ else :
     #code
 ```
 
-#### Example
+### Example
 
 ```py
 x = 10

@@ -70,15 +70,15 @@ db = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = db["sample"]
 mycln = mydb["details"]
 
-//to return all the documents
+#to return all the documents
 for doc in mycln.find():
   print(doc)
 
-// to return first occurence
+# to return first occurence
 doc1=mycln.find_one()
 print(doc1)
 
-//to return list of names whose age is greater than 20
+#to return list of names whose age is greater than 20
 qry = { "age": { "$gt": 30 } }
 
 for doc3 in mycln.find(qry)

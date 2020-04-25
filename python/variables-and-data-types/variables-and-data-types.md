@@ -5,7 +5,7 @@ Variables are used to store data values.
 
 In Python, declaring variables is not required. Means you don't need to specify whether it is an integer or string etc as Python is a dynamically typed language.
 
-### Rules for naming variables
+### Rules for naming variables:
 * They must start with a letter or underscore. 
 * They can not start with number
 * Case-sensitive
@@ -26,7 +26,7 @@ In Python, declaring variables is not required. Means you don't need to specify 
 
 * type() is used to know the data type of a variable
 
-### Data casting
+## Data casting
 
 |Constructor function| desc|
 |-----|----|
@@ -34,7 +34,7 @@ In Python, declaring variables is not required. Means you don't need to specify 
 |float()|constructs a float number from any form of data like string, float or integer|
 |str()|constructs a string from any form of data like string, float or integer|
 
-### Example
+## Example
 
 ```python
 name    = "Foo"       # String assignment

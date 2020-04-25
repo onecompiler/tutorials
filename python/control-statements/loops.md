@@ -1,10 +1,8 @@
 Loops are used to perform iterations on a block of code based on a criteria.
 
-# Python control statements
-
 Python provides `for` and `while` loops to loop over iterable-objects
 
-## FOR
+## For
 
 For loop is used to iterate over arrays(list, tuple, set, dictionary) or strings.
 
@@ -21,14 +19,14 @@ for i in mylist:
     print(i)
 ```
 
-## WHILE
+## While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
 ### Syntax
 
 ```py
-while condition  
+while condition :  
     #code 
 ```
 

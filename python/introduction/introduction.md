@@ -1,4 +1,4 @@
-Python is a very popular programming language which was created by Guido van Rossum, and it was released in 1991.
+Python is a very popular programming language which was created by Guido van Rossum and it was released in 1991.
 
 ## Key features
 
@@ -14,17 +14,17 @@ Python is a very popular programming language which was created by Guido van Ros
 ## Why you should learn Python
 
 * Python is the preferred language for most data scientists because of it's powerful capabilities.
-* Biggest advantage is it's opensource and easy to learn programming language.
+* Biggest advantage is that it's an opensource and easy to learn programming language.
 * Since it's cross-platform language, it is used over variety of platforms for almost 30 years.
 * Highly flexible and versatile language.
 * Python grabbed more demand in the market and hence python developers are offered with high salaries.
-* Recommended language for Artificial intelligence as it is image recognition and machine learning.
+* Recommended language for Artificial intelligence as it is recommended for image recognition and machine learning.
 * Used for web development.
 * It acts as a testing framework for validating the products with established enterprises.
 
 ## Why Python is so popular?
 
-No one can deny the fact that Python is most widely used programming language. 
+No one can deny the fact that Python is one of the most widely used programming languages. 
 
 1. Python is highly productive and capable of performing highly complex tasks.
 2. It's a very expressive language and much more concise and requires less time, effort, and fewer lines of code to perform the same operations when compared to other programming languages like C++, java etc

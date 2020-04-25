@@ -17,8 +17,13 @@ function_name (parameters)
 
 ```py
 def greeting(name):
-    print("Happy learning" + " " + name)
+    print("Happy learning" + " " + name + "!")
 
 greeting("foo")
 ```
 
+Result of the above sample program is:
+
+```
+Happy learning foo!
+```

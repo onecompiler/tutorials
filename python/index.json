@@ -10,21 +10,39 @@
         ]
     },
     {
-        "title" : "Fundamentals",
-        "path" : "fundamentals",
+        "title" : "Variables and Datatypes",
+        "path" : "variables-and-data-types",
         "links" : [
             {
                 "title" : "Variables and Datatypes",
                 "path" : "variables-and-data-types"
-            },                                                 
+            }
+        ]
+    },
+    {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
             {
                 "title" : "Strings",
                 "path" : "strings"
-            },                                                 
+            }
+        ]
+    },
+    {
+        "title" : "Functions",
+        "path" : "functions",
+        "links" : [
             {
                 "title" : "Functions",
                 "path" : "functions"
-            },                                                 
+            }
+        ]
+    },
+    {
+        "title" : "Collections",
+        "path" : "collections",
+        "links" : [
             {
                 "title" : "Collections",
                 "path" : "collections"
@@ -42,6 +60,16 @@
             {
                 "title" : "Loops",
                 "path" : "loops"
+            }
+        ]
+    },
+    {
+        "title" : "OOPs",
+        "path" : "oops",
+        "links" : [
+            {
+                "title" : "OOPs",
+                "path" : "oops"
             }
         ]
     },
