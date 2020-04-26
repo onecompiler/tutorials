@@ -135,7 +135,7 @@ int main()
 ```
 ### Check result [here](https://onecompiler.com/c/3vkukyt2j)
 
-## SWITCH
+## Switch
 
 Switch is an alternative to IF-ELSE-IF ladder and to select one among many blocks of code.
 
@@ -152,7 +152,7 @@ case value2:
 ...    
     
 default:     
- code to be executed when all the above cases are not matched;    
+ //code to be executed when all the above cases are not matched;    
 } 
 ```
 ### Example

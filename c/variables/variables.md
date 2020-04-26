@@ -52,7 +52,7 @@ Float point literals are also numeric literals but has either a fractional form 
 
 ## 3. Character literals
 
-Character literals are represented with in single quotes. For example, \`a`, \`1` etc.
+Character literals are represented with in single quotes. For example, 'a', '1' etc.
 
 ## 4. String literals
 

@@ -45,7 +45,7 @@ Rules for defining an identifier:
 Strings are an array of characters ended with null character. Characters are enclosed in single quotes where as strings are always enclosed in double quotes.
 
 ```c
-char str[]="onecompiler";
+    char str[]="onecompiler";
 ```
 
 ## 4. Operators
