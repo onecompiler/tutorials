@@ -11,7 +11,7 @@ C++ is a widely used middle-level programming language.
 ## Why you should learn C++?
 
 * Many databases like MySQL, MongoDB, MemSQL, etc are written in C++
-* C and C++ are used in developing major operating systems such as Windows, Linux, Android, Ubuntu, iOS, etc.
+* C and C++ are used in developing major operating systems such as Windows, Linux, Android, Ubuntu, iOS etc.
 * C++ has large community support.
 * C++ is used in writing compilers, web browsers, Games and even in embedded systems.
 * C++ developers are offered with high salaries.
@@ -19,9 +19,9 @@ C++ is a widely used middle-level programming language.
  
 ## Why C++ is popular?
 
-* C++'s greatest strength is it's scalability and hence beautiful 3D games are often built in C++.
+* C++'s greatest strength is it's scalability and hence challenging 3D games are often built in C++.
 * C++ is fourth popular language according to [Tiobe Index](https://www.tiobe.com/tiobe-index/)
-* Applications which are critical reliance on speed and resource usage are usually preferred to be built in C++.
+* Applications which are critically reliable on speed and resource usage are usually preferred to be built in C++.
 * Good community support.
 
 # Installation

@@ -64,7 +64,7 @@ sudo yum install python36
 * Just goto [OneCompiler](https://Onecompiler.com) and choose the programming language as `Python` and enjoy programming without any installation.
 
 
-## Sample Program
+## Simple Python Program
 
 * You can either use text editor or any IDE to write python(.py) programs after installing python. Or **Simply open your browser and open [Onecompiler](https://https://onecompiler.com/python/)**
 

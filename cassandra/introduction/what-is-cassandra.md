@@ -1,1 +1,0 @@
-Cassandra is a free and open-source, distributed NoSQL database management system. It is provided by Apache. It is designed to handle huge amount of data providing high performance, high scalability across servers without any failure.
