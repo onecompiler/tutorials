@@ -1,6 +1,6 @@
 As the name suggests, data-type specifies the type of the data present in the variable. Variables must be declared with a data-type. 
 
-There are four different types of Data types in C.
+There are three different types of Data types in C++.
 
 | Types | Data-type|
 |----|----|
@@ -53,4 +53,4 @@ return 0;
 
 ## 2. Derived or User defined Data types 
 
-Derived Data types and user defined dta types are the ones which are derived from funcdamental data types and are defined by user. Arrays, Pointers, functions etc. are examples of derived data types. Enum, Structures, Class, union, enum, typedef etc are User defined data types. Let's learn more about them in next chapters.
+Derived Data types and user defined dta types are the ones which are derived from fundamental data types and are defined by user. Arrays, Pointers, functions etc. are examples of derived data types. Enum, Structures, Class, union, enum, typedef etc are User defined data types. Let's learn more about them in next chapters.

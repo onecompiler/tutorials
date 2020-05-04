@@ -54,7 +54,7 @@ int a[2][3] = {
 
 # How to access array elements
 
-Array elements can be accessed by using indices. Array indices starts from `0`.  Array[n-1] can be used to access nth element of an array.
+Array elements can be accessed by using indices. Array indices starts from `0`.  `Array[n-1]` can be used to access nth element of an array.
 
 ## Examples
 

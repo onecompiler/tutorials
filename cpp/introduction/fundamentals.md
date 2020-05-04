@@ -9,30 +9,21 @@ int main() {
 }  
 ```
 
-## #include <iostream>
+**`#include <iostream>`** : iostream is a inbuilt header library which allows you to deal with input and output objects like cout etc.
 
-iostream is a inbuilt header library which allows you to deal with input and output objects like cout etc.
+**`using namespace std`** : The above line means that the object and variable names can be used from standard library.
 
-## using namespace std
+**`cout`** : cout is used to print the output.
 
-The above line means that the object and variable names can be used from standard library.
+**`main()`** : main function is the entry point of any C++ program.
 
-## cout
+**`return 0`** : To end the main function
 
-cout is used to print the output.
-
-## main()
-main function is the entry point of any C++ program.
-
-## return 0
-
-To end the main function
-
-# Compile & Run
+# Compile & Run a C++ Program
 
 ## How to compile a program in C++
 
-* Open your terminal, Navigate to the directory where you have saved your program. Consider firstprogram.cpp is the name of your program.
+* Open your terminal, navigate to the directory where you have saved your program. Consider `firstprogram.cpp` is the name of your program.
 
 ```c
 sudo g++ -o firstprogram firstprogram.cpp

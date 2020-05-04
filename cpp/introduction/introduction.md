@@ -40,7 +40,7 @@ C++ is a widely used middle-level programming language.
 
 ## 3. on Linux
 
-* Most Linux operating systems are pre- installed with GCC.
+* Most Linux operating systems are pre-installed with GCC.
 
 ```shell
 gcc -version

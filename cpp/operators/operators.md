@@ -26,7 +26,7 @@ int main()
 
 An operand is what operators are applied on. In the above example `x` and `y` are the operands.
 
-# Types of Operators in C
+# Types of Operators in C++
 
 ## 1. Arithmetic Operators
 
@@ -131,12 +131,12 @@ C++ bitwise operators are used to perform bitwise operations on operands.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&` |	Bitwise AND | `(x > y) & (y > z)`|
-| `|` |	Bitwise OR | `(x > y) | (y > z)`|
-| `^` |	Bitwise XOR | `(x > y) ^ (y > z)`|
-| `~` |	Bitwise NOT	| `(~x)`|
-| `<<` | Bitwise Left Shift| `x << y`|
-| `>>` | Bitwise Right Shift| `x >> y`|
+| & |	Bitwise AND | (x > y) & (y > z)|
+| \| |	Bitwise OR | (x > y) \| (y > z)|
+| ^ |	Bitwise XOR | (x > y) ^ (y > z)|
+| ~ |	Bitwise NOT	| (~x)|
+| << | Bitwise Left Shift| x << y|
+| >> | Bitwise Right Shift| x >> y|
 
 ## 4. Logical operators
 
@@ -144,9 +144,9 @@ Below are the logical operators present in the C++.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&&` |	Logical AND | `(x > y) && (y > z)`|
-| `||` |	Logical OR | `(x > y) || (y > z)`|
-| `!` |	Logical NOT	| `(!x)`|
+| && |	Logical AND | (x > y) && (y > z)|
+| \|\| |	Logical OR | (x > y) \|\| (y > z)|
+| ! |	Logical NOT	| (!x)|
 
 ## 5. Assignment Operators
 
@@ -164,7 +164,7 @@ Below are the assignment operators present in the C++.
 | >>= | Right shift and assign|	x >>= 2 is same as x = x >> 2|
 | &= | Bitwise and assign| x &= 10 is same as x = x & 10|
 | ^= | Bitwise exclusive OR and assign| x ^= 10 is same as x = x ^ 10|
-| `|=` |Bitwise inclusive OR and assign	| `x |= 10 is same as x = x | 10`|
+| \|= |Bitwise inclusive OR and assign	| x \|= 10 is same as x = x \| 10|
 
 ### Example
 
@@ -200,6 +200,7 @@ cout <<"x value after %= operation: " << x;
 ## 6. Misc Operator
 
 * Ternary Operator
+
 If the operator is applied on a three operands then it is called ternary. This is also known as conditional operator as a condition is followed by `?` and true-expression which is followed by a `:` and false expression. This is oftenly used as a shortcut to replace if-else statement
 
 ### Example
@@ -245,8 +246,8 @@ int main()
 |----|-----|
 | Arithmetic Operator|+ , - , * , / , %|
 | comparision Operator| < , > , <= , >=, != , ==| 
-| Bitwise Operator| & , ^ , | 
-| Logical Operator| && , `||`, ! |
-| Assignment Operator|= , += , -= , *= , /= , %=, <<=, >>=, &=, ^=, `|=` |
+| Bitwise Operator| & , ^ , \|, ^ , ~, <<, >> |
+| Logical Operator| && , \|\|, ! |
+| Assignment Operator|= , += , -= , *= , /= , %=, <<=, >>=, &=, ^=, \|= |
 | Ternary Operator| ? : |
 | sizeof operator| sizeof() |

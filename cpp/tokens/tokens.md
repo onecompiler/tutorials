@@ -18,15 +18,13 @@ do           if          static     while
 
 The below keywords are present in C++ but not in C
 
-```c
-
+```
 asm         dynamic_cast        namespace	    reinterpret_cast	bool
 explicit	new	                static_cast	    false               catch
 operator	template        	friend      	private	            class
 this       	inline	            public      	throw	            const_cast
 delete  	mutable	            protected   	true	            try
 typeid  	typename	        using	        virtual             wchar_t
-
 ```
 
 
@@ -42,7 +40,7 @@ Rules for defining an identifier:
 
 ## 3. Strings
 
-Strings are an array of characters ended with null character. Characters are enclosed in single quotes where as strings are always enclosed in double quotes.
+String is an array of characters ended with null character. Characters are enclosed in single quotes where as strings are always enclosed in double quotes.
 
 ```c
 char str[]="onecompiler";

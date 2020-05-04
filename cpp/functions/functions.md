@@ -2,7 +2,7 @@ Functions is a sub-routine which contains set of statements. Usually functions a
 
 Functions allows you to divide your large lines of code into smaller ones. Usually the division happens logically such that each function performs a specific task and is up to developer.
 
-Two types of functions are present in C
+Two types of functions are present in C++:
 
 1. Library Functions
 
@@ -24,11 +24,11 @@ return_type function_name(parameters);
 function_name (parameters)
 ```
 ## How to define a Function
-
+```c
 return_type function_name(parameters){  
 //code
 }
-
+```
 # Different ways of calling a user-defined functions
 
 You can call functions in different ways as given below based on the criteria.

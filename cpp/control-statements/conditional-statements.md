@@ -2,7 +2,7 @@ When ever you want to perform a set of operations based on a condition(s) If / I
 
 You can also use if-else , nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
 
-## If
+## 1. If
 
 ### Syntax
 
@@ -30,7 +30,7 @@ int main()
 ```
 #### Check result [here](https://onecompiler.com/cpp/3vmbfhgq9)
 
-## If-else
+## 2. If-else
 
 ### Syntax
 
@@ -63,7 +63,7 @@ int main()
 ```
 #### Check result [here](https://onecompiler.com/cpp/3vmbfnjv3)
 
-## If-else-if ladder
+## 3. If-else-if ladder
 
 ### Syntax
 ```c
@@ -108,7 +108,7 @@ int main()
 ```
 #### Check result [here](https://onecompiler.com/cpp/3vmbfzw6a)
 
-## Nested-If
+## 4. Nested-If
 
 Nested-Ifs represents if block within another if block. 
 
@@ -144,7 +144,7 @@ int main()
 ```
 #### Check result [here](https://onecompiler.com/cpp/3vmbg4fkb)
 
-## SWITCH
+## 5. Switch
 
 Switch is an alternative to IF-ELSE-IF ladder and to select one among many blocks of code.
 
@@ -161,7 +161,7 @@ case value2:
 ...    
     
 default:     
- code to be executed when all the above cases are not matched;    
+ //code to be executed when all the above cases are not matched;    
 } 
 ```
 ### Example
@@ -188,7 +188,7 @@ int main()
         break;
         case 7: cout << "Saturday";
         break;
-        default:cout << "Invalid day";
+        default: cout << "Invalid day";
         break; 
       }
 }

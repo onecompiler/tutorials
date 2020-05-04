@@ -1,4 +1,4 @@
-Structures is a user-defined data type where it allows you to combine data of different data types. In a way, Structres are similar to arrays but the difference is in type of the data. Arrays is a collection of similar data but structures combine different types of data.
+Structure is a user-defined data type where it allows you to combine data of different data types. In a way, Structures are similar to arrays but the difference is in type of the data. Arrays is a collection of similar data but structures combine different types of data.
 
 # How to define a structure
 

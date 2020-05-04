@@ -64,7 +64,7 @@ String literals are represented with in double quotes. String literals contains 
 
 ##  How to define constants
 
-You can either use `#define` or `const`
+You can use either `#define` or `const` to define constants as shown below.
 
 * Using #define
 

@@ -35,7 +35,7 @@ mobile m1;
 
 You can define methods in class in two ways
 
-1. declare and define inside the class
+1. Declare and define inside the class
 
 ```c
 class mobile {
@@ -48,7 +48,7 @@ class mobile {
 };
 
 ```
-2. declare inside the class and define it outside
+2. Declare inside the class and define it outside
 
 ```c
 class mobile {

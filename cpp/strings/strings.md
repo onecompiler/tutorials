@@ -64,7 +64,7 @@ int main()
 
 # String Functions
 
-C has various in-built string functions which can manipulate null-terminated strings.
+C++ has various in-built string functions which can manipulate null-terminated strings.
 
 | Function name | Description|
 |----|----|

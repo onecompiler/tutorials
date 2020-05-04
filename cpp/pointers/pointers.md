@@ -7,7 +7,7 @@ Pointer is a variable which holds the memory information(address) of another var
 
 ## Syntax
 
-pointer data type should match with the data type of the variable which is getting pointed.
+Pointer's data type should match with the data type of the variable which is getting pointed.
 
 ```c
 datatype* pointername;

@@ -1,4 +1,4 @@
-## For
+## 1. For
 
 For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations are known in advance.
 
@@ -25,7 +25,7 @@ int main()
 
 #### Check Result [here](https://onecompiler.com/cpp/3vmbgeg6b)
 
-## While
+## 2. While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
 
@@ -55,7 +55,7 @@ while ( i <= 5) {
 ```
 #### Check result [here](https://onecompiler.com/cpp/3vmbgh3az)
 
-## Do-while
+## 3. Do-while
 
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 

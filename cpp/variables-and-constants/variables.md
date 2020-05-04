@@ -11,10 +11,10 @@ In the above syntax, assigning value is optional as you can just declare the var
 ## Naming convention of variables
 
 * Variable names can have only letters (both uppercase and lowercase letters), digits and underscore(`_`).
-* Variables naming cannot contain white spaces like first name which is a invalid variable name.
+* Variables naming cannot contain white spaces like `first name` which is a invalid variable name.
 * First letter of a variable should be either a letter or an underscore(`_`).
-* Variable type can't be changed once declared as C is a strongly typed language.
-* In C, Variable names are case sensitive and hence Name and name both are different.
+* Variable type can't be changed once declared as C++ is a strongly typed language.
+* In C++, Variable names are case sensitive and hence Name and name both are different.
 * It is always advisable to give some meaningful names to variables.
 
 ### Example
