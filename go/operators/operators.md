@@ -114,12 +114,12 @@ Go bitwise operators are used to perform bitwise operations on operands.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&` |	Bitwise AND | `(x > y) & (y > z)`|
-| `|` |	Bitwise OR | `(x > y) | (y > z)`|
-| `^` |	Bitwise XOR | `(x > y) ^ (y > z)`|
-| `&^` |	Bitwise AND NOT	| `(&^x)`|
-| `<<` | Bitwise Left Shift| `x << y`|
-| `>>` | Bitwise Right Shift| `x >> y`|
+| & |	Bitwise AND | (x > y) & (y > z)|
+| \| |	Bitwise OR | (x > y) \| (y > z)|
+| ^ |	Bitwise XOR | (x > y) ^ (y > z)|
+| &^ |	Bitwise AND NOT	| (&^x)|
+| << | Bitwise Left Shift| x << y|
+| >> | Bitwise Right Shift| x >> y|
 
 ## 4. Logical operators
 
@@ -127,9 +127,9 @@ Below are the logical operators present in the Go.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&&` |	Logical AND | `(x > y) && (y > z)`|
-| `||` |	Logical OR | `(x > y) || (y > z)`|
-| `!` |	Logical NOT	| `(!x)`|
+| && |	Logical AND | (x > y) && (y > z)|
+| \|\| |	Logical OR | (x > y) \|\| (y > z)|
+| ! |	Logical NOT	| (!x)|
 
 ## 5. Assignment Operators
 
@@ -145,7 +145,7 @@ Below are the assignment operators present in the Go.
 | %= |	Modulus and assign|	int x=100; x%=10; // x becomes 0|
 | &= | Bitwise and assign| x &= 10 is same as x = x & 10|
 | ^= | Bitwise exclusive OR and assign| x ^= 10 is same as x = x ^ 10|
-| `|=` |Bitwise inclusive OR and assign	| `x |= 10 is same as x = x | 10`|
+| \|= |Bitwise inclusive OR and assign	| x \|= 10 is same as x = x \| 10|
 
 ### Example
 

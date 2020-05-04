@@ -14,8 +14,9 @@ In the above syntax parameters and return type are optional. Also you can return
 ```c
 function_name(parameters)
 ```
+# Examples
 
-## Go Functions with return value
+## 1. Go Functions with return value
 
 ```c
 package main
@@ -34,7 +35,7 @@ func main() {
 ```
 ### Check result [here](https://onecompiler.com/go/3vpxet6rb)
 
-## Go function with arguments
+## 2. Go function with arguments
 
 ```c
 package main
@@ -56,7 +57,7 @@ func sum(args ... int) int {
 
 ### Check Result [here] (https://onecompiler.com/go/3vpxf296m)
 
-## Go function with multiple return values
+## 3. Go function with multiple return values
 
 ```c
 package main

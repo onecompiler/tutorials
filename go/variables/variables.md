@@ -7,7 +7,7 @@ Variables are like containers which holds the data values. A variable specifies 
 ```c
 var variable-name data-type
 ```
-Mentioning datatype can be optional.
+Mentioning datatype is optional.
 
 ## How to assign variables
 

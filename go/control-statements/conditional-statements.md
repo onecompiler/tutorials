@@ -140,7 +140,7 @@ if (age > 18) {
 ```
 ### Check result [here](https://onecompiler.com/go/3vpq3q7g5)
 
-## 5. SWITCH
+## 5. Switch
 
 Switch is an alternative to IF-ELSE-IF ladder and to select one among many blocks of code.
 

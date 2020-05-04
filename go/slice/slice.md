@@ -52,5 +52,5 @@ Some interesting facts about Slice in Go
     }
     ```
 
-    ### Check Result [here](https://onecompiler.com/go/3vq7q5aap)
+### Check Result [here](https://onecompiler.com/go/3vq7q5aap)
 
