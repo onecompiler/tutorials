@@ -259,7 +259,7 @@ mydict = {
     "brand" :"iPhone",
     "model": "iPhone 11",
     "cost" : "$1000",
-    "color" : "Black" # prints {'brand': 'iPhone', 'model': 'iPhone 11', 'cost': '$1000'}
+    "color" : "Black"
 }
 del mydict["color"]
 print(mydict)

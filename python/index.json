@@ -106,5 +106,16 @@
                 "path" : "pandas"
             }
         ]
+    },
+    {
+        "title" : "Solved examples",
+        "path" : "examples",
+        "links" : [
+            {
+                "title" : "Examples",
+                "path" : "examples"
+            }
+        ]
     }
+
 ]
