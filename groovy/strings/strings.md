@@ -1,6 +1,6 @@
-Strings in Groovy are an ordered series of characters usually enclosed in quotations. single quotes (’), double quotes (“), or triple quotes (“””) can be used to enclose strings in Groovy. You can also use forward slash `/` or dollar-forward slash `$/` is used to enclose strings. If a string contains multiple lines, then triple quotes `“””`, or forward slash `/` or dollar-forward slash `$/` are used.
+Strings in Groovy are an ordered series of characters usually enclosed in quotations. single quotes (’), double quotes (“), or triple quotes (“””) can be used to enclose strings in Groovy. You can also use forward slash `/` or dollar-forward slash `$/` to enclose strings. If a string contains multiple lines, then triple quotes `“””`, or forward slash `/` or dollar-forward slash `$/` are used.
 
-Similar to arrays, individual characters of a string can be accessed by it's indexing. Indices starts from `0` and hence string[0] represents it's first character present in the string. Negative indices indicates to count back from the end of the string.
+Similar to arrays, individual characters of a string can be accessed by it's indexing. Indices starts from `0` and hence `string[0]` represents it's first character present in the string. Negative indices indicates to count back from the end of the string.
 
 ## How to declare strings
 

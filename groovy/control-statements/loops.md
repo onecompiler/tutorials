@@ -1,6 +1,6 @@
-## While
+## 1. While
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
+While is used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
 
 ### Syntax
 
@@ -20,7 +20,7 @@ while ( i <= 10) {
 ```
 #### Check result [here](https://onecompiler.com/groovy/3vmssgpur)
 
-## For
+## 2. For
 
 For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations are known in advance.
 
@@ -42,7 +42,7 @@ for (int i = 1; i <= 10; i++) {
 #### Check Result [here](https://onecompiler.com/groovy/3vmssnvg8)
 
 
-## For..in
+## 3. For..in
 
 For..in is used to loop through ranges or set of values.
 

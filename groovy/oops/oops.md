@@ -7,7 +7,9 @@ Object is a basic unit in OOP, and is an instance of the class. They have state 
 State of the objects can be represented by variables and behaviour of the objects can be represented by methods. Object is a real-world or run-time entity.
 
 **Object** : Mobile
+
 **State** : Model, Brand, Color, Size
+
 **Behaviour** : Make a call, send a message, Click a picture
 
 Class is the blueprint of an object, which is also referred as user-defined data type with variables and functions. Class is a logical entity.
@@ -19,7 +21,7 @@ Class can contain:
 * Constructors
 * Nested class and interfaces
 
-### How to create a Class
+## How to create a Class
 
 `class` keyword is required to create a class.
 
@@ -38,12 +40,12 @@ class mobile {
     int cost; // int variable (attribute)
 };
 ```
-### How to create a Object
+## How to create a Object
 
 ```java
 mobile m1;
 ```
-### How to define methods in a class
+## How to define methods in a class
 
 ```java
 public class greeting {
@@ -62,32 +64,32 @@ public class greeting {
 
 Inheritance is a process of acquiring parent properties and behaviour by a child automatically. Hence you can either reuse or extend parent properties or behaviour in the child class. The main advantage of inheritance is code reusability. Use the keyword `extends` to inherit from a class.
 
-### Type of Inheritance
+## Type of Inheritance
 
-* Single inheritance
+* ### Single inheritance
 
     When a child inherits properties from a single parent
 
-* Multiple inheritance
+* ### Multiple inheritance
 
     When a child inherits its properties from two or more parents.
 
-* Hierarchical inheritance
+* ### Hierarchical inheritance
 
     When multiple children inherit properties from a parent
 
-* Multilevel inheritance
+* ### Multilevel inheritance
 
     When a parent properties are inherited by a child which again get interited by another child. For example, B is inherited from A and C is inherited from B. 
 
     A -> B -> C
-* Hybrid inheritance
+* ### Hybrid inheritance
 
     Hybrid inheritance is a combination or two or more inheritance types.
 
 # 3. Encapsulation
 
-Encapsulation is a mechanism to protect private hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private. You can make public `set` and `get` methods to access private variables.
+Encapsulation is a mechanism to protect private data hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private. You can use public `set` and `get` methods to access private variables.
 
 ```java
 EmployeeDetails o = new EmployeeDetails();

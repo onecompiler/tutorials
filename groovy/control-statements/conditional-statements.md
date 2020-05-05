@@ -2,7 +2,7 @@ When ever you want to perform a set of operations based on a condition(s) If / I
 
 You can also use if-else , nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
 
-## If
+## 1. If
 
 ### Syntax
 
@@ -25,7 +25,7 @@ if(conditional-expression)
 ```
 #### Check result [here](https://onecompiler.com/groovy/3vmstfxxj)
 
-## If-else
+## 2. If-else
 
 ### Syntax
 
@@ -51,7 +51,7 @@ if(conditional-expression)
 ```
 #### Check result [here](https://onecompiler.com/groovy/3vmstjqra)
 
-## If-else-if ladder
+## 3. If-else-if ladder
 
 ### Syntax
 ```java
@@ -89,7 +89,7 @@ int age = 15;
 ```
 #### Check result [here](https://onecompiler.com/groovy/3vmstpxqc)
 
-## Nested-If
+## 4. Nested-If
 
 Nested-Ifs represents if block within another if block. 
 
@@ -119,7 +119,7 @@ if(conditional-expression-1) {
 ```
 #### Check result [here](https://onecompiler.com/groovy/3vmstygr5)
 
-## SWITCH
+## 5. Switch
 
 Switch is an alternative to IF-ELSE-IF ladder and to select one among many blocks of code.
 

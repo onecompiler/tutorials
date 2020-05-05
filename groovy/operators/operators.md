@@ -101,14 +101,14 @@ Relational operators are used to compare two operands.
 
 ## 3. Bitwise Operators
 
- bitwise operators are used to perform bitwise operations on operands.
+Bitwise operators are used to perform bitwise operations on operands.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&` |	Bitwise AND | `(x > y) & (y > z)`|
-| `|` |	Bitwise OR | `(x > y) | (y > z)`|
-| `^` |	Bitwise XOR | `(x > y) ^ (y > z)`|
-| `~` |	Bitwise NOT	| `(~x)`|
+| & |	Bitwise AND | (x > y) & (y > z)|
+| \| |	Bitwise OR | (x > y) | (y > z)|
+| ^ |	Bitwise XOR | (x > y) ^ (y > z)|
+| ~ |	Bitwise NOT	| (~x)|
 
 ## 4. Logical operators
 
@@ -116,9 +116,9 @@ Below are the logical operators present in Groovy.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&&` |	Logical AND | `(x > y) && (y > z)`|
-| `||` |	Logical OR | `(x > y) || (y > z)`|
-| `!` |	Logical NOT	| `(!x)`|
+| && |	Logical AND | (x > y) && (y > z)|
+| \|\| |	Logical OR | (x > y) \|\| (y > z)|
+| ! |	Logical NOT	| (!x)|
 
 ## 5. Assignment Operators
 
@@ -163,6 +163,6 @@ println"x value after %= operation: " + x;
 |----|-----|
 | Arithmetic Operators|+ , - , * , / , %|
 | comparision Operators| < , > , <= , >=, != , ==| 
-| Bitwise Operators| & , ^ , | 
-| Logical Operators| && , `||`, ! |
+| Bitwise Operators| & , ^ , \|| 
+| Logical Operators| && , \|\|, ! |
 | Assignment Operators|= , += , -= , *= , /= , %=|

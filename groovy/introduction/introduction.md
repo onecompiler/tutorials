@@ -33,7 +33,7 @@ Apache Groovy is a dynamic and agile language which is similar to Python, Ruby, 
     ```sh
     $ sdk install groovy
     ```
-5. Once installation is complete and test with below command
+5. Once installation is complete, test using the below command.
     ```sh
     $ groovy -version
     ```
@@ -50,7 +50,6 @@ println "Hello World!"
 ### Try yourself [here](https://onecompiler.com/groovy)
 
 The above program when written in Java:
-
 
 ```java
 public class HelloWorld {

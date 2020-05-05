@@ -1,4 +1,4 @@
-Groovy closure is an open, anonymous, block of code. Cloaure can take arguments and can return a value. They can be assigned to a variable as well.
+Groovy closure is an open, anonymous, block of code. Closure can take arguments and can return a value. They can be assigned to a variable as well.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ Below are some of the examples of closure definitions
 
 Closure parameters can be implicit or explicit.  When a closure does not explicitly define a parameter, then closure always defines an implicit parameter called `it`. 
 
-### implicit
+### Implicit
 
 ```java
 def msg = { "Hello, $it!" }

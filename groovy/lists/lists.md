@@ -1,6 +1,6 @@
-Lists is like stack which is used to store  collection of data items. A List literal is presented as a series of data objects separated by commas and enclosed in square brackets. Data objects need not to be of same type.
+List is like stack which is used to store  collection of data items. A List literal is presented as a series of data objects separated by commas and enclosed in square brackets. Data objects present in the list need not to be of same type.
 
-Groovy Lists are indexed like arrays and it starts from zero, means list[0] refers to first element.
+Groovy Lists are indexed like arrays and it starts from zero, means `list[0]` refers to first element.
 
 ## Example
 

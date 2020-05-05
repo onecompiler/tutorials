@@ -1,6 +1,6 @@
 Regular expressions are used to find a sub-string from a given string. By placing `~` infront of a string, you can define regular expressions. 
 
-Usually single or double or triple quotations are used to declare strings, There is one more way which is moew helpful is by defining the string using `/.../` . In this way, you don't need to escape a backslash character.
+Usually single or double or triple quotations are used to declare strings, there is one more way which is more helpful is by defining the string using `/.../` . In this way, you don't need to escape a backslash character.
 
 You can compare a string against a regular expression using `=~` and  you can access the result of the found by using indexing. 
 

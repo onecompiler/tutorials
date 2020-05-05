@@ -8,7 +8,7 @@ def map2 = [:] // empty map
 ```
 ## Methods
 
-| Methoname | Description|
+| Method name | Description|
 |----|----|
 | containsKey() | Used to check if a key is present in a given Map|
 | get() | Looks for the key in the map and returns it's corresponding value.If there is no match then returns null|
