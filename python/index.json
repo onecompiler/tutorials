@@ -20,6 +20,16 @@
         ]
     },
     {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        ]
+    },
+    {
         "title" : "Strings",
         "path" : "strings",
         "links" : [

@@ -4,7 +4,7 @@ Let us understand the below terms before we get into more details.
 
 An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. In the below example, `+` is the operator. 
 
-```Python
+```py
 x = 1
 y = 2
 print (x+y)
@@ -97,3 +97,16 @@ Identity operators are used to compare the objects whether they same objects wit
 |----|----|----|
 |is  | Returns true if both variables are actually same objects| x is y 	|
 |is not | Returns true if both variables are not the same objects |	x is not y|
+
+## Summary
+
+|Type|Operators|
+|----|----|
+| Arithmetic Operators| +  -  *  /  %  **  //|
+| Comparision Operators| ==  !=   >  >=  <  <=|
+| Bitwise Operators| &  ^  \| ^ ~ << >> |
+| Logical Operators| &&  \|\| ! |
+| Assignment Operators|=  +=  -=  *=  /=  %=  **=  //=|
+| Membership Operators| in, not in |
+| Identity Operators | is, is not|
+
