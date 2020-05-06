@@ -13,7 +13,7 @@ let x = 999;
 
 ## 2. String
 
-String datatype represents text or you can say series of characters. You can use double quotes (" ") or single quotes (' ') or back ticks (``) to represent strings.
+String datatype represents text or you can say series of characters. You can use double quotes (" ") or single quotes (' ') or back ticks (\`\`) to represent strings.
 
 ### Example
 ```javascript

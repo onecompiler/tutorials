@@ -32,7 +32,7 @@ x = -x; // Unary nagation
 console.log(x); // prints -4
 ```
 
-### 4. binary
+### 4. Binary
 
 If the operator is applied on a two operands then it is called binary.
 
@@ -104,13 +104,13 @@ JavaScript bitwise operators are used to perform bitwise operations on operands.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&` |	Bitwise AND | `(x > y) & (y > z)`|
-| `|` |	Bitwise OR | `(x > y) | (y > z)`|
-| `^` |	Bitwise XOR | `(x > y) ^ (y > z)`|
-| `~` |	Bitwise NOT	| `(~x)`|
-| `<<` | Bitwise Left Shift| `x << y`|
-| `>>` | Bitwise Right Shift| `x >> y`|
-| `>>>` | Bitwise Right Shift with Zero| `x >>> y`|
+| & |	Bitwise AND | (x > y) & (y > z)|
+| \| |	Bitwise OR | (x > y) \| (y > z)|
+| ^ |	Bitwise XOR | (x > y) ^ (y > z)|
+| ~ |	Bitwise NOT	| (~x)|
+| << | Bitwise Left Shift| x << y|
+| >> | Bitwise Right Shift| x >> y|
+| >>> | Bitwise Right Shift with Zero| x >>> y|
 
 
 ## 4. Logical operators
@@ -119,9 +119,9 @@ Below are the logical operators present in the Javascript.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| `&&` |	Logical AND | `(x > y) && (y > z)`|
-| `||` |	Logical OR | `(x > y) || (y > z)`|
-| `!` |	Logical NOT	| `(!x)`|
+| && |	Logical AND | (x > y) && (y > z)|
+| \|\| |	Logical OR | (x > y) \|\| (y > z)|
+| ! |	Logical NOT	| (!x)|
 
 ## 5. Assignment Operators
 

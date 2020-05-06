@@ -1,4 +1,4 @@
-* It is very important to understand Objects in depth in order to understand Javascript as almost everything can be considered as Object in Javscript.
+* It is very important to understand Objects in depth in order to understand Javascript as almost everything can be considered as Objects in Javscript.
 
 * All Javascript values except primitives(string, number, bigInt, boolean, null, undefined) are Objects like Arrays, Regular expressions, Functions, Dates, Maths etc.
 
@@ -45,7 +45,7 @@ console.log(employee["last name"]); // [] are used if the property name is a mul
 ```javascript
 delete employee.businessUnit;
 ```
-click [here](https://onecompiler.com/javascript/3vhrvjmm4) to run the results of above concepts.
+Try yourself [here](https://onecompiler.com/javascript/3vhrvjmm4).
 
 ## How to iterate over an Object Properties.
 

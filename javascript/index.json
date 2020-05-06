@@ -106,5 +106,15 @@
                 "path" : "callback-functions"
             }
         ]
+    },
+    {
+        "title" : "Solved examples",
+        "path" : "examples",
+        "links" : [
+            {
+                "title" : "Examples",
+                "path" : "examples"
+            }
+        ]
     }
 ]
