@@ -1,0 +1,32 @@
+[
+    {
+        "title" : "Introduction to R",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            }
+        ]
+    },
+    {
+        "title" : "Data Types",
+        "path" : "data-types",
+        "links" : [
+            {
+                "title" : "Data Types",
+                "path" : "data-types"
+            }
+        ]
+    },
+    {
+        "title" : "Variables",
+        "path" : "variables",
+        "links" : [
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            }
+        ]
+    }
+]
