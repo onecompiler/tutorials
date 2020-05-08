@@ -72,5 +72,45 @@
                 "path" : "functions"
             }
         ]
+    },
+    {
+        "title" : "Vector",
+        "path" : "vector",
+        "links" : [
+            {
+                "title" : "Vector",
+                "path" : "vector"
+            }
+        ]
+    },
+    {
+        "title" : "Lists",
+        "path" : "lists",
+        "links" : [
+            {
+                "title" : "Lists",
+                "path" : "lists"
+            }
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Matrices",
+        "path" : "matrices",
+        "links" : [
+            {
+                "title" : "Matrices",
+                "path" : "matrices"
+            }
+        ]
     } 
 ]
