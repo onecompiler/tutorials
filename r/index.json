@@ -112,5 +112,25 @@
                 "path" : "matrices"
             }
         ]
-    } 
+    },
+    {
+        "title" : "Data Frames",
+        "path" : "data-frame",
+        "links" : [
+            {
+                "title" : "Data Frames",
+                "path" : "data-frame"
+            }
+        ]
+    }, 
+    {
+        "title" : "Factors",
+        "path" : "factors",
+        "links" : [
+            {
+                "title" : "Factors",
+                "path" : "factors"
+            }
+        ]
+    }
 ]
