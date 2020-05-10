@@ -1,4 +1,4 @@
-Array is a variable which gives dynamic storage for a list. SInce list is immutable, you can't change the list items directly. If you want to modify the list, you need to store it in an array variable.
+Array is a variable which gives dynamic storage for a list. Since list is immutable, you can't change the list items directly. If you want to modify the list, you need to store it in an array variable.
 
 Array variable begins with `@`. 
 

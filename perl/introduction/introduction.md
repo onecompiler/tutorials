@@ -21,7 +21,7 @@ Perl(Practical Extraction and Report Language) is especially designed for text p
 # Sample program
 
 ```perl
-print "Hello World!!"; // to display "Hello World!!"
+print "Hello World!!"; # to display "Hello World!!"
 ```
 ### Run [here](https://onecompiler.com/perl)
 

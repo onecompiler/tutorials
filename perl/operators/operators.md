@@ -141,7 +141,7 @@ Below are the assignment operators present in Perl.
 | >>= | Right shift and assign|	$x >>= 2 is same as $x = $x >> 2|
 | &= | Bitwise and assign| $x &= 10 is same as $x = $x & 10|
 | ^= | Bitwise exclusive OR and assign| $x ^= 10 is same as $x = $x ^ 10|
-| `|=` |Bitwise inclusive OR and assign	| `$x |= 10 is same as $x = $x | 10`|
+| \|= |Bitwise inclusive OR and assign	| `$x |= 10 is same as $x = $x | 10`|
 
 ### Example
 
