@@ -4,18 +4,18 @@ They have labels which are associated with the unique integers stored in it and 
 
 `factor()` function is used to convert a vector into factor.
 
-```r
+```py
 factorData<- factor(inputVector)
 ```
 `is.factor()` is used to check whether the input given is a factor or not.
 
-```r
+```py
 is.factor(factorData)
 ```
 
 ### Example
 
-```r
+```py
 inp <- c("MALE", "FEMALE","MALE","FEMALE","RATHER NOT SAY")  
   
 print(inp)  
@@ -32,7 +32,7 @@ print(is.factor(factor_inp))
 
 Factors can be accessed by using it's index.
 
-```r
+```py
 inp <- c("MALE", "FEMALE","MALE","FEMALE","RATHER NOT SAY")  
 
 factor_inp<- factor(inp)  

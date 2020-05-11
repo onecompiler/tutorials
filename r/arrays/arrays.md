@@ -4,7 +4,7 @@ Array is a data object which allows users to store data in more than two dimensi
 
 ### Syntax
 
-```r
+```java
 arrayName <- array(data, dim= (rowSize, columnSize, matrices, dimNames))  
 ```
 * **data** : data is an input vector
@@ -15,8 +15,8 @@ arrayName <- array(data, dim= (rowSize, columnSize, matrices, dimNames))
 
 ### Example
 
-```r
-x <- c(1,2,3)
+```py
+x <- c(1,2,3)`
 y <- c(4,5,6,7,8,9)
 
 arr <- array(c(x,y),dim=c(3,3,2)) # 3 rows, 3 columns and 2 matrices
@@ -26,7 +26,7 @@ print(arr)
 
 Below is an example which shows you how to name rows, columns and matrices.
 
-```r
+```py
 x <- c(1,2,3)
 y <- c(4,5,6,7,8,9)
 
@@ -42,7 +42,7 @@ print(arr)
 
 Array elements are accessed by using it's indices.
 
-```r
+```py
 x <- c(1,2,3)
 y <- c(4,5,6,7,8,9)
 

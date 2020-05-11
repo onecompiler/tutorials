@@ -10,7 +10,7 @@ Data Frame is a list which is of equal length vectors. Data frames can contain d
 `frame()` function is used to create a data frame.
 
 ## Example
-```r
+```py
 student.data <- data.frame(
    studentID = c (101:104), 
    firstName = c("Foo","Bar","Alex","Mark"),
@@ -28,7 +28,7 @@ print(student.data)
 
 Data from a data frame can be accessed as shown below:
 
-```r
+```py
 
 student.data <- data.frame(
    studentID = c (101:104), 

@@ -21,7 +21,7 @@ Let's discuss abour Lists in next chapters
 When you assign just one value to a vector then it is called single element vector
 
 ### Example
-```r
+```java
 x <- "s" #Character type atomic vector
 print(x); 
 
@@ -48,7 +48,7 @@ When you assign more values to a vector then it is called multiple elements vect
 
 ### Example
 
-```r
+```java
 x <- 1:10 # Creating a sequence from 1 to 10 using colon
 print(x); 
 
@@ -68,7 +68,7 @@ print(x)
 
 Vectors can be accessed using it's indices. Indexing starts with position 1 means `vector[0]` represents it's first element.
 
-```r
+```java
 
  x <- c(1, "One", 2 , "two", 3 , "three", 4 , "four", 5 , "five")
 cat("first element:",x[1],"\n\n");

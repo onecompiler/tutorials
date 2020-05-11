@@ -17,7 +17,7 @@ R arithmetic operators are used to perform arithmetic operations on operands.
 
 ### Example
 
-```r
+```java
 x <- c (5, 2, 2)
 y <- c (7, 3, 9)
 cat ("x + y:", x + y, "\n\n")
@@ -60,7 +60,7 @@ R relational operators are used to compare two operands.
 
 ### Example
 
-```r
+```java
 x <- c (5, 2, 9)
 y <- c (7, 2, 3)
 
@@ -93,7 +93,7 @@ Below are the logical operators present in the R.
 
 ### Example
 
-```r
+```java
 x <- c(7, 1, 0, 0, TRUE, 3+2i)
 y <- c(9, 1, 0, 1, FALSE, 2+3i)
 
@@ -121,7 +121,7 @@ Below are the assignment operators present in R.
 
 ### Example
 
-```r
+```java
 
 x <- c(7, 1, 0, 0, TRUE, 3+2i)
 y <<- c(9, 1, 0, 1, FALSE, 2+3i)
@@ -153,7 +153,7 @@ cat("b:",b,"\n\n")
 
 ### Example
 
-```r
+```java
 x <- 1:10
 cat("x:", x, "\n\n")
 

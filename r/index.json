@@ -74,12 +74,12 @@
         ]
     },
     {
-        "title" : "Vector",
-        "path" : "vector",
+        "title" : "Vectors",
+        "path" : "vectors",
         "links" : [
             {
-                "title" : "Vector",
-                "path" : "vector"
+                "title" : "Vectors",
+                "path" : "vectors"
             }
         ]
     },

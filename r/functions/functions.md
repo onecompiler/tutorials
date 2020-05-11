@@ -1,4 +1,4 @@
-Functions is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
+Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
 Functions allows you to divide your large lines of code into smaller ones. Usually the division happens logically such that each function performs a specific task and is up to developer.
 
@@ -6,7 +6,7 @@ R provides a large number of in-built functions (refer [here](https://cran.r-pro
 
 ## How to define a Function
 
-```r
+```py
 function_name <- function(arg1, arg2, ...) {
   #code 
 }
@@ -21,7 +21,7 @@ function_name(arguments)
 
 ### 1. Function with no arguments
 
-```r
+```py
 greetings <- function() {
   print("I'm in function")
 }
@@ -32,7 +32,7 @@ greetings()
 
 ### 2. Function with arguments
 
-```r
+```py
 sum <- function(x, y) {
   cat("Sum:", x+y)
 }
