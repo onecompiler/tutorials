@@ -29,7 +29,26 @@
             }
         ]
     },
-
+    {
+        "title" : "Constants",
+        "path" : "constants",
+        "links" : [
+            {
+                "title" : "Constants",
+                "path" : "constants"
+            }
+        ]
+    },
+    {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }
+        ]
+    },
     {
         "title" : "Operators",
         "path" : "operators",
@@ -37,6 +56,30 @@
             {
                 "title" : "Operators",
                 "path" : "operators"
+            }
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
             }
         ]
     }

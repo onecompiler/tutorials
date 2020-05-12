@@ -1,4 +1,4 @@
-As the name suggests, data-type specifies the type of the data present in the variable. Variables need to be declared with a data-type in PHP. Below are the different data types in PHP.
+As the name suggests, data-type specifies the type of the data present in the variable. Variables need not to be declared with a data-type in PHP as it is a loosely typed language. Below are the different data types in PHP.
 
 ## 1. Integer data type 
 
