@@ -82,5 +82,45 @@
                 "path" : "arrays"
             }
         ]
+    },
+    {
+        "title" : "Functions",
+        "path" : "functions",
+        "links" : [
+            {
+                "title" : "Functions",
+                "path" : "functions"
+            }
+        ]
+    },
+    {
+        "title" : "OOPs",
+        "path" : "oops",
+        "links" : [
+            {
+                "title" : "OOPs",
+                "path" : "oops"
+            }
+        ]
+    },
+    {
+        "title" : "Working with Files",
+        "path" : "working-with-files",
+        "links" : [
+            {
+                "title" : "CRUD Operations",
+                "path" : "crud-with-files"
+            }
+        ]
+    },
+    {
+        "title" : "Working with database",
+        "path" : "working-with-database",
+        "links" : [
+            {
+                "title" : "CRUD with database",
+                "path" : "crud-with-database"
+            }
+        ]
     }
 ]
