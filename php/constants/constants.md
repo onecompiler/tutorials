@@ -25,7 +25,7 @@ echo MESSAGE;
 ```
 ### Run [here](https://onecompiler.com/php/3vsr5xpxg)
 
-You can define the constant name as case-insensitive by seeting the third parameter in the baove syntax to true.
+You can define the constant name as case-insensitive by making the third parameter in the above syntax to true.
 
 ```php
 <?php

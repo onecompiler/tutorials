@@ -151,7 +151,7 @@ Below are the assignment operators present in the Php.
 
 ## 5. Conditional Operator
 
-If the operator is applied on a three operands then it is called ternary. This is also known as ternary operator as a condition is followed by `?` and true-expression which is followed by a `:` and false expression. This is oftenly used as a shortcut to replace if-else statement
+If the operator is applied on three operands then it is called conditional operator. This is also known as ternary operator as a condition is followed by `?` and true-expression which is followed by a `:` and false expression. This is oftenly used as a shortcut to replace if-else statement.
 
 ### Example
 

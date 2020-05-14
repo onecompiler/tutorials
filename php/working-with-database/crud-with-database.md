@@ -1,4 +1,4 @@
-PHP can interact almost all the databases but most commonly used database is MySQL. Let's discuss more in detail on how PHP interacts with MySQL.
+PHP can interact with almost all the databases but most commonly used database is MySQL. Let's discuss more in detail on how PHP interacts with MySQL here.
 
 ## How to connect to MySQL database
 
@@ -8,7 +8,7 @@ Usually MySQLi extension is automatically available with PHP, if not you can ref
 
 Refer PDO installation steps [here](http://php.net/manual/en/pdo.installation.php)
 
-### Open a MySQL database connection
+## How to Open a MySQL database connection
 
 MySQLi:
 ```php
@@ -18,7 +18,7 @@ PDO:
 ```php
 $conn = new PDO("mysql:host=$servername;dbname=DBname", $username, $password);
 ```
-### Close a MySQL database connection
+## How to Close a MySQL database connection
 
 MySQLi:
 ```php

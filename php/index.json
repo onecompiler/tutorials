@@ -108,8 +108,8 @@
         "path" : "working-with-files",
         "links" : [
             {
-                "title" : "CRUD Operations",
-                "path" : "crud-with-files"
+                "title" : "File Operations",
+                "path" : "working-with-files"
             }
         ]
     },

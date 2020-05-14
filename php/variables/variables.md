@@ -8,9 +8,9 @@ $variable-name = value;
 
 * Variable names starts with `$` followed by name of the variable.
 * variable name should begin with a `letter` or underscore(`_`).
-* Variables naming cannot contain white spaces like first name which is a invalid variable name.
+* Variables naming cannot contain white spaces like `first name` which is a invalid variable name.
 * variable name cannot start with a number.
-* variable names are case-sensite and hence `name`, `NAME` and `Name` are three different variables.
+* variable names are case-sensitive and hence `name`, `NAME` and `Name` are three different variables.
 
 ## Example
 

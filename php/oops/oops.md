@@ -1,4 +1,4 @@
-PHP was initially developed as procedural programming language but later extended it's capabilities is an OOP(object oriented programming) language. It supports all the concepts of OOPS like Classes, objects, inheritance, encapsulation, abstraction, and polymorphism. 
+PHP was initially developed as procedural programming language but later extended it's capabilities as an OOP(object oriented programming) language. It supports all the concepts of OOPS like Classes, objects, inheritance, encapsulation, abstraction, and polymorphism. 
 
 # What is OOP
 
@@ -35,11 +35,11 @@ $ObjName = new className();
 
 ## 2. Encapsulation
 
-Encapsulation is a mechanism to protect private hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private. 
+Encapsulation is a mechanism to protect private information hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private. 
 
 ## 3. Abstraction
 
-Data abstraction is a technique which provides only the required data to be visible or accessible to outside world. For example, making a call on a mobile. the logic behind making the call is not visible to others but it provides an abstract details of just call button to outside world.
+Data abstraction is a technique which provides only the required data to be visible or accessible to outside world. For example, making a call on a mobile. The logic behind making the call is not visible to others but it provides an abstract details of just call button to outside world.
 
 ## 4. Inheritance
 
