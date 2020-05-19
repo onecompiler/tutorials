@@ -1,0 +1,127 @@
+[
+    {
+        "title" : "Introduction to C#",
+        "path" : "introduction",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            }
+        ]
+    },
+    {
+        "title" : "Data Types",
+        "path" : "data-types",
+        "links" : [
+            {
+                "title" : "Data Types",
+                "path" : "data-types"
+            }
+        ]
+    },
+    {
+        "title" : "Variables",
+        "path" : "variables",
+        "links" : [
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            }
+        ]
+    },
+    {
+        "title" : "Constants",
+        "path" : "constants",
+        "links" : [
+            {
+                "title" : "Constants",
+                "path" : "constants"
+            }
+        ]
+    },
+    {
+        "title" : "Operators",
+        "path" : "operators",
+        "links" : [
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "Strings",
+        "path" : "strings",
+        "links" : [
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Structures",
+        "path" : "structures",
+        "links" : [
+            {
+                "title" : "Structures",
+                "path" : "structures"
+            }
+        ]
+    },
+    
+    {
+        "title" : "Enumeration",
+        "path" : "enum",
+        "links" : [
+            {
+                "title" : "Enumeration",
+                "path" : "enum"
+            }
+        ]
+    },
+    {
+        "title" : "Functions",
+        "path" : "functions",
+        "links" : [
+            {
+                "title" : "Functions",
+                "path" : "functions"
+            }
+        ]
+    },
+    {
+        "title" : "OOPs",
+        "path" : "oops",
+        "links" : [
+            {
+                "title" : "OOPs",
+                "path" : "oops"
+            }
+        ]
+    }
+]
