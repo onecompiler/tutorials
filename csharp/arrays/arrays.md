@@ -17,12 +17,12 @@ data-type[] array-name;
 data-type[] array-name; //declaration
 array-name = new data-type[size]{ array-elements }; //initialization
 ```
-[or]
+\[or\]
 
 ```c#
 data-type[] array-name =  new data-type[size]{ array-elements }; //declaration and initialization
 ```
-[or]
+\[or\]
 
 ```c#
 data-type[] array-name =  { array-elements }; //short syntax of array declaration and initialization

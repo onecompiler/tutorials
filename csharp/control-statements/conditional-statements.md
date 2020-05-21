@@ -23,12 +23,12 @@ namespace loops
 	{
 		public static void Main(string[] args)
 		{
-		  int x = 30;
-      int y = 30;
+        int x = 30;
+        int y = 30;
 
-      if ( x == y) {
-	      Console.WriteLine("x and y are equal");
-      }
+        if ( x == y) {
+            Console.WriteLine("x and y are equal");
+        }
 		}
 	}
 }

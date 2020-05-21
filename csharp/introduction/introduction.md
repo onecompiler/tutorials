@@ -48,9 +48,6 @@ scl enable rh-dotnet31 bash
 
 ```c#
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace HelloWorld
 {

@@ -1,7 +1,7 @@
 
 An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. C# provides rich set of in-built operators.
 
-# Types of Operators in C#
+# Types of Operators in C\#
 
 ## 1. Arithmetic Operators
 
@@ -21,11 +21,8 @@ C# arithmetic operators are used to perform arithmetic operations on operands.
 
 ```c#
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 
-namespace HelloWorld
+namespace Operators
 {
 	public class ArithmeticOperators
 	{
@@ -80,9 +77,6 @@ C# relational operators are used to compare two operands.
 
 ```C#
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace Operators
 {

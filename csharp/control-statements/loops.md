@@ -23,7 +23,7 @@ namespace Loops
 		{
 	
 		  for (int i = 1; i <= 10; i++) {
-        Console.WriteLine(i);
+          Console.WriteLine(i);
       }
 			
 		}
@@ -56,13 +56,12 @@ namespace Loops
 	{
 		public static void Main(string[] args)
 		{
-	    int i = 1;
-		  while (i <= 10) {
+        int i = 1;
+		    while (i <= 10) {
         Console.WriteLine(i);
         i++;
-      }
-			
-		}
+        }
+	  }
 	}
 }
 ```
@@ -91,10 +90,10 @@ namespace Loops
 	{
 		public static void Main(string[] args)
 		{
-	    int i = 1;
-		  do {
-        Console.WriteLine(i);
-        i++;
+      int i = 1;
+      do {
+      Console.WriteLine(i);
+      i++;
       } while(i <= 10 );
 			
 		}
