@@ -1,7 +1,7 @@
 
 An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. C# provides rich set of in-built operators.
 
-# Types of Operators in C\#
+# Types of Operators in C#
 
 ## 1. Arithmetic Operators
 
