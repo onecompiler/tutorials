@@ -9,11 +9,6 @@ Arrays store the collection of data sequentially in memory and they must share s
 ## How to declare an array?
 
 ```c#
-data-type[] array-name;
-```
-## How to declare an array?
-
-```c#
 data-type[] array-name; //declaration
 array-name = new data-type[size]{ array-elements }; //initialization
 ```
