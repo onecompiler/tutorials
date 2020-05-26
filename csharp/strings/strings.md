@@ -1,4 +1,4 @@
-String is a sequence of characters enclosed in double quotes at the end. 
+String is a sequence of characters enclosed in double quotes. 
 
 ## How to declare strings
 
@@ -16,7 +16,7 @@ string str = "OneCompiler";
 
 ## String Functions
 
-C# has various in-built string functions which can manipulate strings.Some of the frequently used string functions are listed below:
+C# has various in-built string functions which can manipulate strings. Some of the frequently used string functions are listed below:
 
 | Function name | Description|
 |----|----|
