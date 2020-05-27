@@ -1,4 +1,4 @@
-VB.net(Visual Basic . Network Enabled Technologies) is a simple general purpose programming language developed by Microsoft. Though this language is aimed at beginners, you can create very powerful and scalable applications using it. VB.netis a object-oriented programming language implemented on the .NET framework. 
+VB.net (Visual Basic . Network Enabled Technologies) is a simple general purpose programming language developed by Microsoft. Though this language is aimed at beginners, you can create very powerful and scalable applications using it. VB.net is a object-oriented programming language implemented on the .NET framework. 
 
 ## Key Features
 

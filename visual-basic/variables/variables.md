@@ -2,7 +2,7 @@ Variables are like containers which holds the data values. A variable specifies 
 
 ## How to declare variables
 
-```c#
+```vb
 Dim VariableName As Datatype 'variable Declaration
 VariableName = value 'Variable Initialization
 ```

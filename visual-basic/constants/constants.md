@@ -29,9 +29,10 @@ Public Const NAME As String = "One Compiler"
 ```
 
 Some of the in-built constants are as follows:
+
 | Constant | Description|
 |----|----|
-| vbCrLf | Carriage return, linefeed |
+| vbCrLf | Carriage return and linefeed |
 | vbCr | Carriage return|
 | vbLf | Linefeed |
 | vbNewLine | Newline |

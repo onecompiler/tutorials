@@ -84,16 +84,6 @@
         ]
     },
     {
-        "title" : "Structures",
-        "path" : "structures",
-        "links" : [
-            {
-                "title" : "Structures",
-                "path" : "structures"
-            }
-        ]
-    },
-    {
         "title" : "Procedures",
         "path" : "procedures",
         "links" : [

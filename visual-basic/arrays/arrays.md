@@ -24,7 +24,7 @@ Dim directions() As String = {"East", "West", "North", "South"} 'An array of 4 s
 
 ## How to access array elements
 
-Array elements can be accessed by using indices. Array indices starts from `0`.  `Array[n-1]` can be used to access nth element of an array.
+Array elements can be accessed by using indices. Array indices starts from `0`.  `Array(n-1)` can be used to access nth element of an array.
 
 ## Example
 
