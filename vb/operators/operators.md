@@ -13,8 +13,8 @@ Arithmetic operators are used to perform arithmetic operations on operands.
 | - | Used to perform Subtraction |	12-2 = 10|
 | * | Used to perform Multiplication |	5*2 = 10|
 | / | Used to perform Division and returns float values	| 10/3 = 3.3333|
-| \ | Used to perform Division and returns integer	| 100/10 = 10|
-| MOD | Used to return Remainder	| 40%10 = 0|
+| \ | Used to perform Division and returns integer	| 100\10 = 10|
+| MOD | Used to return Remainder	| 40 MOD 10 = 0|
 | ^ | Used to raise power of another operand| x ^ y = x to the power of y|
 
 ### Example

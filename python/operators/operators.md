@@ -58,7 +58,7 @@ Python bitwise operators are used to perform bitwise operations on operands.
 
 ## 4. Logical Operators
 
-Below are the logical operators present in the Javascript.
+Below are the logical operators present in Python.
 
 |Operator|	Description| Usage|
 |----|----|----|
@@ -68,18 +68,19 @@ Below are the logical operators present in the Javascript.
 
 ## 5. Assignment Operators
 
-Below are the assignment operators present in the Javascript.
+Below are the assignment operators present in Python.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| =	| Assign| let x = 10;|
-| += |	Add and assign|	let x=10; x+=30; // x becomes 40|
-| -= |	Subtract and assign| let x=40; x-=10; // x becomes 30|
-| *= |	Multiply and assign| let x=10; x*=40; // x becomes 400|
-| /= |	Divide and assign|	let x=100; x /= 10;// x becomes 10|
-| %= |	Modulus and assign|	let x=100; x%=10; // x becomes 0|
-| **= | exponential calculation and assign| `x **= y is equivalent to x= x**y`|
+| =	| Assign| x = 10;|
+| += |	Add and assign| x=10; x+=30; #x becomes 40|
+| -= |	Subtract and assign| x=40; x-=10; #x becomes 30|
+| *= |	Multiply and assign|  x=10; x*=40; #x becomes 400|
+| /= |	Divide and assign|	 x=100; x /= 10; #x becomes 10|
+| %= |	Modulus and assign|	 x=100; x%=10;  #x becomes 0|
+| **= | exponential calculation and assign| `x **= y is equivalent to x = x**y`|
 | //= | floor division and assign | x //= y is equivalent = x= x // y|
+
 ## 6. Membership Operators
 
 Membership operators are used to test  if a sequence is present in a given object.
