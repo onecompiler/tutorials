@@ -1,10 +1,6 @@
-# If family
-
 When ever you want to perform a set of operations based on a condition if and if-else are used.
 
-## Syntax
-
-### 1. If
+## 1. If
 
 ```py
 if conditional-expression :
@@ -42,7 +38,7 @@ else :
 ```
 ### Check result [here](https://onecompiler.com/python/3vjkc4nsu)
 
-### 3. Nested If-else
+## 3. Nested If-else
 
 ```py
 if conditional-expression :
