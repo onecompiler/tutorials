@@ -82,6 +82,25 @@ If the operator is applied on a three operands then it is called ternary. This i
 |Operator|	Description| Usage|
 |----|----|----|
 |? : |	Conditional Expression	| (x > y) ? (code if x > y) : (code if y > x)
+
+## 7. Range Operators
+
+Below are the range operators:
+
+|Operator|	Description| Usage|
+|----|----|----|
+| ..| Creates a range from start to end including end range|  1..10, creates a range from 1 to 10|
+
+| ...| Creates a range from start to end excluding end range|  1...10, creates a range from 1 to 9|
+
+## Special Operators
+
+|Operator|	Description| Usage|
+|----|----|----|
+| defined? |It is a special operator which is like a method call, returns a description string of the expression if defined else nil | defined? variable or a method call|
+| dot(.) | Used to refer a  method present in a module | modulename.method|
+| :: | Used to refer constants, instance methods and class methods defined within a class or module, to be accessed from anywhere outside the class or module | Modulename::const|
+
 ## Summary
 
 |Type|Operators|
@@ -92,5 +111,5 @@ If the operator is applied on a three operands then it is called ternary. This i
 | Logical Operators| && , \|\| , ! , and , or, not|
 | Assignment Operators|= , += , -= , *= , /= , %= , **= |
 | Ternary Operators | ? :|
-
-
+| Range Operators | .. , ...|
+| Special Operators | defined?, . , :: |
