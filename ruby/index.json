@@ -1,0 +1,69 @@
+[
+    {
+        "title" : "Basics",
+        "path" : "basics",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            },
+            {
+                "title" : "Data Types",
+                "path" : "data-types"
+            },
+            {
+                "title" : "Variables",
+                "path" : "variables"
+            },
+            {
+                "title" : "Operators",
+                "path" : "operators"
+            }
+        
+        ]
+    },
+    {
+        "title" : "Control Statements",
+        "path" : "control-statements",
+        "links" : [
+            {
+                "title" : "Conditional Statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Methods",
+        "path" : "methods",
+        "links" : [
+            {
+                "title" : "Methods",
+                "path" : "methods"
+            }
+        ]
+    },
+    {
+        "title" : "Working with Files",
+        "path" : "working-with-files",
+        "links" : [
+            {
+                "title" : "File I/O",
+                "path" : "file-io"
+            }
+        ]
+    }
+]
