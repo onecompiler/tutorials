@@ -26,16 +26,16 @@ Ruby is a general purpose object oriented programming language developed by Yuki
 
 * Install ruby using the below command:
 
-	```sh
-	$ yum install ruby
-	```
+```sh
+$ yum install ruby
+```
 * Issue the below command to check the installation is fine.
 
-	```sh
-	$ruby -v
-	```
+```sh
+$ruby -v
+```
 
-### Using Onecompiler
+## Using Onecompiler
 
 1. You don't need to install any software or compiler.
 2. Just goto [OneCompiler](https://onecompiler.com/ruby) and choose the programming language as `Ruby` and enjoy programming without any installation.

@@ -2,7 +2,7 @@ Array is a collection of data items which is stored in continuous memory address
 
 Index starts from 0 to size-1.
 
-Unline in other traditional programming languages, Ruby arrays can hold objects of different data types such as String, Integer, Fixnum, Hash, Symbol etc.
+Unlike in other traditional programming languages, Ruby arrays can hold objects of different data types such as String, Integer, Fixnum, Hash, Symbol etc.
 
 ## How to create an array?
 
@@ -16,6 +16,7 @@ array_name = Array.new
 
 ```ruby
 arr = Array.new(10) # creates an array of 10 data items
+arr = [ "Good", "morning", 9, 5.32 , true] # creates an array using []
 ```
 
 ## How to access array elements
@@ -23,7 +24,6 @@ arr = Array.new(10) # creates an array of 10 data items
 Array elements can be accessed by using indices. Array indices starts from `0`.  `Array(n-1)` can be used to access nth element of an array.
 
 ## Example: 1
-
 
 ```ruby
 directions = ["East", "West", "North", "South"]
@@ -33,7 +33,6 @@ puts directions.at(3) # prints the element at 3rd index
 
 puts directions.at(-1) # prints the element at -1 index which is first element from last
 ```
-
 ### Try yourself [here](https://onecompiler.com/ruby/3vv6xdur7)
 
 ## Example: 2

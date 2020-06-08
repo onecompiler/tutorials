@@ -39,5 +39,5 @@ Class variables belongs to the entire class and are accessible from anywhere ins
 ### Example
 
 ```ruby
-@id = 111
+@@id = 111
 ```

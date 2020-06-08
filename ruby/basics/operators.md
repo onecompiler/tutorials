@@ -1,5 +1,5 @@
 
-An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. VB.net provides rich set of in-built operators.
+An operator is a symbol which has special meaning and performs an operation on single or multiple operands like addition, substraction etc. Ruby provides rich set of in-built operators.
 
 # Types of Operators in Ruby
 
@@ -81,7 +81,7 @@ If the operator is applied on a three operands then it is called ternary. This i
 
 |Operator|	Description| Usage|
 |----|----|----|
-|? : |	Conditional Expression	| (x > y) ? (code if x > y) : (code if y > x)
+|? : |	Conditional Expression	| (x > y) ? (code if x > y) : (code if x < y)
 
 ## 7. Range Operators
 
@@ -90,10 +90,9 @@ Below are the range operators:
 |Operator|	Description| Usage|
 |----|----|----|
 | ..| Creates a range from start to end including end range|  1..10, creates a range from 1 to 10|
-
 | ...| Creates a range from start to end excluding end range|  1...10, creates a range from 1 to 9|
 
-## Special Operators
+## 8. Special Operators
 
 |Operator|	Description| Usage|
 |----|----|----|

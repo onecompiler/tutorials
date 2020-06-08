@@ -22,7 +22,8 @@ Boolean data type represents either true or false.
 String represents a series of characters. Strings can be enclosed with in either single quotes, or double quotes.
 
 ```ruby
-puts "hello World";
+str1 = "hello World";
+str2 = 'good morning';
 ```
 
 ## 4. Hashes

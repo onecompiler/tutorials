@@ -17,7 +17,6 @@ def greetings(name = "Foo") # defaulting name as foo
 end
 greetings "John"
 greetings
-
 ```
 ### Try yourself [here](https://onecompiler.com/vb/3vu555dhn)
 
