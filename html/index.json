@@ -1,0 +1,76 @@
+[
+    {
+        "title" : "Basics",
+        "path" : "basics",
+        "links" : [
+            {
+                "title" : "Introduction",
+                "path" : "introduction"
+            },
+            {
+                "title" : "Basic elements",
+                "path" : "basic-elements"
+            },
+            {
+                "title" : "Images",
+                "path" : "images"
+            },
+            {
+                "title" : "Links",
+                "path" : "links"
+            }
+        
+        ]
+    },
+    {
+        "title" : "Lists",
+        "path" : "lists",
+        "links" : [
+            {
+                
+                "title" : "Lists",
+                "path" : "lists"
+            }                                                 
+        ]
+    },
+    {
+        "title" : "Tables",
+        "path" : "tables",
+        "links" : [
+            {
+                "title" : "Tables",
+                "path" : "tables"
+            }
+        ]
+    },
+    {
+        "title" : "Forms",
+        "path" : "forms",
+        "links" : [
+            {
+                "title" : "Forms",
+                "path" : "forms"
+            }
+        ]
+    },
+    {
+        "title" : "CSS",
+        "path" : "css",
+        "links" : [
+            {
+                "title" : "CSS",
+                "path" : "css"
+            }
+        ]
+    },
+    {
+        "title" : "Javascript",
+        "path" : "javascript",
+        "links" : [
+            {
+                "title" : "Javascript",
+                "path" : "javascript"
+            }
+        ]
+    }
+]
