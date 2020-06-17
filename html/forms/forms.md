@@ -17,7 +17,7 @@ Mostly commonly used form attributes
 | target | Specify the target window or frame like _blank, _parent etc. |
 | enctype | specify how the browser encodes the data, for example: **application/x-www-form-urlencoded** |
 
-## Form element - `<input>`
+# Form element - `<input>`
 
 `<input>` element defines what kind of input like text fields, drop-down menus, checkboxes, radio buttons, submit buttons etc.
 
@@ -33,7 +33,7 @@ Some of the most commonly used form controls using `<input>` element.
 | `<input type = "file">`| To define a file upload box|
 
 
-### Text and password input controls
+## 1. Text and password input controls
 
 ```html
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ Some of the most commonly used form controls using `<input>` element.
 ```
 ### Try yourself [here](https://onecompiler.com/html/3vw38t6hu)
 
-### Multi-line text input
+## 2. Multi-line text input
 
 Consider you want to give input in more than one line like Address, you can do as shown below:
 
@@ -80,7 +80,7 @@ Consider you want to give input in more than one line like Address, you can do a
 ```
 ### Try yourself [here](https://onecompiler.com/html/3vw394pwd)
 
-### Radio button form control
+## 3. Radio button form control
 
 ```html
 <!DOCTYPE html>
@@ -102,7 +102,7 @@ Consider you want to give input in more than one line like Address, you can do a
 ```
 ### Try yourself [here](https://onecompiler.com/html/3vw3a9d4g)
 
-### Check box form control
+## 4. Check box form control
 
 ```html
 <!DOCTYPE html>
@@ -127,7 +127,7 @@ Consider you want to give input in more than one line like Address, you can do a
 
 
 
-## Form element - `<select>`
+# Form element - `<select>`
 
 `<select>` element is used to define a drop-down menu.
 

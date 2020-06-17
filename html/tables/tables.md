@@ -1,4 +1,4 @@
-HTML tables allows the devloper to arrange data into rows and columns.
+HTML tables allows the developer to arrange data into rows and columns.
 
 `<table>` tag is used to create a table and `<tr>` tag is used to create table rows and `<td>` tag is used to create data cells.
 
@@ -87,7 +87,7 @@ The two attributes are used to to adjust the white space in your table cells.
     * ***cellspacing attribute:*** Used to define the space between table cells
     * ***cellpadding attribute:*** Used to define the distance between cell borders and the content within a cell.
 
-* #### Colspan and Rowspan
+* ### Colspan and Rowspan
 
 These two attributes are used to merge cells if required.
     * ***colspan attribute:*** Used to merge two or more columns into a single column. 
@@ -124,11 +124,10 @@ You can set caption to the table using `caption` attribute.
          </tr>
          <tr>
             <td>US</td>
-            <td colspan = "2">English</td>
+            <td rowspan = "2">English</td> <!-- Notice we are merging two rows here-->
          </tr>
          <tr>
             <td>UK</td>
-            <td>English</td>
          </tr>
          <tr>
             <td>Japan</td>
@@ -145,6 +144,7 @@ You can set caption to the table using `caption` attribute.
       </table>
   </body>
 </html>
+
 ```
 
 ### Try yourself [here](https://onecompiler.com/html/3vvydg4eh)

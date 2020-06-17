@@ -7,18 +7,18 @@ An HTML element is defined by a start tag followed by some data and an end tag.
 
 ## HTML Tag
 
-HTML tags are like hidden keywords which define how your web browser must format and display the data with in a web page.
+HTML tags are like hidden keywords which define how your web browser formats and display the data with in a web page.
 
-Usually tags contains an opening and a closing part. For example, `<h1>` is the opening tag and `</h1>` is the closing tag. Both opening and closing tags must share same tag name. Never forget the closing tag as it may produce unexpected results.
+Usually tags contains an opening and a closing part. For example, `<h1>` is the opening tag and `</h1>` is the closing tag. Both opening and closing tags must share same tag name. Never forget the closing tag as it may produce unexpected results if not provided.
 
-There are some exceptions where tags may not have closing tag like `<img>`. 
+There are some exceptions where tags may not have closing tag like `<img />`, <br/>. 
 
 ## HTML Attribute
 
 HTML attributes allow you to provide additional information about the elements like you are customising a HTML tag, and are defined within the opening tag. In the below example `src` is an attribute to `<img>` tag.
 
 ```html
-<img src="image.jpg">
+<img src="image.jpg"/>
 ```
 
 ## Headings
