@@ -4,7 +4,7 @@ Scala is both object-oriented and functional programming language which was desi
 
 * Static typed language
 * You can create any kind of application using Scala like web applications, mobile applications, enterprise applications etc.
-* Type inference means you are not required to mention data type for variables and return type for functions explicitly.
+* You are not required to mention data type for variables and return type for functions explicitly.
 * Variables are immutable once declared
 * Evaluates expressions only when required
 * Concurrency control
@@ -51,6 +51,6 @@ object HelloWorld {
 * ***main*** : entry point of the program
 * ***println*** : prints data to the console.
 * `//` : Single line comment
-* /* Multi
+* `/*` Multi
     Line
-    comment */
+    comment `*/`

@@ -79,6 +79,6 @@ Assignment operators are as shown below:
 | Arithmetic Operators| + , - , * , / , %  |
 | Comparision Operators| == , != , > , >= , < , <= |
 | Bitwise Operators| & , ^ , \| , ^ , ~ , << , >> , >>>|
-| Logical Operators| && , \|\| , ! , and , or, not|
+| Logical Operators| && , \|\| , !|
 | Assignment Operators|= , += , -= , *= , /= , %= , &= , ^= , \|= , <<= , >>= |
 

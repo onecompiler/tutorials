@@ -37,7 +37,7 @@ object Arrays {
 ```
 ### Check result [here](https://onecompiler.com/scala/3vwn2w22d)
 
-Please note that you have to use () instead of [] while accessing an array element. Here, we are using mobiles(1) but not mobiles[1] which we do in other languages.
+Please note that you have to use () instead of [] while accessing an array element. Here, we are using `mobiles(1)` but not `mobiles[1]` which we usually do in other languages.
 
 ## How to change a particular element in an array
 
