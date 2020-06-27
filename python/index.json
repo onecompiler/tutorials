@@ -1,42 +1,25 @@
 [
     {
-        "title" : "Introduction to Python",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
-                "title" : "Introduction",
+                "title" : "Introduction to Python",
                 "path" : "introduction"
-            }
-        ]
-    },
-    {
-        "title" : "Variables and Datatypes",
-        "path" : "variables-and-data-types",
-        "links" : [
+            },
             {
                 "title" : "Variables and Datatypes",
                 "path" : "variables-and-data-types"
-            }
-        ]
-    },
-    {
-        "title" : "Operators",
-        "path" : "operators",
-        "links" : [
+            }, 
             {
                 "title" : "Operators",
                 "path" : "operators"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
+            },
             {
                 "title" : "Strings",
                 "path" : "strings"
             }
+     
         ]
     },
     {
