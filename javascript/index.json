@@ -1,18 +1,12 @@
 [
     {
-        "title" : "Introduction",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
-                "title" : "Introduction to Modern Javascript",
+                "title" : "Introduction to Javascript",
                 "path" : "introduction"
-            }
-        ]
-    },
-    {
-        "title" : "Fundamentals",
-        "path" : "fundamentals",
-        "links" : [
+            },
             {
                 "title" : "Variables",
                 "path" : "variables"
@@ -30,22 +24,10 @@
                 "path" : "operators"
             },
             {
-                "title" : "Arrays",
-                "path" : "arrays"
-            },
-            {
-                "title" : "Conditional statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            },
-            {
                 "title" : "Classes",
                 "path" : "classes"
             },
-                        {
+            {
                 "title" : "Objects",
                 "path" : "objects"
             },
@@ -54,13 +36,44 @@
                 "path" : "methods"
             },
             {
-                "title" : "Functions",
-                "path" : "functions"
-            },
-            {
                 "title" : "Arrow Function",
                 "path" : "arrow-function"
             }                                                 
+        ]
+    },
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
+            {
+                "title" : "Arrays",
+                "path" : "arrays"
+            }
+        ]
+    },
+    {
+        "title" : "Control statements",
+        "path" : "loops",
+        "links" : [
+            {
+                "title" : "Conditional statements",
+                "path" : "conditional-statements"
+            },
+            {
+                "title" : "Loops",
+                "path" : "loops"
+            }
+        ]
+    },
+
+    {
+        "title" : "Functions",
+        "path" : "functions",
+        "links" : [
+            {
+                "title" : "Functions",
+                "path" : "functions"
+            }
         ]
     },
     {
