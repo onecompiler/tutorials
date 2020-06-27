@@ -1,31 +1,23 @@
 [
     {
-        "title" : "Introduction to Perl",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
-                "title" : "Introduction",
+                "title" : "Introduction to Perl",
                 "path" : "introduction"
-            }
-        ]
-    },
-    {
-        "title" : "Data Types",
-        "path" : "data-types",
-        "links" : [
+            },
             {
                 "title" : "Data Types",
                 "path" : "data-types"
-            }
-        ]
-    },
-    {
-        "title" : "Variables",
-        "path" : "variables",
-        "links" : [
+            },
             {
                 "title" : "Variables",
                 "path" : "variables"
+            }, 
+            {
+                "title" : "Operators",
+                "path" : "operators"
             }
         ]
     },
@@ -40,12 +32,12 @@
         ]
     },
     {
-        "title" : "Operators",
-        "path" : "operators",
+        "title" : "Arrays",
+        "path" : "arrays",
         "links" : [
             {
-                "title" : "Operators",
-                "path" : "operators"
+                "title" : "Arrays",
+                "path" : "arrays"
             }
         ]
     },
@@ -56,16 +48,6 @@
             {
                 "title" : "Lists",
                 "path" : "lists"
-            }
-        ]
-    },
-    {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
             }
         ]
     },
