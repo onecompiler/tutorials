@@ -1,7 +1,7 @@
 [
     {
-        "title" : "Introduction to C++",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
                 "title" : "Introduction to C++",
@@ -10,23 +10,15 @@
             {
                 "title" : "Fundamentals",
                 "path" : "fundamentals"
-            }
-        ]
-    },
-    {
-        "title" : "Tokens",
-        "path" : "tokens",
-        "links" : [
+            },
             {
                 "title" : "Tokens",
                 "path" : "tokens"
-            }
-        ]
-    },
-    {
-        "title" : "Variables & Constants",
-        "path" : "variables-and-constants",
-        "links" : [
+            },
+            {
+                "title" : "Data Types",
+                "path" : "data-types"
+            },
             {
                 "title" : "Variables",
                 "path" : "variables"
@@ -35,26 +27,15 @@
                 "title" : "Constants",
                 "path" : "constants"
             }
-        ]
-    },
-    {
-        "title" : "Operators",
-        "path" : "operators",
-        "links" : [
             {
                 "title" : "Operators",
                 "path" : "operators"
-            }
-        ]
-    },
-    {
-        "title" : "Data Types",
-        "path" : "data-types",
-        "links" : [
+            },
             {
-                "title" : "Data Types",
-                "path" : "data-types"
-            }
+                "title" : "Strings",
+                "path" : "strings"
+            }         
+
         ]
     },
     {
@@ -64,16 +45,6 @@
             {
                 "title" : "Arrays",
                 "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
             }
         ]
     },
