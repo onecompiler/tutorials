@@ -1,38 +1,20 @@
 [
     {
-        "title" : "Introduction to Go",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
                 "title" : "Introduction",
                 "path" : "introduction"
-            }
-        ]
-    },
-    {
-        "title" : "Data Types",
-        "path" : "data-types",
-        "links" : [
+            },
             {
                 "title" : "Data Types",
                 "path" : "data-types"
-            }
-        ]
-    },
-    {
-        "title" : "Variables",
-        "path" : "variables",
-        "links" : [
+            },
             {
                 "title" : "Variables",
                 "path" : "variables"
-            }
-        ]
-    },
-    {
-        "title" : "Operators",
-        "path" : "operators",
-        "links" : [
+            }, 
             {
                 "title" : "Operators",
                 "path" : "operators"
