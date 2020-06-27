@@ -1,52 +1,32 @@
 [
     {
-        "title" : "Introduction to C",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
                 "title" : "Introduction to C",
                 "path" : "introduction"
-            }
-        ]
-    },
-    {
-        "title" : "Tokens",
-        "path" : "tokens",
-        "links" : [
+            },
             {
                 "title" : "Tokens",
                 "path" : "tokens"
-            }
-        ]
-    },
-    {
-        "title" : "Data Types",
-        "path" : "data-types",
-        "links" : [
+            },
             {
                 "title" : "Data Types",
                 "path" : "data-types"
-            }
-        ]
-    },
-    {
-        "title" : "Variables",
-        "path" : "variables",
-        "links" : [
+            },
             {
                 "title" : "Variables, Literals, Expressions",
                 "path" : "variables"
-            }
-        ]
-    },
-    {
-        "title" : "Operators",
-        "path" : "operators",
-        "links" : [
+            },
             {
                 "title" : "Operators",
                 "path" : "operators"
-            }
+            },
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }         
         ]
     },
     {
@@ -56,16 +36,6 @@
             {
                 "title" : "Arrays",
                 "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
             }
         ]
     },
