@@ -1,52 +1,33 @@
 [
     {
-        "title" : "Introduction to C#",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
                 "title" : "Introduction",
                 "path" : "introduction"
-            }
-        ]
-    },
-    {
-        "title" : "Data Types",
-        "path" : "data-types",
-        "links" : [
+            },
             {
                 "title" : "Data Types",
                 "path" : "data-types"
-            }
-        ]
-    },
-    {
-        "title" : "Variables",
-        "path" : "variables",
-        "links" : [
+            },
             {
                 "title" : "Variables",
                 "path" : "variables"
-            }
-        ]
-    },
-    {
-        "title" : "Constants",
-        "path" : "constants",
-        "links" : [
+            },
             {
                 "title" : "Constants",
                 "path" : "constants"
-            }
-        ]
-    },
-    {
-        "title" : "Operators",
-        "path" : "operators",
-        "links" : [
+            },    
             {
                 "title" : "Operators",
                 "path" : "operators"
-            }
+            },
+            {
+                "title" : "Strings",
+                "path" : "strings"
+            }         
+ 
         ]
     },
     {
@@ -61,16 +42,6 @@
                 "title" : "Loops",
                 "path" : "loops"
             }                                                 
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
         ]
     },
     {
