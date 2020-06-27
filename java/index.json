@@ -22,7 +22,13 @@
             {
                 "title" : "Strings",
                 "path" : "strings"
-            },                                                             
+            }                                                             
+        ]
+    },  
+    {
+        "title" : "Arrays",
+        "path" : "arrays",
+        "links" : [
             {
                 "title" : "Arrays",
                 "path" : "arrays"
