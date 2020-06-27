@@ -1,18 +1,12 @@
 [
     {
-        "title" : "Introduction to Java",
-        "path" : "introduction",
+        "title" : "Basics",
+        "path" : "basics",
         "links" : [
             {
-                "title" : "Introduction",
+                "title" : "Introduction to Java",
                 "path" : "introduction"
-            }
-        ]
-    },
-    {
-        "title" : "Fundamentals",
-        "path" : "fundamentals",
-        "links" : [
+            },
             {
                 "title" : "Datatypes",
                 "path" : "data-types"
