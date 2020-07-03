@@ -4,16 +4,8 @@
         "path": "introduction",
         "links": [
             {
-                "title": "What is Cassandra",
-                "path": "what-is-cassandra"
-            },
-            {
-                "title": "Key Concepts",
-                "path": "key-concepts"
-            },
-            {
-                "title": "Installation",
-                "path": "installation"
+                "title": "Introduction",
+                "path": "introduction"
             }
         ]
     },
