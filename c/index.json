@@ -112,15 +112,5 @@
                 "path" : "error-handling"
             }
         ]
-    },
-    {
-        "title" : "Library Functions",
-        "path" : "library-functions",
-        "links" : [
-            {
-                "title" : "Library Functions",
-                "path" : "library-functions"
-            }
-        ]
     }
 ]
