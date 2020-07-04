@@ -1,116 +1,123 @@
-[
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to C",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Tokens",
-                "path" : "tokens"
-            },
-            {
-                "title" : "Data Types",
-                "path" : "data-types"
-            },
-            {
-                "title" : "Variables, Literals, Expressions",
-                "path" : "variables"
-            },
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            },
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }         
-        ]
-    },
-    {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Control Statements",
-        "path" : "control-statements",
-        "links" : [
-            {
-                "title" : "Conditional Statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }                                                 
-        ]
-    },
-    {
-        "title" : "Functions",
-        "path" : "functions",
-        "links" : [
-            {
-                "title" : "Functions",
-                "path" : "functions"
-            }
-        ]
-    },
-    {
-        "title" : "Pointers",
-        "path" : "pointers",
-        "links" : [
-            {
-                "title" : "Pointers",
-                "path" : "pointers"
-            }
-        ]
-    },
-    {
-        "title" : "Structures",
-        "path" : "structures",
-        "links" : [
-            {
-                "title" : "Structures",
-                "path" : "structures"
-            }
-        ]
-    },
-    {
-        "title" : "Unions",
-        "path" : "unions",
-        "links" : [
-            {
-                "title" : "Unions",
-                "path" : "unions"
-            }
-        ]
-    },
-    {
-        "title" : "Working with Files",
-        "path" : "files",
-        "links" : [
-            {
-                "title" : "Files I/O",
-                "path" : "file-io"
-            }
-        ]
-    },
-    {
-        "title" : "Error Handling",
-        "path" : "error-handling",
-        "links" : [
-            {
-                "title" : "Error Handling",
-                "path" : "error-handling"
-            }
-        ]
-    }
-]
+{
+    "title": "C Language",
+    "description": "C programming language is a general purpose computer programming language, developed in 1972. Today many of the modern programming language's syntax inspired by C Language",
+    "created": "2019-10-01",
+    "updated": "2020-01-01",
+    "cover": "",
+    "index": [
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to C",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Tokens",
+                    "path": "tokens"
+                },
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Variables, Literals, Expressions",
+                    "path": "variables"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                },
+                {
+                    "title": "Strings",
+                    "path": "strings"
+                }
+            ]
+        },
+        {
+            "title": "Arrays",
+            "path": "arrays",
+            "links": [
+                {
+                    "title": "Arrays",
+                    "path": "arrays"
+                }
+            ]
+        },
+        {
+            "title": "Control Statements",
+            "path": "control-statements",
+            "links": [
+                {
+                    "title": "Conditional Statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "Functions",
+            "path": "functions",
+            "links": [
+                {
+                    "title": "Functions",
+                    "path": "functions"
+                }
+            ]
+        },
+        {
+            "title": "Pointers",
+            "path": "pointers",
+            "links": [
+                {
+                    "title": "Pointers",
+                    "path": "pointers"
+                }
+            ]
+        },
+        {
+            "title": "Structures",
+            "path": "structures",
+            "links": [
+                {
+                    "title": "Structures",
+                    "path": "structures"
+                }
+            ]
+        },
+        {
+            "title": "Unions",
+            "path": "unions",
+            "links": [
+                {
+                    "title": "Unions",
+                    "path": "unions"
+                }
+            ]
+        },
+        {
+            "title": "Working with Files",
+            "path": "files",
+            "links": [
+                {
+                    "title": "Files I/O",
+                    "path": "file-io"
+                }
+            ]
+        },
+        {
+            "title": "Error Handling",
+            "path": "error-handling",
+            "links": [
+                {
+                    "title": "Error Handling",
+                    "path": "error-handling"
+                }
+            ]
+        }
+    ]
+}
