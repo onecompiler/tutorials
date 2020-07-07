@@ -1,4 +1,10 @@
-[
+{
+    "title": "IBM MEssage Queues(MQ)",
+    "description": "Easy to Understand Middleware tutorials for beginners with core concepts and examples.",
+    "created": "2019-10-01",
+    "updated": "2020-07-07",
+    "cover": "",
+    "index": [
     {
         "title" : "Introduction of IBM MQ",
         "path" : "introduction",
@@ -74,3 +80,4 @@
     }
     
 ]
+}

@@ -1,4 +1,10 @@
-[
+{
+    "title": "IBM Integration Bus(IIB)",
+    "description": "Easy to Understand middleware tutorials for beginners with core concepts and examples.",
+    "created": "2019-10-01",
+    "updated": "2020-07-07",
+    "cover": "",
+    "index": [
     {
         "title" : "Introduction of IBM Integration Bus",
         "path" : "introduction",
@@ -52,3 +58,4 @@
         ]
     }
 ]
+}

@@ -1,4 +1,10 @@
-[
+{
+    "title": "Redis",
+    "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
+    "created": "2019-10-01",
+    "updated": "2020-07-07",
+    "cover": "",
+    "index": [
     {
         "title": "Introduction",
         "path": "introduction",
@@ -58,3 +64,4 @@
         ]
     }
 ]
+}
