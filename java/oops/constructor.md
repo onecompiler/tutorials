@@ -91,8 +91,10 @@ class Example {
 	public static void main (String[] args){
 		Example ob1 = new Example (20,30);
 		Example ob2 = new Example (5);
-		ob1.add(); //prints 50
-		ob2.add(); // prints 5
+		ob1.add(); 
+		ob2.add(); 
 	}
 }
 ```
+
+check output [here](https://onecompiler.com/java/3w3wbb4bj)
