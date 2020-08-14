@@ -1,7 +1,7 @@
 - Iterator is an interface that is available in the Java collection framework which is in java.util package.
 - It is used to iterate over a collection of objects.
 - It will traverse the collection of elements one by one
-- It has been added to Java in 1.2
+- It has been added to Java in version 1.2
 - It has Read and Remove operations
 
 ## Iterator Methods
