@@ -1,14 +1,14 @@
-- An interface in Java is a blueprint of a class, It contains static constants and abstract methods.
-- Interfaces are mainly used to achieve abstraction and multiple inheritances
-- Interfaces don't have a method body
-- An interface can contain constants, default methods and static methods
+* An interface in Java is a blueprint of a class, It contains static constants and abstract methods.
+* Interfaces are mainly used to achieve abstraction and multiple inheritances
+* Interfaces don't have a method body
+* An interface can contain constants, default methods and static methods
 
 ## Difference between class and Interface
 
-- An interface doesn't have the constructor
-- All methods in Interface are abstract
-- Instantiation of an interface is not possible
-- It is implemented by class not extended
+* An interface doesn't have the constructor
+* All methods in Interface are abstract
+* Instantiation of an interface is not possible
+* It is implemented by class not extended
 
 ## Syntax
 
@@ -25,7 +25,7 @@
 
 Interfaces contain abstract methods, so the definition isn't allowed inside interfaces. Classes perform the behavior of interfaces. Classes use the keyword `implements` to implement an interface.
 
-### example
+### Example
 
 ```java
 
@@ -54,7 +54,7 @@ class Test {
 
 An interface can extend another interface in the same way that classes do inheritance
 
-### example
+### Example
 
 ```java
 interface A {
@@ -83,5 +83,5 @@ class Test {
   }
 }
 
-// results 10
 ```
+check result  [here](https://onecompiler.com/java/3w3vfsdgf)

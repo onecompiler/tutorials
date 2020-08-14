@@ -1,16 +1,16 @@
-- Iterator is an interface that is available in the Java collection framework which is in java.util package.
-- It is used to iterate over a collection of objects.
-- It will traverse the collection of elements one by one
-- It has been added to Java in version 1.2
-- It has Read and Remove operations
+* Iterator is an interface that is available in the Java collection framework which is in java.util package.
+* It is used to iterate over a collection of objects.
+* It will traverse the collection of elements one by one
+* It has been added to Java in version 1.2
+* It has Read and Remove operations
 
 ## Iterator Methods
 
-- boolean hasNext(): return true if there is a element after current element else false
-- Object next(): Returns the next element. if there are nothing throws an exception
-- void remove(): Removes current element.
+* boolean hasNext(): return true if there is a element after current element else false
+* Object next(): Returns the next element. if there are nothing throws an exception
+* void remove(): Removes current element.
 
-### example
+### Example
 
 ```java
 
@@ -37,12 +37,6 @@ public class ExternalIteratorDemo {
     }
 }
 
-/*
-output:
-chennai
-kolkata
-banglore
-vizag
-*/
-
 ```
+
+check result [here](https://onecompiler.com/java/3w3vnankp)

@@ -17,22 +17,22 @@ public class Example {
 
 ## Rules for creating a constructor
 
-- Constructors of a class must have same name as the class in which it is created
-- Constructor in java cannot be abstract, final and static.
-- Constructors don't have a return type.
+* Constructors of a class must have same name as the class in which it is created
+* Constructor in java cannot be abstract, final and static.
+* Constructors don't have a return type.
 
 ## Types of constructors
 
 There are 2 types of constructors in java
 
-- Default constructor
-- Parameterized constructor
+* Default constructor
+* Parameterized constructor
 
 ### 1. Default constructor
 
-- It has 0 parameters
-- If we don't create a constructor then the compiler itself creates a default constructor
-- If we create atleast one constructor, then the compiler won't do it for us
+* It has 0 parameters
+* If we don't create a constructor then the compiler itself creates a default constructor
+* If we create atleast one constructor, then the compiler won't do it for us
 
 ### Example
 
@@ -49,8 +49,8 @@ class Example {
 
 ### 2. Parameterized Constructor
 
-- It has more than 0 parameters
-- Used to provide different values to different objects
+* It has more than 0 parameters
+* Used to provide different values to different objects
 
 ### Example
 
