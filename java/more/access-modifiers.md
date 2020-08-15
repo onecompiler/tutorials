@@ -9,19 +9,18 @@
 ### Example
 ```java
 class A{  
-  private int a=40;  
-  private void show(){
+  private int a = 40;  
+  private void show () {
     System.out.println("private method called");
-    
   }  
 }  
   
 public class Simple{  
- public static void main(String args[]){  
-   A obj=new A();  
-   System.out.println(obj.a);
-   obj.show();
-   }  
+ public static void main (String args[]) {  
+    A obj=new A();  
+    System.out.println(obj.a);
+    obj.show();
+  }  
 }  
 ```
 The output will give an error as
@@ -29,7 +28,7 @@ The output will give an error as
 a has private access in A
 show() has private access in A
 ```
-check output [here]([https://onecompiler.com/java/3w3ymeh8p](https://onecompiler.com/java/3w3ymeh8p))
+check output [here](https://onecompiler.com/java/3w3ymeh8p)
 
 ## Public
 * The data in public access modifier is accessible everywhere
@@ -39,7 +38,6 @@ class A{
   public int a=40;  
   public void show(){
     System.out.println("private method called");
-    
   }  
 }  
   
@@ -51,7 +49,7 @@ public class Simple{
    }  
 }  
 ```
-check output [here]([https://onecompiler.com/java/3w3ympxh6](https://onecompiler.com/java/3w3ympxh6))
+check output [here](https://onecompiler.com/java/3w3ympxh6)
 
 ## Default
 * The data in default is accessible only within package
