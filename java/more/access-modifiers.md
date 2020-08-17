@@ -1,5 +1,5 @@
 * The Access Modifiers in Java specifies the scope of a method or field or class
-* There are 4 types of access modifiers in Java they are
+* There are 4 types of access modifiers in Java. They are :
 1. Private
 2. Public
 3. Default
@@ -28,7 +28,7 @@ The output will give an error as
 a has private access in A
 show() has private access in A
 ```
-check output [here](https://onecompiler.com/java/3w3ymeh8p)
+### check output [here](https://onecompiler.com/java/3w3ymeh8p)
 
 ## Public
 * The data in public access modifier is accessible everywhere
@@ -49,7 +49,7 @@ public class Simple{
    }  
 }  
 ```
-check output [here](https://onecompiler.com/java/3w3ympxh6)
+### check output [here](https://onecompiler.com/java/3w3ympxh6)
 
 ## Default
 * The data in default is accessible only within package

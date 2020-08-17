@@ -2,7 +2,7 @@
 * An abstract class is a class that cannot be instantiated
 * Which means we cannot create objects for an abstract class
 * We use keyword `abstract` to create an Abstract class
-* If we try to create object for an Abstract class we will get an error saying 
+* If we try to create object for an Abstract class we will get an error 
 * To access methods of an Abstract class we need  to create a subclass
 * An abstract class can have both abstract and non-abstract methods
 
@@ -12,11 +12,8 @@ abstract class Example {
 	//methods
 }
 ```
-If we try to create object as we do for a normal class, the output will be
-```java
-Example ob = new Example ();
-```
-We will get an error
+If we try to create object as we do for a normal class, the output will be an error as below
+
 `Example is abstract; cannot be instantiated`
 
 ## Java Abstract Method
@@ -51,4 +48,4 @@ class Main {
    }
 }
 ```
-check output [here](https://onecompiler.com/java/3w3yhgrf4)
+### check output [here](https://onecompiler.com/java/3w3yhgrf4)
