@@ -5,153 +5,149 @@
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to Java",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Datatypes",
-                "path" : "data-types"
-            },
-            {
-                "title" : "Variables",
-                "path" : "variables"
-            }, 
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            },
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }                                                             
-        ]
-    },  
-    {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Control Statements",
-        "path" : "control-statements",
-        "links" : [
-            {
-                "title" : "Conditional Statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }
-        ]
-    },
-    {
-        "title" : "OOPS",
-        "path" : "oops",
-        "links" : [
-            {
-                "title" : "Classes and Objects",
-                "path" : "classes-and-objects"
-            },
-            {
-                "title" : "Constructor",
-                "path" : "constructor"
-            },
-            {
-                "title" : "Encapsulation",
-                "path" : "encapsulation"
-            },
-            {
-                "title" : "Inheritance",
-                "path" : "inheritance"
-            },
-            {
-                "title" : "Polymorphism",
-                "path" : "polymorphism"
-            },
-            {
-                "title" : "Abstraction",
-                "path" : "abstraction"
-            },
-            {
-                "title" : "Interfaces in Java",
-                "path" : "interfaces-in-java"
-            }
-        ]
-    },
-    {
-        "title" : "Collections",
-        "path" : "collections",
-        "links" : [
-            {
-                "title" : "Collections",
-                "path" : "collections-framework"
-            },
-            {
-                "title" : "Iterators",
-                "path" : "iterators-in-java"
-            }
-        ]
-    },
-    {
-        "title" : "More Topics",
-        "path" : "more",
-        "links" : [
-            {
-                "title" : "Abstract class and Methods",
-                "path" : "abstract-class-and-methods"
-            },
-            {
-                "title" : "Access Modifiers",
-                "path" : "access-modifiers"
-            },
-            {
-                "title" : "Multi Threading",
-                "path" : "multi-threading"
-            },
-            {
-                "title" : "Regular Expressions",
-                "path" : "regex"
-            },
-            {
-                "title" : "Static and Dynamic binding",
-                "path" : "static-and-dynamic-binding"
-            },
-            {
-                "title" : "Exception Handling",
-                "path" : "exception-handling"
-            },
-            {
-                "title" : "Garbage Collection",
-                "path" : "garbage-collection"
-            },
-            {
-                "title" : "Annotations",
-                "path" : "annotations"
-            },
-            {
-                "title" : "Method Overloading",
-                "path" : "method-overloading"
-            },
-            {
-                "title" : "Method Overriding",
-                "path" : "method-overriding"
-            },
-            {
-                "title" : "Wildcards in Java",
-                "path" : "wildcards-in-java"
-            }
-        ]
-    }   
-]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to Java",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Datatypes",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Variables",
+                    "path": "variables"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                },
+                {
+                    "title": "Strings",
+                    "path": "strings"
+                }
+            ]
+        },
+        {
+            "title": "Arrays",
+            "path": "arrays",
+            "links": [
+                {
+                    "title": "Arrays",
+                    "path": "arrays"
+                }
+            ]
+        },
+        {
+            "title": "Control Statements",
+            "path": "control-statements",
+            "links": [
+                {
+                    "title": "Conditional Statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "OOPS",
+            "path": "oops",
+            "links": [
+                {
+                    "title": "Classes and Objects",
+                    "path": "classes-and-objects"
+                },
+                {
+                    "title": "Constructor",
+                    "path": "constructor"
+                },
+                {
+                    "title": "Encapsulation",
+                    "path": "encapsulation"
+                },
+                {
+                    "title": "Inheritance",
+                    "path": "inheritance"
+                },
+                {
+                    "title": "Polymorphism",
+                    "path": "polymorphism"
+                },
+                {
+                    "title": "Abstraction",
+                    "path": "abstraction"
+                },
+                {
+                    "title": "Interfaces in Java",
+                    "path": "interfaces-in-java"
+                }
+            ]
+        },
+        {
+            "title": "Collections",
+            "path": "collections",
+            "links": [
+                {
+                    "title": "Collections",
+                    "path": "collections-framework"
+                },
+                {
+                    "title": "Iterators",
+                    "path": "iterators-in-java"
+                }
+            ]
+        },
+        {
+            "title": "More Topics",
+            "path": "more",
+            "links": [
+                {
+                    "title": "Abstract class and Methods",
+                    "path": "abstract-class-and-methods"
+                },
+                {
+                    "title": "Access Modifiers",
+                    "path": "access-modifiers"
+                },
+                {
+                    "title": "Multi Threading",
+                    "path": "multi-threading"
+                },
+                {
+                    "title": "Regular Expressions",
+                    "path": "regex"
+                },
+                {
+                    "title": "Static and Dynamic binding",
+                    "path": "static-and-dynamic-binding"
+                },
+                {
+                    "title": "Exception Handling",
+                    "path": "exception-handling"
+                },
+                {
+                    "title": "Garbage Collection",
+                    "path": "garbage-collection"
+                },
+                {
+                    "title": "Annotations",
+                    "path": "annotations"
+                },
+                {
+                    "title": "Method Overloading",
+                    "path": "method-overloading"
+                },
+                {
+                    "title": "Method Overriding",
+                    "path": "method-overriding"
+                }
+            ]
+        }
+    ]
 }
