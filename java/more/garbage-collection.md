@@ -23,6 +23,7 @@ protected void finalize() {
 ```
 
 An object can be deleted in 3 ways. They are
+
 1. By assigning NULL
 2. By assigning a reference to another object
 3. Using an anonymous object
