@@ -1,11 +1,14 @@
-* The Access Modifiers in Java specifies the scope of a method or field or class
-* There are 4 types of access modifiers in Java. They are :
+The Access Modifiers in Java specifies the scope of a method or field or class
+
+There are 4 types of access modifiers in Java. They are :
 1. Private
 2. Public
 3. Default
 4. Protected
+
 ## Private
 * It is accessible only inside the class
+
 ### Example
 ```java
 class A{  
@@ -100,6 +103,6 @@ class B extends A {
 	}
 }
 ```
-outputs p1
+We will get output as `p1`.
 
 
