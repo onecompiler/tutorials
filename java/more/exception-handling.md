@@ -8,7 +8,9 @@
 * The `catch` block catches the exception that is generated in the try block.
 ## Types of Exceptions in Java
 There are majorly 2 types of exceptions in Java
+
 1. Checked
+
 2. Unchecked
 
 ## 1. Checked Exception

@@ -10,12 +10,12 @@
 * It has 2 parameters, First parameter used to indicate the pattern that is searched and the other parameter is a flag to tell the case-sensitivity
 
 ### Patterns
-* [xyz] - Finds a character from options between the brackets
-* [^xyz] - Finds a character from options not between the brackets
+* \[xyz\] : Finds a character from options between the brackets
+* \[^xyz\] : Finds a character from options not between the brackets
 
 ### Flags
-* pattern.LITERAL - special characters also treated as normal characters
-* pattern.CASE_INSENSITIVE - case of letters is not considered
+* pattern.LITERAL : special characters also treated as normal characters
+* pattern.CASE_INSENSITIVE : case of letters is not considered
 
 ### 2. Matcher
 Used to search the patterns

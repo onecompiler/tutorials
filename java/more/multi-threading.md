@@ -5,7 +5,9 @@
 
 ## Creation of Threads
 Threads can be created in 2 ways. They are:
+
 1. Extending to Thread class
+
 2. Implementing a Runnable Interface
 
 ## 1. Extending Thread class
