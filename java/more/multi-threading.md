@@ -47,7 +47,7 @@ public class Main
 ### check output [here](https://onecompiler.com/java/3w4cfmnux)
 
 ## 2. Implementing to a Runnable Interface
-* We will create a that implements the `java.lang.Runnable` interface
+* We will create a class that implements the `java.lang.Runnable` interface
 
 ### Example
 

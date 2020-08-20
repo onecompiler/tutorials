@@ -8,7 +8,7 @@ We can perform method overloading in 2 ways. They are:
 2. Changing the data type of arguments
 
 ## 1. Changing no of arguments
-We change the no of arguments for each method so that object can differentiate based on the no of parameters
+We change the number of arguments for each method so that object can differentiate based on the no of parameters
 ```java
 import java.util.Date;
 

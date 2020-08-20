@@ -3,7 +3,7 @@
 * Which means we cannot create objects for an abstract class
 * We use keyword `abstract` to create an Abstract class
 * If we try to create object for an Abstract class we will get an error 
-* To access methods of an Abstract class we need  to create a subclass
+* To access methods of an Abstract class we need to create a subclass
 * An abstract class can have both abstract and non-abstract methods
 
 ### Syntax

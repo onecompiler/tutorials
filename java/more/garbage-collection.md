@@ -14,7 +14,7 @@ public static void gc() {
 }
 ```
 ## 2. finalize()
-This method is called each time an object is a garbage collected
+This method is called each time when an object is garbage collected
 
 ### Syntax
 ```java
