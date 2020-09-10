@@ -1,115 +1,116 @@
 {
+    "_id": "groovy",
     "title": "Groovy",
     "description": "Groovy Tutorial - Learn the concepts of Groovy programming language, practice the sample programs and try yourself using our free editor.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to Groovy",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Data Types",
-                "path" : "data-types"
-            },
-            {
-                "title" : "Variables",
-                "path" : "variables"
-            }, 
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            }
-        ]
-    },
-    {
-        "title" : "Control Statements",
-        "path" : "control-statements",
-        "links" : [
-            {
-                "title" : "Conditional Statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }                                                 
-        ]
-    },
-    {
-        "title" : "Lists",
-        "path" : "lists",
-        "links" : [
-            {
-                "title" : "Lists",
-                "path" : "lists"
-            }
-        ]
-    },
-    {
-        "title" : "Maps",
-        "path" : "maps",
-        "links" : [
-            {
-                "title" : "Maps",
-                "path" : "maps"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
-        ]
-    },
-    {
-        "title" : "Methods",
-        "path" : "methods",
-        "links" : [
-            {
-                "title" : "Methods",
-                "path" : "methods"
-            }
-        ]
-    },
-    {
-        "title" : "OOPS in Groovy",
-        "path" : "oops",
-        "links" : [
-            {
-                "title" : "OOP Principles",
-                "path" : "oops"
-            }
-        ]
-    },
-    {
-        "title" : "Groovy Closures",
-        "path" : "closures",
-        "links" : [
-            {
-                "title" : "Closures",
-                "path" : "groovy-closures"
-            }
-        ]
-    },
-    {
-        "title" : "Regular expressions",
-        "path" : "regular-expressions",
-        "links" : [
-            {
-                "title" : "Regular expressions",
-                "path" : "reg-ex"
-            }
-        ]
-    }
-]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to Groovy",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Variables",
+                    "path": "variables"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                }
+            ]
+        },
+        {
+            "title": "Control Statements",
+            "path": "control-statements",
+            "links": [
+                {
+                    "title": "Conditional Statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "Lists",
+            "path": "lists",
+            "links": [
+                {
+                    "title": "Lists",
+                    "path": "lists"
+                }
+            ]
+        },
+        {
+            "title": "Maps",
+            "path": "maps",
+            "links": [
+                {
+                    "title": "Maps",
+                    "path": "maps"
+                }
+            ]
+        },
+        {
+            "title": "Strings",
+            "path": "strings",
+            "links": [
+                {
+                    "title": "Strings",
+                    "path": "strings"
+                }
+            ]
+        },
+        {
+            "title": "Methods",
+            "path": "methods",
+            "links": [
+                {
+                    "title": "Methods",
+                    "path": "methods"
+                }
+            ]
+        },
+        {
+            "title": "OOPS in Groovy",
+            "path": "oops",
+            "links": [
+                {
+                    "title": "OOP Principles",
+                    "path": "oops"
+                }
+            ]
+        },
+        {
+            "title": "Groovy Closures",
+            "path": "closures",
+            "links": [
+                {
+                    "title": "Closures",
+                    "path": "groovy-closures"
+                }
+            ]
+        },
+        {
+            "title": "Regular expressions",
+            "path": "regular-expressions",
+            "links": [
+                {
+                    "title": "Regular expressions",
+                    "path": "reg-ex"
+                }
+            ]
+        }
+    ]
 }

@@ -1,121 +1,120 @@
 {
+    "_id": "python",
     "title": "Python",
     "description": "Python Tutorial - Learn the concepts of Python, practice the sample programs and try yourself using our free editor.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to Python",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Variables and Datatypes",
-                "path" : "variables-and-data-types"
-            }, 
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            },
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
-     
-        ]
-    },
-    {
-        "title" : "Functions",
-        "path" : "functions",
-        "links" : [
-            {
-                "title" : "Functions",
-                "path" : "functions"
-            }
-        ]
-    },
-    {
-        "title" : "Collections",
-        "path" : "collections",
-        "links" : [
-            {
-                "title" : "Collections",
-                "path" : "collections"
-            }
-        ]
-    },
-    {
-        "title" : "Control Statements",
-        "path" : "control-statements",
-        "links" : [
-            {
-                "title" : "Conditional Statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }
-        ]
-    },
-    {
-        "title" : "OOPs",
-        "path" : "oops",
-        "links" : [
-            {
-                "title" : "OOPs",
-                "path" : "oops"
-            }
-        ]
-    },
-    {
-        "title" : "Working with Files",
-        "path" : "working-with-files",
-        "links" : [
-            {
-                "title" : "CRUD Operations",
-                "path" : "crud-with-files"
-            }
-        ]
-    },
-    {
-        "title" : "Working with MongoDB",
-        "path" : "python-mongodb",
-        "links" : [
-            {
-                "title" : "CRUD Operations",
-                "path" : "crud-with-mongodb"
-            }
-        ]
-    },
-    {
-        "title" : "Data Science",
-        "path" : "data-science",
-        "links" : [
-            {
-                "title" : "NumPy Arrays",
-                "path" : "numpy-arrays"
-            },
-            {
-                "title" : "Pandas",
-                "path" : "pandas"
-            }
-        ]
-    },
-    {
-        "title" : "Solved examples",
-        "path" : "examples",
-        "links" : [
-            {
-                "title" : "Examples",
-                "path" : "examples"
-            }
-        ]
-    }
-
-]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to Python",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Variables and Datatypes",
+                    "path": "variables-and-data-types"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                },
+                {
+                    "title": "Strings",
+                    "path": "strings"
+                }
+            ]
+        },
+        {
+            "title": "Functions",
+            "path": "functions",
+            "links": [
+                {
+                    "title": "Functions",
+                    "path": "functions"
+                }
+            ]
+        },
+        {
+            "title": "Collections",
+            "path": "collections",
+            "links": [
+                {
+                    "title": "Collections",
+                    "path": "collections"
+                }
+            ]
+        },
+        {
+            "title": "Control Statements",
+            "path": "control-statements",
+            "links": [
+                {
+                    "title": "Conditional Statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "OOPs",
+            "path": "oops",
+            "links": [
+                {
+                    "title": "OOPs",
+                    "path": "oops"
+                }
+            ]
+        },
+        {
+            "title": "Working with Files",
+            "path": "working-with-files",
+            "links": [
+                {
+                    "title": "CRUD Operations",
+                    "path": "crud-with-files"
+                }
+            ]
+        },
+        {
+            "title": "Working with MongoDB",
+            "path": "python-mongodb",
+            "links": [
+                {
+                    "title": "CRUD Operations",
+                    "path": "crud-with-mongodb"
+                }
+            ]
+        },
+        {
+            "title": "Data Science",
+            "path": "data-science",
+            "links": [
+                {
+                    "title": "NumPy Arrays",
+                    "path": "numpy-arrays"
+                },
+                {
+                    "title": "Pandas",
+                    "path": "pandas"
+                }
+            ]
+        },
+        {
+            "title": "Solved examples",
+            "path": "examples",
+            "links": [
+                {
+                    "title": "Examples",
+                    "path": "examples"
+                }
+            ]
+        }
+    ]
 }

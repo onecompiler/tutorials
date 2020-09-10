@@ -1,109 +1,110 @@
 {
+    "_id": "php",
     "title": "PHP",
     "description": "PHP Tutorial - Learn the concepts of PHP language, practice the sample programs and try yourself using our free editor.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to PHP",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Data Types",
-                "path" : "data-types"
-            },
-            {
-                "title" : "Variables",
-                "path" : "variables"
-            },
-            {
-                "title" : "Constants",
-                "path" : "constants"
-            }, 
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
-        ]
-    },
-    {
-        "title" : "Control Statements",
-        "path" : "control-statements",
-        "links" : [
-            {
-                "title" : "Conditional Statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }                                                 
-        ]
-    },
-    {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Functions",
-        "path" : "functions",
-        "links" : [
-            {
-                "title" : "Functions",
-                "path" : "functions"
-            }
-        ]
-    },
-    {
-        "title" : "OOPs",
-        "path" : "oops",
-        "links" : [
-            {
-                "title" : "OOPs",
-                "path" : "oops"
-            }
-        ]
-    },
-    {
-        "title" : "Working with Files",
-        "path" : "working-with-files",
-        "links" : [
-            {
-                "title" : "File Operations",
-                "path" : "working-with-files"
-            }
-        ]
-    },
-    {
-        "title" : "Working with database",
-        "path" : "working-with-database",
-        "links" : [
-            {
-                "title" : "CRUD with database",
-                "path" : "crud-with-database"
-            }
-        ]
-    }
-]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to PHP",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Variables",
+                    "path": "variables"
+                },
+                {
+                    "title": "Constants",
+                    "path": "constants"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                }
+            ]
+        },
+        {
+            "title": "Strings",
+            "path": "strings",
+            "links": [
+                {
+                    "title": "Strings",
+                    "path": "strings"
+                }
+            ]
+        },
+        {
+            "title": "Control Statements",
+            "path": "control-statements",
+            "links": [
+                {
+                    "title": "Conditional Statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "Arrays",
+            "path": "arrays",
+            "links": [
+                {
+                    "title": "Arrays",
+                    "path": "arrays"
+                }
+            ]
+        },
+        {
+            "title": "Functions",
+            "path": "functions",
+            "links": [
+                {
+                    "title": "Functions",
+                    "path": "functions"
+                }
+            ]
+        },
+        {
+            "title": "OOPs",
+            "path": "oops",
+            "links": [
+                {
+                    "title": "OOPs",
+                    "path": "oops"
+                }
+            ]
+        },
+        {
+            "title": "Working with Files",
+            "path": "working-with-files",
+            "links": [
+                {
+                    "title": "File Operations",
+                    "path": "working-with-files"
+                }
+            ]
+        },
+        {
+            "title": "Working with database",
+            "path": "working-with-database",
+            "links": [
+                {
+                    "title": "CRUD with database",
+                    "path": "crud-with-database"
+                }
+            ]
+        }
+    ]
 }

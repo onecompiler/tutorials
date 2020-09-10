@@ -1,65 +1,62 @@
 {
+    "_id": "ibm-transformation-extender",
     "title": "IBM Transformation eXtender(ITX)",
     "description": "Easy to Understand middleware tutorials for beginners with core concepts and examples.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Introduction of IBM transformation extender",
-        "path" : "introduction",
-        "links" : [
-            {
-                "title" : "Introduction of IBM Transformation Extender",
-                "path" : "introduction"
-            }
-            
-        ]
-    },
-    {
-        "title" : "Type trees",
-        "path" : "type-trees",
-        "links" : [
-            {
-                "title" : "Type trees",
-                "path" : "type-trees"
-            }            
-        ]
-    },
-    {
-        "title" : "Mapping",
-        "path" : "mapping",
-        "links" : [
-            {
-                "title" : "maps",
-                "path" : "maps"
-            },
-            {
-                "title" : "Inbuilt Functions",
-                "path" : "inbuilt-functions"
-            }
-            
-        ]
-    },
-    
-    {
-        "title" : "ITX with other middleware tools",
-        "path" : "itx-with-other-tools",
-        "links" : [
-            {
-                "title" : "ITX for IIB",
-                "path" : "itx-for-iib"
-            },
-            {
-                "title" : "ITX with Data Power",
-                "path" : "itx-with-dp"
-            },
-            {
-                "title" : "ITX with Sterling B2B Integrator",
-                "path" : "itx-for-si"
-            }
-            
-        ]
-    }    
-]
+        {
+            "title": "Introduction of IBM transformation extender",
+            "path": "introduction",
+            "links": [
+                {
+                    "title": "Introduction of IBM Transformation Extender",
+                    "path": "introduction"
+                }
+            ]
+        },
+        {
+            "title": "Type trees",
+            "path": "type-trees",
+            "links": [
+                {
+                    "title": "Type trees",
+                    "path": "type-trees"
+                }
+            ]
+        },
+        {
+            "title": "Mapping",
+            "path": "mapping",
+            "links": [
+                {
+                    "title": "maps",
+                    "path": "maps"
+                },
+                {
+                    "title": "Inbuilt Functions",
+                    "path": "inbuilt-functions"
+                }
+            ]
+        },
+        {
+            "title": "ITX with other middleware tools",
+            "path": "itx-with-other-tools",
+            "links": [
+                {
+                    "title": "ITX for IIB",
+                    "path": "itx-for-iib"
+                },
+                {
+                    "title": "ITX with Data Power",
+                    "path": "itx-with-dp"
+                },
+                {
+                    "title": "ITX with Sterling B2B Integrator",
+                    "path": "itx-for-si"
+                }
+            ]
+        }
+    ]
 }

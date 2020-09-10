@@ -1,125 +1,126 @@
 {
+    "_id": "perl",
     "title": "Perl",
     "description": "Perl Tutorial - Learn the concepts of Perl programming language, practice the sample programs and try yourself using our free editor.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to Perl",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Data Types",
-                "path" : "data-types"
-            },
-            {
-                "title" : "Variables",
-                "path" : "variables"
-            }, 
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
-        ]
-    },
-    {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Lists",
-        "path" : "lists",
-        "links" : [
-            {
-                "title" : "Lists",
-                "path" : "lists"
-            }
-        ]
-    },
-    {
-        "title" : "Hashes",
-        "path" : "hashes",
-        "links" : [
-            {
-                "title" : "Hashes",
-                "path" : "hashes"
-            }
-        ]
-    },
-    {
-        "title" : "Control Statements",
-        "path" : "control-statements",
-        "links" : [
-            {
-                "title" : "Conditional Statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }                                                 
-        ]
-    },
-    {
-        "title" : "Sub-routines in Perl",
-        "path" : "sub-routine",
-        "links" : [
-            {
-                "title" : "Sub-routines",
-                "path" : "sub-routine"
-            }
-        ]
-    },
-    {
-        "title" : "OOPS in Perl",
-        "path" : "oops-in-perl",
-        "links" : [
-            {
-                "title" : "OOP Principles",
-                "path" : "oops"
-            }
-        ]
-    },
-    {
-        "title" : "Working with Databases",
-        "path" : "working-with-databases",
-        "links" : [
-            {
-                "title" : "Databases",
-                "path" : "databases"
-            }
-        ]
-    },
-    {
-        "title" : "Working with Files",
-        "path" : "working-with-files",
-        "links" : [
-            {
-                "title" : "Files I/O",
-                "path" : "files"
-            }
-        ]
-    }
-]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to Perl",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Variables",
+                    "path": "variables"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                }
+            ]
+        },
+        {
+            "title": "Strings",
+            "path": "strings",
+            "links": [
+                {
+                    "title": "Strings",
+                    "path": "strings"
+                }
+            ]
+        },
+        {
+            "title": "Arrays",
+            "path": "arrays",
+            "links": [
+                {
+                    "title": "Arrays",
+                    "path": "arrays"
+                }
+            ]
+        },
+        {
+            "title": "Lists",
+            "path": "lists",
+            "links": [
+                {
+                    "title": "Lists",
+                    "path": "lists"
+                }
+            ]
+        },
+        {
+            "title": "Hashes",
+            "path": "hashes",
+            "links": [
+                {
+                    "title": "Hashes",
+                    "path": "hashes"
+                }
+            ]
+        },
+        {
+            "title": "Control Statements",
+            "path": "control-statements",
+            "links": [
+                {
+                    "title": "Conditional Statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "Sub-routines in Perl",
+            "path": "sub-routine",
+            "links": [
+                {
+                    "title": "Sub-routines",
+                    "path": "sub-routine"
+                }
+            ]
+        },
+        {
+            "title": "OOPS in Perl",
+            "path": "oops-in-perl",
+            "links": [
+                {
+                    "title": "OOP Principles",
+                    "path": "oops"
+                }
+            ]
+        },
+        {
+            "title": "Working with Databases",
+            "path": "working-with-databases",
+            "links": [
+                {
+                    "title": "Databases",
+                    "path": "databases"
+                }
+            ]
+        },
+        {
+            "title": "Working with Files",
+            "path": "working-with-files",
+            "links": [
+                {
+                    "title": "Files I/O",
+                    "path": "files"
+                }
+            ]
+        }
+    ]
 }

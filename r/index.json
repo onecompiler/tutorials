@@ -1,135 +1,136 @@
 {
+    "_id": "r",
     "title": "R",
     "description": "R Tutorial - Learn the concepts of R programming language, practice the sample programs and try yourself using our free editor.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to R",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Data Types",
-                "path" : "data-types"
-            },
-            {
-                "title" : "Variables",
-                "path" : "variables"
-            }, 
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            }
-        ]
-    },
-    {
-        "title" : "Control Statements",
-        "path" : "control-statements",
-        "links" : [
-            {
-                "title" : "Conditional Statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }
-        ]
-    },
-    {
-        "title" : "Strings",
-        "path" : "strings",
-        "links" : [
-            {
-                "title" : "Strings",
-                "path" : "strings"
-            }
-        ]
-    },
-    {
-        "title" : "Functions",
-        "path" : "functions",
-        "links" : [
-            {
-                "title" : "Functions",
-                "path" : "functions"
-            }
-        ]
-    },
-    {
-        "title" : "Vectors",
-        "path" : "vectors",
-        "links" : [
-            {
-                "title" : "Vectors",
-                "path" : "vectors"
-            }
-        ]
-    },
-    {
-        "title" : "Lists",
-        "path" : "lists",
-        "links" : [
-            {
-                "title" : "Lists",
-                "path" : "lists"
-            }
-        ]
-    },
-    {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Matrices",
-        "path" : "matrices",
-        "links" : [
-            {
-                "title" : "Matrices",
-                "path" : "matrices"
-            }
-        ]
-    },
-    {
-        "title" : "Data Frames",
-        "path" : "data-frame",
-        "links" : [
-            {
-                "title" : "Data Frames",
-                "path" : "data-frame"
-            }
-        ]
-    }, 
-    {
-        "title" : "Factors",
-        "path" : "factors",
-        "links" : [
-            {
-                "title" : "Factors",
-                "path" : "factors"
-            }
-        ]
-    },
-    {
-        "title" : "Data Interfaces",
-        "path" : "data-interfaces",
-        "links" : [
-            {
-                "title" : "Data Interfaces",
-                "path" : "data-interfaces"
-            }
-        ]
-    }
-]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to R",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Variables",
+                    "path": "variables"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                }
+            ]
+        },
+        {
+            "title": "Control Statements",
+            "path": "control-statements",
+            "links": [
+                {
+                    "title": "Conditional Statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "Strings",
+            "path": "strings",
+            "links": [
+                {
+                    "title": "Strings",
+                    "path": "strings"
+                }
+            ]
+        },
+        {
+            "title": "Functions",
+            "path": "functions",
+            "links": [
+                {
+                    "title": "Functions",
+                    "path": "functions"
+                }
+            ]
+        },
+        {
+            "title": "Vectors",
+            "path": "vectors",
+            "links": [
+                {
+                    "title": "Vectors",
+                    "path": "vectors"
+                }
+            ]
+        },
+        {
+            "title": "Lists",
+            "path": "lists",
+            "links": [
+                {
+                    "title": "Lists",
+                    "path": "lists"
+                }
+            ]
+        },
+        {
+            "title": "Arrays",
+            "path": "arrays",
+            "links": [
+                {
+                    "title": "Arrays",
+                    "path": "arrays"
+                }
+            ]
+        },
+        {
+            "title": "Matrices",
+            "path": "matrices",
+            "links": [
+                {
+                    "title": "Matrices",
+                    "path": "matrices"
+                }
+            ]
+        },
+        {
+            "title": "Data Frames",
+            "path": "data-frame",
+            "links": [
+                {
+                    "title": "Data Frames",
+                    "path": "data-frame"
+                }
+            ]
+        },
+        {
+            "title": "Factors",
+            "path": "factors",
+            "links": [
+                {
+                    "title": "Factors",
+                    "path": "factors"
+                }
+            ]
+        },
+        {
+            "title": "Data Interfaces",
+            "path": "data-interfaces",
+            "links": [
+                {
+                    "title": "Data Interfaces",
+                    "path": "data-interfaces"
+                }
+            ]
+        }
+    ]
 }

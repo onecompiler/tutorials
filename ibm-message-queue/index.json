@@ -1,83 +1,78 @@
 {
+    "_id": "ibm-message-queue",
     "title": "IBM MEssage Queues(MQ)",
     "description": "Easy to Understand Middleware tutorials for beginners with core concepts and examples.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Introduction of IBM MQ",
-        "path" : "introduction",
-        "links" : [
-            {
-                "title" : "Introduction of IBM MQ",
-                "path" : "introduction"
-            }
-            
-        ]
-    },
-    {
-        "title" : "MQ Objects",
-        "path" : "mq-objects",
-        "links" : [
-            {
-                "title" : "Queue Manager",
-                "path" : "queue-manager"
-            },
-            {
-                "title" : "Queues",
-                "path" : "queues"
-            },
-            {
-                "title" : "Channels",
-                "path" : "channels"
-            }            
-        ]
-    },
-    {
-        "title" : "Distributed Queue Management",
-        "path" : "distributed-queue-management",
-        "links" : [
-            {
-                "title" : "Distributed Queue Management",
-                "path" : "distributed-queue-management"
-            }
-            
-        ]
-    },
-    {
-        "title" : "Multi-Hopping",
-        "path" : "multi-hopping",
-        "links" : [
-            {
-                "title" : "Multi-Hopping",
-                "path" : "multi-hopping"
-            }
-            
-        ]
-    },
-    {
-        "title" : "Publish-Subscribe",
-        "path" : "publish-subscribe",
-        "links" : [
-            {
-                "title" : "Publish-Subscribe",
-                "path" : "publish-subscribe"
-            }
-            
-        ]
-    },
-    {
-        "title" : "Clusters",
-        "path" : "clusters",
-        "links" : [
-            {
-                "title" : "Clusters",
-                "path" : "clusters"
-            }
-            
-        ]
-    }
-    
-]
+        {
+            "title": "Introduction of IBM MQ",
+            "path": "introduction",
+            "links": [
+                {
+                    "title": "Introduction of IBM MQ",
+                    "path": "introduction"
+                }
+            ]
+        },
+        {
+            "title": "MQ Objects",
+            "path": "mq-objects",
+            "links": [
+                {
+                    "title": "Queue Manager",
+                    "path": "queue-manager"
+                },
+                {
+                    "title": "Queues",
+                    "path": "queues"
+                },
+                {
+                    "title": "Channels",
+                    "path": "channels"
+                }
+            ]
+        },
+        {
+            "title": "Distributed Queue Management",
+            "path": "distributed-queue-management",
+            "links": [
+                {
+                    "title": "Distributed Queue Management",
+                    "path": "distributed-queue-management"
+                }
+            ]
+        },
+        {
+            "title": "Multi-Hopping",
+            "path": "multi-hopping",
+            "links": [
+                {
+                    "title": "Multi-Hopping",
+                    "path": "multi-hopping"
+                }
+            ]
+        },
+        {
+            "title": "Publish-Subscribe",
+            "path": "publish-subscribe",
+            "links": [
+                {
+                    "title": "Publish-Subscribe",
+                    "path": "publish-subscribe"
+                }
+            ]
+        },
+        {
+            "title": "Clusters",
+            "path": "clusters",
+            "links": [
+                {
+                    "title": "Clusters",
+                    "path": "clusters"
+                }
+            ]
+        }
+    ]
 }

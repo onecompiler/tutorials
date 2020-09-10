@@ -1,104 +1,104 @@
 {
+    "_id": "firebird",
     "title": "Fire Bird",
     "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title": "Introduction",
-        "path": "introduction",
-        "links": [
-            {
-                "title" : "About Firebird",
-                "path" : "about-firebird"
-            },
-            {
-                "title" : "Installation on MacOS, Linux and Windows",
-                "path" : "installation"
-
-            }
-        ]
-    },
-    {
-        "title": "Data Types",
-        "path": "data-types",
-        "links": [
-            {
-                "title": "Data Types",
-                 "path": "data-types"
-            }
-        ]
-    },
-    {
-        "title": "Constraints",
-        "path": "constraints",
-        "links": [
-            {
-                "title": "Constraints",
-                "path": "constraints"
-            }
-        ]
-    },
-    {
-        "title": "Commands",
-        "path": "commands",
-        "links": [
-            {
-                "title": "Commands",
-                "path": "commands"
-            }
-        ]
-    },
-    {
-        "title": "Joins",
-        "path": "joins",
-        "links": [
-            {
-                "title": "Joins",
-                "path": "joins"
-            }
-        ]
-    },
-    {
-        "title": "Indexes",
-        "path": "indexes",
-        "links": [
-            {
-                "title": "Indexes",
-                "path": "indexes"
-            }
-        ]
-    },
-    {
-        "title": "Triggers",
-        "path": "triggers",
-        "links": [
-            {
-                "title": "Triggers",
-                "path": "triggers"
-            }
-        ]
-    },
-    {
-        "title": "Views",
-        "path": "views",
-        "links": [
-            {
-                "title": "Views",
-                "path": "views"
-            }
-        ]
-    },
-    {
-        "title": "Stored Procedures",
-        "path": "stored-procedures",
-        "links": [
-            {
-                "title": "Stored Procedures",
-                "path": "stored-procedures"
-            }
-        ]
-    }
-]
+        {
+            "title": "Introduction",
+            "path": "introduction",
+            "links": [
+                {
+                    "title": "About Firebird",
+                    "path": "about-firebird"
+                },
+                {
+                    "title": "Installation on MacOS, Linux and Windows",
+                    "path": "installation"
+                }
+            ]
+        },
+        {
+            "title": "Data Types",
+            "path": "data-types",
+            "links": [
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                }
+            ]
+        },
+        {
+            "title": "Constraints",
+            "path": "constraints",
+            "links": [
+                {
+                    "title": "Constraints",
+                    "path": "constraints"
+                }
+            ]
+        },
+        {
+            "title": "Commands",
+            "path": "commands",
+            "links": [
+                {
+                    "title": "Commands",
+                    "path": "commands"
+                }
+            ]
+        },
+        {
+            "title": "Joins",
+            "path": "joins",
+            "links": [
+                {
+                    "title": "Joins",
+                    "path": "joins"
+                }
+            ]
+        },
+        {
+            "title": "Indexes",
+            "path": "indexes",
+            "links": [
+                {
+                    "title": "Indexes",
+                    "path": "indexes"
+                }
+            ]
+        },
+        {
+            "title": "Triggers",
+            "path": "triggers",
+            "links": [
+                {
+                    "title": "Triggers",
+                    "path": "triggers"
+                }
+            ]
+        },
+        {
+            "title": "Views",
+            "path": "views",
+            "links": [
+                {
+                    "title": "Views",
+                    "path": "views"
+                }
+            ]
+        },
+        {
+            "title": "Stored Procedures",
+            "path": "stored-procedures",
+            "links": [
+                {
+                    "title": "Stored Procedures",
+                    "path": "stored-procedures"
+                }
+            ]
+        }
+    ]
 }
