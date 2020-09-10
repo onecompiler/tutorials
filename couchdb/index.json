@@ -1,53 +1,54 @@
 {
+    "id": "couchdb",
     "title": "CouchDB",
     "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title": "Introduction",
-        "path": "introduction",
-        "links": [
-            {
-                "title": "What is CouchDb",
-                "path": "what-is-couchdb"
-            },
-            {
-                "title": "Key Concepts",
-                "path": "key-concepts"
-            },
-            {
-                "title": "Installation",
-                "path": "installation"
-            }
-        ]
-    },
-    {
-        "title": "CRUD Operations",
-        "path": "crud-operations",
-        "links": [
-            {
-                "title": "Creating database",
-                "path": "creating-database"
-            },
-            {
-                "title": "Deleting database",
-                "path": "deleting-database"
-            },
-            {
-                "title": "Creating Data",
-                "path": "creating-data"
-            },
-            {
-                "title": "Updating Data",
-                "path": "updating-data"
-            },
-            {
-                "title": "Deleting Data",
-                "path": "deleting-data"
-            }
-        ]
-    }
-]
+        {
+            "title": "Introduction",
+            "path": "introduction",
+            "links": [
+                {
+                    "title": "What is CouchDb",
+                    "path": "what-is-couchdb"
+                },
+                {
+                    "title": "Key Concepts",
+                    "path": "key-concepts"
+                },
+                {
+                    "title": "Installation",
+                    "path": "installation"
+                }
+            ]
+        },
+        {
+            "title": "CRUD Operations",
+            "path": "crud-operations",
+            "links": [
+                {
+                    "title": "Creating database",
+                    "path": "creating-database"
+                },
+                {
+                    "title": "Deleting database",
+                    "path": "deleting-database"
+                },
+                {
+                    "title": "Creating Data",
+                    "path": "creating-data"
+                },
+                {
+                    "title": "Updating Data",
+                    "path": "updating-data"
+                },
+                {
+                    "title": "Deleting Data",
+                    "path": "deleting-data"
+                }
+            ]
+        }
+    ]
 }
