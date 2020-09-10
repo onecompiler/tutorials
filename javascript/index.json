@@ -1,140 +1,140 @@
 {
+    "_id": "javascript",
     "title": "Javascript",
     "description": "Javascript Tutorial - Learn the concepts of Javascript, practice the sample programs and try yourself using our free editor.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title" : "Basics",
-        "path" : "basics",
-        "links" : [
-            {
-                "title" : "Introduction to Javascript",
-                "path" : "introduction"
-            },
-            {
-                "title" : "Variables",
-                "path" : "variables"
-            },
-            {
-                "title" : "Data Types",
-                "path" : "data-types"
-            },
-            {
-                "title" : "Date and Time",
-                "path" : "date-and-time"
-            },
-            {
-                "title" : "Operators",
-                "path" : "operators"
-            },
-            {
-                "title" : "Classes",
-                "path" : "classes"
-            },
-            {
-                "title" : "Objects",
-                "path" : "objects"
-            },
-            {
-                "title" : "Methods",
-                "path" : "methods"
-            },
-            {
-                "title" : "Arrow Function",
-                "path" : "arrow-function"
-            }                                                 
-        ]
-    },
-    {
-        "title" : "Arrays",
-        "path" : "arrays",
-        "links" : [
-            {
-                "title" : "Arrays",
-                "path" : "arrays"
-            }
-        ]
-    },
-    {
-        "title" : "Control statements",
-        "path" : "loops",
-        "links" : [
-            {
-                "title" : "Conditional statements",
-                "path" : "conditional-statements"
-            },
-            {
-                "title" : "Loops",
-                "path" : "loops"
-            }
-        ]
-    },
-
-    {
-        "title" : "Functions",
-        "path" : "functions",
-        "links" : [
-            {
-                "title" : "Functions",
-                "path" : "functions"
-            }
-        ]
-    },
-    {
-        "title" : "Modules",
-        "path" : "modules",
-        "links" : [
-            {
-                "title" : "Modules",
-                "path" : "modules"
-            }
-        ]
-    },
-    {
-        "title" : "Promises-Async-Await",
-        "path" : "promises-async-await",
-        "links" : [
-            {
-                "title" : "Promises-Async-Await",
-                "path" : "promises-async-await"
-            }
-        ]
-    },
-    {
-        "title" : "Error Handling",
-        "path" : "error-handling",
-        "links" : [
-            {
-                "title" : "Error Handling",
-                "path" : "error-handling"
-            }
-        ]
-    },
-    {
-        "title" : "More Topics",
-        "path" : "misc",
-        "links" : [
-            {
-                "title" : "Object Destructuring",
-                "path" : "object-destructuring"
-            }, 
-            {
-                "title" : "Callback functions",
-                "path" : "callback-functions"
-            }
-        ]
-    },
-    {
-        "title" : "Solved examples",
-        "path" : "examples",
-        "links" : [
-            {
-                "title" : "Examples",
-                "path" : "examples"
-            }
-        ]
-    }
-]
+        {
+            "title": "Basics",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Introduction to Javascript",
+                    "path": "introduction"
+                },
+                {
+                    "title": "Variables",
+                    "path": "variables"
+                },
+                {
+                    "title": "Data Types",
+                    "path": "data-types"
+                },
+                {
+                    "title": "Date and Time",
+                    "path": "date-and-time"
+                },
+                {
+                    "title": "Operators",
+                    "path": "operators"
+                },
+                {
+                    "title": "Classes",
+                    "path": "classes"
+                },
+                {
+                    "title": "Objects",
+                    "path": "objects"
+                },
+                {
+                    "title": "Methods",
+                    "path": "methods"
+                },
+                {
+                    "title": "Arrow Function",
+                    "path": "arrow-function"
+                }
+            ]
+        },
+        {
+            "title": "Arrays",
+            "path": "arrays",
+            "links": [
+                {
+                    "title": "Arrays",
+                    "path": "arrays"
+                }
+            ]
+        },
+        {
+            "title": "Control statements",
+            "path": "loops",
+            "links": [
+                {
+                    "title": "Conditional statements",
+                    "path": "conditional-statements"
+                },
+                {
+                    "title": "Loops",
+                    "path": "loops"
+                }
+            ]
+        },
+        {
+            "title": "Functions",
+            "path": "functions",
+            "links": [
+                {
+                    "title": "Functions",
+                    "path": "functions"
+                }
+            ]
+        },
+        {
+            "title": "Modules",
+            "path": "modules",
+            "links": [
+                {
+                    "title": "Modules",
+                    "path": "modules"
+                }
+            ]
+        },
+        {
+            "title": "Promises-Async-Await",
+            "path": "promises-async-await",
+            "links": [
+                {
+                    "title": "Promises-Async-Await",
+                    "path": "promises-async-await"
+                }
+            ]
+        },
+        {
+            "title": "Error Handling",
+            "path": "error-handling",
+            "links": [
+                {
+                    "title": "Error Handling",
+                    "path": "error-handling"
+                }
+            ]
+        },
+        {
+            "title": "More Topics",
+            "path": "misc",
+            "links": [
+                {
+                    "title": "Object Destructuring",
+                    "path": "object-destructuring"
+                },
+                {
+                    "title": "Callback functions",
+                    "path": "callback-functions"
+                }
+            ]
+        },
+        {
+            "title": "Solved examples",
+            "path": "examples",
+            "links": [
+                {
+                    "title": "Examples",
+                    "path": "examples"
+                }
+            ]
+        }
+    ]
 }

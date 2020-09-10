@@ -1,59 +1,60 @@
 {
+    "_id": "cassandra",
     "title": "Cassandra",
     "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
     "created": "2019-10-01",
     "updated": "2020-07-07",
     "cover": "",
     "index": [
-    {
-        "title": "Introduction",
-        "path": "introduction",
-        "links": [
-            {
-                "title": "Introduction",
-                "path": "introduction"
-            }
-        ]
-    },
-    {
-        "title": "CRUD Operations",
-        "path": "crud-operations",
-        "links": [
-            {
-                "title": "Creating Keyspace",
-                "path": "creating-keyspace"
-            },
-            {
-                "title": "Deleting Keyspace",
-                "path": "deleting-keyspace"
-            },
-            {
-                "title": "Creating Table",
-                "path": "creating-table"
-            },
-            {
-                "title": "Inserting Data",
-                "path": "creating-data"
-            },
-            {
-                "title": "Updating Data",
-                "path": "updating-data"
-            },
-            {
-                "title": "Deleting Data",
-                "path": "deleting-data"
-            }
-        ]
-    },
-    {
-        "title": "Advanced Topics",
-        "path": "advanced",
-        "links": [
-            {
-                "title": "Collection Data types",
-                "path": "collection-data-types"
-            }
-        ]
-    }
-]
+        {
+            "title": "Introduction",
+            "path": "introduction",
+            "links": [
+                {
+                    "title": "Introduction",
+                    "path": "introduction"
+                }
+            ]
+        },
+        {
+            "title": "CRUD Operations",
+            "path": "crud-operations",
+            "links": [
+                {
+                    "title": "Creating Keyspace",
+                    "path": "creating-keyspace"
+                },
+                {
+                    "title": "Deleting Keyspace",
+                    "path": "deleting-keyspace"
+                },
+                {
+                    "title": "Creating Table",
+                    "path": "creating-table"
+                },
+                {
+                    "title": "Inserting Data",
+                    "path": "creating-data"
+                },
+                {
+                    "title": "Updating Data",
+                    "path": "updating-data"
+                },
+                {
+                    "title": "Deleting Data",
+                    "path": "deleting-data"
+                }
+            ]
+        },
+        {
+            "title": "Advanced Topics",
+            "path": "advanced",
+            "links": [
+                {
+                    "title": "Collection Data types",
+                    "path": "collection-data-types"
+                }
+            ]
+        }
+    ]
 }
