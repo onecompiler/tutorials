@@ -1,1 +1,0 @@
-Couchdb is a free and open-source, NoSQL database management system. It is implemented in concurrency-oriented language Erlang. It was developed by Apache foundation. 
