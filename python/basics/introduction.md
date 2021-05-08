@@ -66,7 +66,7 @@ sudo yum install python36
 
 ## Simple Python Program
 
-* You can either use text editor or any IDE to write python(.py) programs after installing python. Or **Simply open your browser and open [Onecompiler](https://https://onecompiler.com/python/)**
+* You can either use text editor or any IDE to write python(.py) programs after installing python. Or **Simply open your browser and open [Onecompiler](https://onecompiler.com/python/)**
 
 * sample code of happylearning.py file
 

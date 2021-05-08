@@ -21,7 +21,7 @@ Documentation of the installation guidelines is provided in the official PHP web
 ## Using OneCompiler
 
 1. You don't need to install any software or compiler.
-2. Just goto [OneCompiler](Onecompiler.com) and choose the programming language as `Php` and enjoy programming without any installation.
+2. Just goto [OneCompiler](https://onecompiler.com/) and choose the programming language as `Php` and enjoy programming without any installation.
 
 ## Sample Program
 

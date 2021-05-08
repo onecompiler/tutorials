@@ -84,4 +84,4 @@ Let's look into each line of the above sample program:
 ## 3. Using Onecompiler
 
 * You don't need to install any software or compiler.
-* Just go to [OneCompiler](Onecompiler.com/go) and choose the programming language as `Go` and enjoy programming without any installation.
+* Just go to [OneCompiler](https://onecompiler.com/) and choose the programming language as `Go` and enjoy programming without any installation.
