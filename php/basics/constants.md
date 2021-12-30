@@ -38,7 +38,7 @@ echo message;
 ### Run [here](https://onecompiler.com/php/3vsr6ktcx)
 
 
-## 2. Usinf const keyword
+## 2. Using const keyword
 
 `const` keyword is used to create a constant. Constants defined with const keyword are case-sensitive.
 
