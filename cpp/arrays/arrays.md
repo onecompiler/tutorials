@@ -102,6 +102,35 @@ int main()
 ```
 ### Check result [here](https://onecompiler.com/cpp/3vmbfbbzg)
 
+### Traversal in Arrays.
+  Generally we need to traverse in a array when we are looking for 
+  specific elements.
+  
+  1. Linear Traversal 
+      In this traversal we iterate over array and compare each element one
+      by one.
+      Time Complexity is O(n) as in worst case our element may end up at 
+      last position.
+      
+      ```c
+      #include <iostream>
+      using namespace std;
+
+      int main() 
+      {
+        int a[3] = {1,2,3};
+        int key = 2;
+        for(int i = 0;i<3;i++){
+          if( a[i] == key){
+            cout<<"ELement Found";
+            break;
+         }
+       }
+      }
+      
+      ```
+      
+ 
 ## Summary
 
 * Arrays is a collection of homogeneous data.
