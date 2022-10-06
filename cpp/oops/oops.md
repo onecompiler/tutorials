@@ -88,13 +88,13 @@ class  Mobile {
     // creating a default constructor
     Mobile()// see no parameters has been passed while creating default constuctors
     {
-      price = 10000;
+      price = 300;
     }
 };
 int main()
 {
   Mobile m;// Mobile is the class-name and m is an object
-  cout<<m.price;// output will be the price i.e, 10,000;
+  cout<<"$"<<m.price;// output will be the price i.e, $300;
   return 0;
 }
 ```
@@ -113,8 +113,8 @@ class  Mobile {
 };
 int main()
 {
-  Mobile m(8000);// passing 8000 as the parameter
-  cout<<m.price;// output will be the price i.e, 8,000;
+  Mobile m(400);// passing 400 as the parameter
+  cout<<"$"<<m.price;// output will be the price i.e, $400;
   return 0;
 }
 ```
@@ -139,11 +139,11 @@ class  Mobile {
 };
 int main()
 {
-  Mobile m1(8000);// passing 8000 as the parameter
+  Mobile m1(400);// passing 400 as the parameter
   Mobile m2 = m1;//Copying data of object m1 to another object m2
   
-  cout<<m1.price<<endl;// output will be the price of m1 i.e, 8,000;
-  cout<<m2.price<<endl;// output will be same as m1 i.e, 8,000;
+  cout<<"$"<<m1.price<<endl;// output will be the price of m1 i.e, $400;
+  cout<<"$"<<m2.price<<endl;// output will be same as m1 i.e, $400;
   return 0;
 }
 ```
