@@ -122,7 +122,8 @@ int main()
         int key = 2;
         for(int i = 0;i<3;i++){
           if( a[i] == key){
-            cout<<"ELement Found";
+            cout<<"ELement Found"<<endl;
+            cout<<"index of element is "<<i<<endl;
             break;
          }
        }
