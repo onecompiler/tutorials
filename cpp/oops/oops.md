@@ -23,7 +23,7 @@ class mobile {
     public:    // access specifier which specifies that accessibility of class members 
     string name; // string variable (attribute)
     int cost; // int variable (attribute)
-};
+}; // unlike fucntions class should always end with a semicolon 
 
 ```
 ### How to create a Object
@@ -62,7 +62,91 @@ void mobile::hello(){ //method definition
     cout<<"Hello world!!";
 }
 ```
+## Constructors :
+A constructor is a special type of member function which is called automatically when an object is created.
+Example :
+```
+class  Mobile {
+  public:
+    // creating a constructor
+    Mobile() {
+      // code
+    }
+};
+```
+## Types of Constructors :
 
+There are three types of Constructors :
+### 1. Deafault Constructors :
+A constructor with no parameters are called Deafault Constructors. The parameters will be supplied at the time of compilation.
+
+```
+class  Mobile {
+
+  public:
+     int price;
+    // creating a default constructor
+    Mobile()// see no parameters has been passed while creating default constuctors
+    {
+      price = 300;
+    }
+};
+int main()
+{
+  Mobile m;// Mobile is the class-name and m is an object
+  cout<<"$"<<m.price;// output will be the price i.e, $300;
+  return 0;
+}
+```
+### 2. Parameterized Contructors :
+Constructors with parameters used for data members. Let us see it with an example and it will be much more clearer.
+```
+class  Mobile {
+
+  public:
+     int price;
+    // creating a parameterized constructor
+    Mobile(int p)//see parameter p (integer) has been passed while creating default constuctors
+    {
+      price = p;
+    }
+};
+int main()
+{
+  Mobile m(400);// passing 400 as the parameter
+  cout<<"$"<<m.price;// output will be the price i.e, $400;
+  return 0;
+}
+```
+### 3. Copy Constuctors :
+When one object of class initialize the other object it takes reference to an object of the same class as a argument.
+So, the copy constructor in copy data of one object to another.
+```
+class  Mobile {
+
+  public:
+     int price;
+    // creating a copy constructor
+    //Initializing with parameterized constructor
+    Mobile(int p)
+    {
+      price = p;
+    }
+    Mobile(Mobile &obj)
+    {
+        price = obj.price;
+    }
+};
+int main()
+{
+  Mobile m1(400);// passing 400 as the parameter
+  Mobile m2 = m1;//Copying data of object m1 to another object m2
+  
+  cout<<"$"<<m1.price<<endl;// output will be the price of m1 i.e, $400;
+  cout<<"$"<<m2.price<<endl;// output will be same as m1 i.e, $400;
+  return 0;
+}
+```
 ## 2. Encapsulation
 
 Encapsulation is a mechanism to protect private hidden from other users. It wraps the data and methods as a single bundle. `private` is the keyword used to declare the variables or methods as private.  You can make public `set` and `get` methods to access private variables.
