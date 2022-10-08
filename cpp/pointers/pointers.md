@@ -68,6 +68,33 @@ cout << "Value of x: " << x << endl;
 ```
 ### Check result [here](https://onecompiler.com/cpp/3vmdff4eq)
 
+Pointes has the ability to store address of more than one elements or a cells of elements. 
+
+## Example 
+```c
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int arr[3] = { 2, 3, 4 }; // arr is an array of size 3
+    int* ptr = arr; // syntax for making a pointer point to an array
+    cout << ptr << endl; //prints the address of arr[0] beacuse ptr stores the address of the first element of arr
+    cout << *ptr << endl; //prints the value of the first element i.e, 2
+    
+    //Now let us see how can we print the whole array by using the pointer
+    for (int i = 0; i < 3; i++){
+    
+        cout << *(ptr + i) << endl;
+        
+    }
+    
+    return 0;
+}
+```
+### Check result [here](https://onecompiler.com/cpp/3yjazmygf)
+
 
 
 
