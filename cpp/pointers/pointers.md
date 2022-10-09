@@ -97,11 +97,11 @@ int main()
 ### Check result [here](https://onecompiler.com/cpp/3yjazmygf)
 
 ## Example
-```#include<iostream>
+```c
+#include<iostream>
 using namespace std;
 
 int main(){
-    int a[]={1,2,3};
     char b[]= "abc";
     
     //in char array ptr, ptr does not store the address(unlike integer array)
