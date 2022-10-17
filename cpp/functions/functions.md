@@ -130,3 +130,55 @@ int sum(int x , int y) { //function definition
 }
 ```
 ### Check result [here](https://onecompiler.com/cpp/3vmbhyses)
+
+## calling a function inside same function(recursion):
+```c
+#include <iostream>
+using namespace std;
+
+int increase(int ); // function declaration
+
+int main()
+{
+  int x= 10;
+  int result;
+  
+  result = increase(x); // passing arguments to function increase
+  cout << "Result after increasing : " << result;
+
+  
+}
+
+int increase(int x ) { //function definition
+   int new_result = x + 1;
+   return increase(new_result); // calling itself 
+}
+```
+### Check result [here](https://onecompiler.com/cpp/3yk82ucqf)
+However this will continue increasing the value of the parameter due to which it will call the same function again again. To avoid this we can set a limit which will stop the function from calling itesf after we cross the limit. This is also known as base case.
+
+
+```c
+#include <iostream>
+using namespace std;
+
+int increase(int ); // function declaration
+
+int main()
+{
+  int x= 10;
+  int result;
+  
+  result = increase(x); // passing arguments to function increase
+  cout << "Result after increasing : " << result;
+
+  
+}
+
+int increase(int x ) { //function definition
+   if(x > 20) return x; //base case
+   int new_result = x + 1;
+   return increase(new_result); // calling itself 
+}
+```
+### Check result [here](https://onecompiler.com/cpp/3yk82ucqf)
