@@ -4,6 +4,7 @@ Pointer is a variable which holds the memory information(address) of another var
 * Improves execution time.
 * More efficient while handling arrays and structures.
 * You can pass function as an argument to another function only with the help of pointers.
+<hr>
 
 ## Syntax
 
@@ -14,8 +15,9 @@ datatype* pointername;
 // or
 datatype *pointername;
 ```
+<hr>
 
-## Example
+## Example: 1
 
 ```c
 #include <iostream>
@@ -37,9 +39,9 @@ int main()
 
 ```
 ###  Check result [here](https://onecompiler.com/cpp/3vmdfajwb)
+<br>
 
-
-## Example : 2
+## Example: 2
 
 ```c
 #include <iostream>
@@ -67,13 +69,14 @@ cout << "Value of x: " << x << endl;
 }
 ```
 ### Check result [here](https://onecompiler.com/cpp/3vmdff4eq)
+<br>
 
-Pointes has the ability to store address of more than one elements or a cells of elements. 
+Pointer has the ability to store address of more than one elements or a cells of elements. 
 
-## Example 
+## Example: 3
+
 ```c
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -94,7 +97,46 @@ int main()
 }
 ```
 ### Check result [here](https://onecompiler.com/cpp/3yjazmygf)
+<hr>
 
+## Pointer Arithmetic
 
+- Post or Pre increment(++)
+- Post or Pre decrement(--)
+- Addition(+)
+- Subtraction(-)
 
+### Example
 
+```c
+#include <iostream>
+using namespace std;
+
+void operations()
+{
+	//Declare an array
+	int v[3] = {10, 100, 200};
+	
+	//Declare pointer variable
+	int *ptr;
+	
+	//Assign the address of v[0] to ptr
+	ptr = v;
+	
+	for (int i = 0; i < 3; i++)
+	{
+		cout << "Value at ptr: " << ptr << "\n";
+		cout << "Value at *ptr: " << *ptr << "\n";
+		
+		// Increment pointer ptr by 1 i.e. point to the next address
+		ptr++;
+	}
+}
+
+int main()
+{
+	operations();
+    return 0;
+}
+```
+### Check result [here](https://onecompiler.com/cpp/3ykbjd94f)
