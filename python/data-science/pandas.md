@@ -11,7 +11,7 @@ Pandas is a very powerful library which has many features to help data scientist
 
 ## What is a DataFrame
 
-A DataFrame is a two-dimensional data structure means the data is aligned into rows and columns. DataFrames are the standard way to store the data. They are size-mutable, potentially heterogeneous tabular data.
+A DataFrame is a two-dimensional data structure, means the data is aligned into rows and columns. DataFrames are the standard way to store the data. They are size-mutable, potentially heterogeneous tabular data.
 
 ## How to create DataFrame
 
@@ -58,5 +58,31 @@ data = pd.read_csv('example.csv') # reads example.csv csv file
 
 print(data)
 ```
+### import from excel files
 
+You can also import csv files to create DataFrames. Consider you have example.csv stored and can be imported using Pandas using pd.read_csv().
 
+```py
+import pandas as pd
+
+data = pd.read_excel('example.xlsx') # reads example.xlsx xlsx file
+
+print(data)
+```
+### dropping a column
+you can drop a column using drop() method
+
+```py
+import pandas as pd
+dict1 = {"country": ["USA", "Mexico", "India", "Australia","China", "Indonesia"],
+       "language": ["English", "spanish", "Hindi", "English", "Chinese", "Indonesian"]}
+
+df = pd.DataFrame(dict)
+df.drop("country",axis=1)
+```
+### exporting a dataframe to csv
+you can export a dataframe to csv file using to_csv() method
+
+```py
+df.to_csv("output.csv")
+```
