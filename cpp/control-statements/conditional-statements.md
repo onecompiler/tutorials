@@ -194,3 +194,45 @@ int main()
 }
 ```
 ####  Check Result [here](https://onecompiler.com/cpp/3vmbg85we)
+
+## 5. Short handed if else / Ternary Operations
+
+There is also an abbreviation for if else called the ternary operator because it consists of three operands. Can be used to replace multiple lines of code with a single line. Often used to replace simple if else statements.
+.
+
+### Syntax
+
+```c
+variable = (condition) ? expressionTrue : expressionFalse;
+```
+### Example
+Instead of writing
+```c
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int age = 20;
+  if (age < 18) {
+    cout << "Underaged.;
+} else {
+    cout << "Eligible to vote";
+}
+}
+```
+ We can Simply Write
+ ```c
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int age = 20;
+  string result = (age < 18) ? "Underaged" : "Eligible to vote";
+  cout << result;
+}
+```
+
+####  Check Result [here](https://onecompiler.com/cpp/3ykkar3su)
+
