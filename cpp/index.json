@@ -89,7 +89,7 @@
                 {
                     "title": "Functions",
                     "path": "functions"
-                }
+                }         
             ]
         },
         {
@@ -99,6 +99,10 @@
                 {
                     "title": "Pointers",
                     "path": "pointers"
+                },
+                {
+                    "title": "'this' Pointer",
+                    "path": "this"
                 }
             ]
         },
