@@ -41,3 +41,78 @@ ALT+?   # list possible completions to what is typed
 ALT+^   # expand line to most recent match from history
 
 
+# BASH BASICS
+##############################################################################
+
+env                 # displays all environment variables
+
+echo $SHELL         # displays the shell you're using
+echo $BASH_VERSION  # displays bash version
+
+bash                # if you want to use bash (type exit to go back to your previously opened shell)
+whereis bash        # locates the binary, source and manual-page for a command
+which bash          # finds out which program is executed as 'bash' (default: /bin/bash, can change across environments)
+
+clear               # clears content on window (hide displayed lines)
+
+
+# FILE COMMANDS
+##############################################################################
+
+
+ls                            # lists your files in current directory, ls <dir> to print files in a specific directory
+ls -l                         # lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
+ls -a                         # lists all files in 'long format', including hidden files (name beginning with '.')
+ln -s <filename> <link>       # creates symbolic link to file
+readlink <filename>           # shows where a symbolic links points to
+tree                          # show directories and subdirectories in easilly readable file tree
+mc                            # terminal file explorer (alternative to ncdu)
+touch <filename>              # creates or updates (edit) your file
+mktemp -t <filename>          # make a temp file in /tmp/ which is deleted at next boot (-d to make directory)
+cat <filename>                # displays file raw content (will not be interpreted)
+cat -n <filename>             # shows number of lines
+nl <file.sh>                  # shows number of lines in file
+cat filename1 > filename2     # Copy filename1 to filename2
+cat filename1 >> filename2    # merge two files texts together 
+any_command > <filename>      # '>' is used to perform redirections, it will set any_command's stdout to file instead of "real stdout" (generally /dev/stdout)
+more <filename>               # shows the first part of a file (move with space and type q to quit)
+head <filename>               # outputs the first lines of file (default: 10 lines)
+tail <filename>               # outputs the last lines of file (useful with -f option) (default: 10 lines)
+vim <filename>                # opens a file in VIM (VI iMproved) text editor, will create it if it doesn't exist
+mv <filename1> <dest>         # moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
+cp <filename1> <dest>         # copies a file
+rm <filename>                 # removes a file
+find . -name <name> <type>    # searches for a file or a directory in the current directory and all its sub-directories by its name
+diff <filename1> <filename2>  # compares files, and shows where they differ
+wc <filename>                 # tells you how many lines, words and characters there are in a file. Use -lwc (lines, word, character) to ouput only 1 of those informations
+sort <filename>               # sorts the contents of a text file line by line in alphabetical order, use -n for numeric sort and -r for reversing order.
+sort -t -k <filename>         # sorts the contents on specific sort key field starting from 1, using the field separator t.
+rev                           # reverse string characters (hello becomes olleh)
+chmod -options <filename>     # lets you change the read, write, and execute permissions on your files (more infos: SUID, GUID)
+gzip <filename>               # compresses files using gzip algorithm
+gunzip <filename>             # uncompresses files compressed by gzip
+gzcat <filename>              # lets you look at gzipped file without actually having to gunzip it
+
+
+
+# SSH, SYSTEM INFO & NETWORK COMMANDS
+##############################################################################
+
+
+ssh user@host            # connects to host as user
+ssh -p <port> user@host  # connects to host on specified port as user
+ssh-copy-id user@host    # adds your ssh key to host for user to enable a keyed or passwordless login
+
+whoami                   # returns your username
+su <user>                # switch to a different user
+su -                     # switch to root, likely needs to be sudo su -
+sudo <command>           # execute command as the root user
+passwd                   # lets you change your password
+quota -v                 # shows what your disk quota is
+date                     # shows the current date and time
+cal                      # shows the month's calendar
+uptime                   # shows current uptime
+w                        # displays whois online
+finger <user>            # displays information about user
+uname -a                 # shows kernel information
+man <command>            # shows the manual for specified command
