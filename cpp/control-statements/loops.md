@@ -83,3 +83,32 @@ int main()
 ```
 
 #### Check result [here](https://onecompiler.com/cpp/3vmbgkg2p)
+
+## 3. Range based for-loop
+
+Range-based for loop in C++ is added since C++ 11. It executes a for loop over a range. Used as a more readable equivalent to the traditional for loop operating over a range of values, such as all elements in a container.
+
+### Syntax
+
+```c
+for ( range_declaration : range_expression ) 
+    loop_statement 
+```
+### Example
+
+```c
+#include <iostream>
+#include <vector>
+ 
+int main()
+{
+    // Iterating over whole array
+    std::vector<int> v = { 0, 1, 2, 3, 4, 5 };
+    for (auto i : v)
+    {
+        std::cout << i << '\n';
+    }
+}        
+```
+
+#### Check result [here](https://onecompiler.com/cpp/3ym4hv7s3)
