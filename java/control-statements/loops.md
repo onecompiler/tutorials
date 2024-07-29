@@ -75,3 +75,29 @@ public class DoWhileExample {
 ```
 
 #### Check result [here](https://onecompiler.com/java/3vk6cdxsu)
+
+## For Each
+
+For each loop is used exclusively to loop through elements in an array. Usually for each loop is preferred when you want just values only in less amount of code.
+
+### Syntax
+
+```java
+for (type variableName : arrayName) {
+  // code 
+} 
+```
+### Example
+
+```java
+public class ForExample {
+    public static void main(String[] args) {
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (String car : cars) {
+            System.out.println(car);
+        }
+    }
+}
+```
+
+#### Check Result [here](https://onecompiler.com/java/42mma34yh)
