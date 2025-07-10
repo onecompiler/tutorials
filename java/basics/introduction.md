@@ -23,11 +23,12 @@ Java is a very popular programming language. Java can be used to develop anythin
 
 ## Why Java is so popular?
 
-* Java is in market from almost 25 years.
+* Java is in market from almost 30 years (since 1995).
 * 3 billion devices run on Java like ATM's, Routers, Switches, SmartCards, Printers, Sensors and many other devices.
 * Fully object oriented programming language
 * Platform independent and hence run anywhere like mobiles, Windows, linux, MacOS based machines or mainframe systems literally anywhere as long as JRE is in place. 
 * More secure
+* Modern Java versions include Long Term Support (LTS) versions: Java 8, 11, 17, and 21, with regular feature releases every 6 months
 
 ## Installation
 

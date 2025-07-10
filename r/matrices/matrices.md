@@ -1,6 +1,6 @@
 Matrix is a two-dimensional rectangular data set. Elements of a matric will be of same atomic type. You can create a character or logical matrix but we dont them much. Numeric matrices are very popular for mathematical calculations.
 
-```py
+```r
 matrix(data, rowSize, columnSize, byrow, dimnames)
 ```
 * **data** : data is an input vector
@@ -9,7 +9,7 @@ matrix(data, rowSize, columnSize, byrow, dimnames)
 * **byrow** : If it is set to TRUE then the input vector elements are arranged by row.
 * **dimNames** : specifies row and column names
 
-```py
+```r
 x <- c(1:9)
 mrx <- matrix(x, nrow = 3, byrow = TRUE) #arranging elements by row
 print(mrx)
@@ -30,7 +30,7 @@ print(mrx)
 
 Matrix's elements are using by it's row and column indices.
 
-```py
+```r
 x <- c(1:9)
 
 #defining row and column names

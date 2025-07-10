@@ -52,7 +52,7 @@ namespace Arrays
 	}
 }
 ```
-### Check result [here](https://onecompiler.com/cpp/3vmbf4ed9)
+### Check result [here](https://onecompiler.com/csharp/3vmbf4ed9)
 
 ## Summary
 

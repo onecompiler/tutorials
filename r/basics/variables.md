@@ -2,7 +2,7 @@ Variables can be assigned using any of the leftward, rightward or equal to opera
 
 ## How to declare variables
 
-```java
+```r
 var-name = value
 var-name <- value
 value -> var-name
@@ -17,7 +17,7 @@ value -> var-name
 
 ### Example
 
-```java
+```r
 var_logical <- FALSE  # Logical variable
   
 var_numeric -> 797 # Numeric variable

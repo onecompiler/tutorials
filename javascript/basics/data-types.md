@@ -1,6 +1,6 @@
 Javascript is a dynamically typed language and hence though there are data types, variables are not bound to them. In short, a variable can hold any type of data. Same variable can be a number or string or boolean or any other value. Javascript will not throw any error even if you assign a string value to integer variable.
 
-There are 7 different types of data types present in Javascript.
+There are 8 different types of data types present in Javascript.
 
 ## 1. Number
 
@@ -29,7 +29,7 @@ BigInt datatype is used to represent arbitrary length integers as there is a tec
 
 ### Example
 ```javascript
-let x = 99999999999999999;
+let x = 99999999999999999n;
 ```
 
 ## 4. Null
@@ -60,9 +60,20 @@ Boolean datatype represents boolean values: true or false.
 let x = true;
 ```
 
-## 7. Object
+## 7. Symbol
 
-All the above six datatypes are called primitive datatypes as they contain some value. Object datatype represents complex entities which consists of key-value pairs. Objects can be created using curly brackets({ }).
+Symbol is a primitive data type introduced in ES6 that represents a unique identifier. Each Symbol value is unique and cannot be recreated.
+
+### Example
+```javascript
+let id = Symbol('id');
+let anotherId = Symbol('id');
+console.log(id === anotherId); // false
+```
+
+## 8. Object
+
+All the above seven datatypes are called primitive datatypes as they contain some value. Object datatype represents complex entities which consists of key-value pairs. Objects can be created using curly brackets({ }).
 
 ### Example
 ```javascript
@@ -85,4 +96,5 @@ Let's us see in-detail about Objects in further topics.
 |undefined| represents undefined values|
 |object| represents complex data structures|
 |boolean| represents either true or false
+|symbol| represents unique identifiers
 

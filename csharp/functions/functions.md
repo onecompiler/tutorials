@@ -108,23 +108,27 @@ namespace Functions
 ## 4. Function with arguments and a return value.
 
 ```c#
-#include <stdio.h>
-int sum();
-int main()
+using System;
+
+namespace Functions
 {
-  int x= 10, y = 20;
-  int result;
-  
-  result = sum(x,y); // passing arguments to function sum
-  printf("Sum : %d", result);
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			int x = 10, y = 20;
+			int result;
+			
+			result = sum(x, y); // passing arguments to function sum
+			Console.WriteLine("Sum : {0}", result);
+		}
 
-  
-}
-
-int sum(int x , int y) {
-   int sum;
-   sum = x + y;
-   return sum; // returning sum value
+		static int sum(int x, int y) {
+			int sum;
+			sum = x + y;
+			return sum; // returning sum value
+		}
+	}
 }
 ```
 ### Check result [here](https://onecompiler.com/csharp/3vtdkhpuq)

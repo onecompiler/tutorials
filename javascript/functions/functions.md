@@ -3,7 +3,7 @@ A function is a block of code which can be re-used multiple times. Beauty of fun
 ## How to declare a function
 
 ### Syntax 
-```javacript
+```javascript
 function function-name(parameters){ // here parameters are optional
     //code
 }

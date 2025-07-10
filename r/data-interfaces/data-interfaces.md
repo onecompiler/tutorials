@@ -8,14 +8,14 @@ csv file is a text file where the column values are seperated by comma(,).
 
 Consider `sample.csv` is present in the current working directory. 
 
-```java
+```r
 inp <- read.csv("sample.csv")
 print(inp)
 ```
 
 ## How to write to a csv file
 
-```java
+```r
 write.csv(data,"filename.csv")
 ```
 
@@ -25,17 +25,17 @@ R interacts with excel file using `xlsx package`.
 
 Execute the below command to install xlsx package:
 
-```java
+```r
 install.packages("xlsx")
 ```
 To verify the xlsx package installed by using the below command:
 
-```java
+```r
 any (grepl ("xlsx", installed.packages()))
 ```
 ## How to read a excel file
 
-```java
+```r
 inp <- read.xlsx("sample.xlsx", sheetIndex = 1)
 print(inp)
 ```
@@ -45,11 +45,11 @@ print(inp)
 Binary file stores data in the form of 0's and 1's. 
 
 ## How to read a Binary file
-```java
+```r
 readBin (conn, what, n )
 ```
 ## How to write to a binary file
-```java
+```r
 writeBin (object, conn)
 ```
 
@@ -64,14 +64,14 @@ R interacts with XML file using `xml package`.
 
 Execute the below command to install xlsx package:
 
-```java
+```r
 install.packages("XML")
 ```
 ## How to read a XML file
 
 `xmlParse()` is used to read XML file in R.
 
-```java
+```r
 data <- xmlParse(file = "sample.xml")
 print(data)
 ```
@@ -79,19 +79,19 @@ print(data)
 
 Execute the below command to install MySQL package.
 
-```java
+```r
 install.packages("RMySQL")
 ```
 
 ## Connecting to MySQL database
 
-```java
+```r
 mysqlconn = dbConnect(MySQL(), user = 'root', password = '', dbname = 'dbname',
    host = 'localhost')
 ```
 ## Querying database
 
-```java
+```r
 dbSendQuery(mysqlconn, "database query")
 ```
 you can use select/update/insert/delete queries in the above command.

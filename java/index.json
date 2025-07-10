@@ -3,7 +3,7 @@
     "title": "Java",
     "description": "Java Tutorial - Learn the concepts of Java, practice the sample programs and try yourself using our free editor.",
     "created": "2019-10-01",
-    "updated": "2020-07-07",
+    "updated": "2025-07-10",
     "cover": "",
     "index": [
         {
@@ -147,6 +147,16 @@
                 {
                     "title": "Method Overriding",
                     "path": "method-overriding"
+                }
+            ]
+        },
+        {
+            "title": "Modern Features",
+            "path": "modern-features",
+            "links": [
+                {
+                    "title": "Java 8+ Features",
+                    "path": "java-8-features"
                 }
             ]
         }

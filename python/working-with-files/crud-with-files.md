@@ -6,16 +6,17 @@ open() function is used to do CRUD(create,read,update,delete) operations on file
 open(filename,mode)
 ```
 * filename - specifies the name of the file
-* mode - `c`(create), `r`(read),`a`(append), `w`(write)
+* mode - `r`(read), `w`(write), `a`(append), `x`(exclusive creation)
 * Along with the above mode options, you can also specify the operation mode as either `t`(text) or `b`(binary)
 
 ## Create
 
-Use open() function with `c` or `a` or `w` as mode.
+Use open() function with `x` (exclusive creation - fails if file exists), `w` (write - creates if doesn't exist), or `a` (append - creates if doesn't exist) as mode.
 
 ### Example
 ```py
-file = open("myfile.txt","c")
+with open("myfile.txt","x") as file:
+    file.write("File created!")
 ```
 
 ## Read
@@ -23,8 +24,8 @@ Use open() function with `r` as mode.
 
 ### Example
 ```py
-file = open("myfile.txt","r")
-print(file.read())
+with open("myfile.txt","r") as file:
+    print(file.read())
 ```
 
 ## Update or Append
@@ -32,9 +33,8 @@ Use open() function with  `a` or `w` as mode.
 
 ### Example
 ```py
-file = open("myfile.txt","a")
-file.write("Happy learning!!")
-file.close()
+with open("myfile.txt","a") as file:
+    file.write("Happy learning!!")
 ```
 
 ## Delete

@@ -6,13 +6,13 @@ List is a generic vector which contains mixed data type elements.
 
 `list()` function is used to create a list.  
 
-```py
+```r
 list()
 ```
 
 ### Example
 
-```py
+```r
 x <- c(1,2,3,4,5)
 y <- c("hello", "happy", "world")
 z <- c(TRUE, FALSE, TRUE)
@@ -21,7 +21,7 @@ list1 <- list(x,y,z)
 ```
 You can also assign a name to the list elements with the help of `names()` function.
 
-```py
+```r
 emp_list <- list( c("Foo","Bar", "Alex", "Mark"), c(1,2,3,4))
 
 names(emp_list) <- c("Names","Id")
@@ -37,7 +37,7 @@ You can access elements of a list using two methods
 1. Indexing
 2. List names
 
-```py
+```r
 emp_list <- list( c("Foo","Bar", "Alex", "Mark"), c(1,2,3,4))
 names(emp_list) <- c("Names","Id")
 

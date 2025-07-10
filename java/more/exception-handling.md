@@ -46,7 +46,7 @@ public class Example{
   public static void main(String args[]){  
    try{  
       String name = null;  
-      System.out.println(s.length());//NullPointerException
+      System.out.println(name.length());//NullPointerException
    }
   catch(NullPointerException e){
     System.out.println(e);

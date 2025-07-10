@@ -1,6 +1,6 @@
 Strings can be enclosed with in either single quotes, or double quotes. R stores strings in double quotes even if you declare them with single quotes.
 
-```java
+```r
 str1 <- "Hello World!"
 print(str1)
 str2 <- 'Happy learning!!'
@@ -12,7 +12,7 @@ print(str2)
 
 Strings are concatenated using paste() function.
 
-```java
+```r
 paste(..., sep = " ", collapse = NULL)
 ```
 
@@ -21,7 +21,7 @@ paste(..., sep = " ", collapse = NULL)
 * **collapse** : eliminates space in between two strings and it is optional.
 
 ### Example
-```java
+```r
 str1 <- "Hello World!"
 str2 <- 'Happy learning!!'
 
@@ -37,7 +37,7 @@ print(paste(str1, str2, sep = "           ", collapse = NULL))
 
 format() function is used to format Numbers and strings  to a specific style.
 
-```java
+```r
 format(vector, digits, nsmall, scientific, width, justify = c("left", "right", "centre", "none")) 
 ```
 
@@ -50,7 +50,7 @@ format(vector, digits, nsmall, scientific, width, justify = c("left", "right", "
 
 ### Example
 
-```java
+```r
 x <- format(53.2, width = 7)
 print(x)
 
@@ -63,12 +63,12 @@ print(str)
 
 This function is used to count the number of characters including spaces in the given string.
 
-```java
+```r
 nchar(x)
 ```
 ### Example
 
-```java
+```r
 str <-"Hello World!"
 print(nchar(str))
 ```
@@ -78,7 +78,7 @@ print(nchar(str))
 
 This function is used to extract part of a string.
 
-```java
+```r
 substring(vector,begin,end)
 ```
 * **vector** : vector input.
@@ -86,7 +86,7 @@ substring(vector,begin,end)
 * **end** : ending index
 
 ### Example
-```java
+```r
 str <-"Hello World!"
 print(substring(str, 3, 5))
 ```
@@ -95,12 +95,12 @@ print(substring(str, 3, 5))
 ## 5. toupper() & tolower() 
 
 These functions are used to change the case of a string
-```java
+```r
 toupper(vector-input)
 tolower(vector-input)
 ```
 ### Example
-```java
+```r
 str <-"Hello World!"
 cat("In upper case: ", toupper(str), "\n")
 cat("In lower case: ", tolower(str), "\n")

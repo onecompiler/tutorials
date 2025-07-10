@@ -56,7 +56,7 @@ sudo apt-get install r-base
 
 ## Sample Program
 
-```java
+```r
 print("Hello, World!")
 ```
 #### Try yourself [here](https://onecompiler.com/r)

@@ -22,7 +22,7 @@ There are six data types of the atomic vectors and usually the R-Objects are bui
 |Character| To represent string values | x <- "One compiler"|
 | raw | Holds raw bytes||
 
-```java
+```r
 var_logical <- FALSE  # Logical variable
 cat("The data type of", var_logical," :",class(var_logical),"\n")  
   

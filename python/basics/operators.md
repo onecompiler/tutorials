@@ -62,9 +62,9 @@ Below are the logical operators present in Python.
 
 |Operator|	Description| Usage|
 |----|----|----|
-| && |	Logical AND | (x > y) && (y > z)|
-| \|\| |	Logical OR | (x > y) \|\| (y > z)|
-| ! |	Logical NOT	| (!x)|
+| and |	Logical AND | (x > y) and (y > z)|
+| or |	Logical OR | (x > y) or (y > z)|
+| not |	Logical NOT	| (not x)|
 
 ## 5. Assignment Operators
 
@@ -106,7 +106,7 @@ Identity operators are used to compare the objects whether they same objects wit
 | Arithmetic Operators| +  -  *  /  %  **  //|
 | Comparision Operators| ==  !=   >  >=  <  <=|
 | Bitwise Operators| &  ^  \| ^ ~ << >> |
-| Logical Operators| &&  \|\| ! |
+| Logical Operators| and  or  not |
 | Assignment Operators|=  +=  -=  *=  /=  %=  **=  //=|
 | Membership Operators| in, not in |
 | Identity Operators | is, is not|

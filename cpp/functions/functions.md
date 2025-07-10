@@ -43,7 +43,8 @@ Let's look examples for the above types.
 ## 1. Function with no arguments and no return value.
 
 ```c
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 void greetings();  
 int main()
 {
@@ -155,7 +156,7 @@ int increase(int x ) { //function definition
 }
 ```
 ### Check result [here](https://onecompiler.com/cpp/3yk82ucqf)
-However this will continue increasing the value of the parameter due to which it will call the same function again again. To avoid this we can set a limit which will stop the function from calling itesf after we cross the limit. This is also known as base case.
+However this will continue increasing the value of the parameter due to which it will call the same function again and again, leading to infinite recursion and eventually a stack overflow. To avoid this we can set a limit which will stop the function from calling itself after we cross the limit. This is also known as a base case.
 
 
 ```c
@@ -182,3 +183,53 @@ int increase(int x ) { //function definition
 }
 ```
 ### Check result [here](https://onecompiler.com/cpp/3yk82ucqf)
+
+## Lambda Functions (C++11 and later)
+
+Lambda functions are anonymous functions that can be defined inline. They are particularly useful for short functions that are used only once or in specific contexts like with STL algorithms.
+
+### Lambda Syntax
+```cpp
+[capture](parameters) -> return_type { body }
+```
+
+### Basic Lambda Examples
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    // Simple lambda with no parameters
+    auto greet = []() {
+        cout << "Hello from lambda!" << endl;
+    };
+    greet();
+    
+    // Lambda with parameters
+    auto add = [](int a, int b) {
+        return a + b;
+    };
+    cout << "Sum: " << add(5, 3) << endl;
+    
+    // Lambda with capture
+    int multiplier = 10;
+    auto multiply = [multiplier](int x) {
+        return x * multiplier;
+    };
+    cout << "Result: " << multiply(5) << endl;
+    
+    // Lambda with STL algorithms
+    vector<int> numbers = {1, 2, 3, 4, 5};
+    for_each(numbers.begin(), numbers.end(), [](int n) {
+        cout << n * 2 << " ";
+    });
+    cout << endl;
+    
+    return 0;
+}
+```
+
+### Check result [here](https://onecompiler.com/cpp/lambda-example)

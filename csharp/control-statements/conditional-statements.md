@@ -50,20 +50,27 @@ if(conditional-expression)
 ### Example
 
 ```c#
-#include <iostream>
-using namespace std;
+using System;
 
-int main() 
+namespace loops
 {
-  
-  int x = 30;
-  int y = 20;
+    public class statement
+    {
+        public static void Main(string[] args)
+        {
+            int x = 30;
+            int y = 20;
 
-  if ( x == y) {
-    cout << "x and y are equal";
-  } else {
-    cout <<"x and y are not equal";  
-  }
+            if (x == y)
+            {
+                Console.WriteLine("x and y are equal");
+            }
+            else
+            {
+                Console.WriteLine("x and y are not equal");
+            }
+        }
+    }
 }
 ```
 ### Check result [here](https://onecompiler.com/csharp/3vt5kcn54)
@@ -214,3 +221,121 @@ namespace loops
 }
 ```
 ###  Check Result [here](https://onecompiler.com/csharp/3vt5m5f4q)
+
+## 6. Switch Expression (C# 8.0+)
+
+Switch expressions provide a more concise syntax for switch statements when you need to return a value based on a pattern match.
+
+### Syntax
+
+```c#
+var result = conditional-expression switch
+{
+    pattern1 => value1,
+    pattern2 => value2,
+    pattern3 when condition => value3,
+    _ => defaultValue
+};
+```
+
+### Example 1: Basic Switch Expression
+
+```c#
+using System;
+
+namespace ConditionalStatements
+{
+    public class SwitchExpressionExample
+    {
+        public static void Main(string[] args)
+        {
+            int day = 3;
+            
+            string dayName = day switch
+            {
+                1 => "Sunday",
+                2 => "Monday",
+                3 => "Tuesday",
+                4 => "Wednesday",
+                5 => "Thursday",
+                6 => "Friday",
+                7 => "Saturday",
+                _ => "Invalid day"
+            };
+            
+            Console.WriteLine($"Day {day} is {dayName}");
+        }
+    }
+}
+```
+
+### Example 2: Switch Expression with When Clause
+
+```c#
+using System;
+
+namespace ConditionalStatements
+{
+    public class SwitchExpressionWithWhen
+    {
+        public static void Main(string[] args)
+        {
+            int score = 85;
+            
+            string grade = score switch
+            {
+                >= 90 => "A",
+                >= 80 => "B",
+                >= 70 => "C",
+                >= 60 => "D",
+                _ => "F"
+            };
+            
+            Console.WriteLine($"Score: {score}, Grade: {grade}");
+            
+            // With when clause for more complex conditions
+            int age = 25;
+            bool isStudent = true;
+            
+            string ticketPrice = (age, isStudent) switch
+            {
+                (< 18, _) => "Child: $10",
+                (_, true) => "Student: $15",
+                (>= 65, false) => "Senior: $12",
+                _ => "Adult: $20"
+            };
+            
+            Console.WriteLine($"Ticket price: {ticketPrice}");
+        }
+    }
+}
+```
+
+### Example 3: Pattern Matching with Switch Expression
+
+```c#
+using System;
+
+namespace ConditionalStatements
+{
+    public class PatternMatchingExample
+    {
+        public static void Main(string[] args)
+        {
+            object value = 42;
+            
+            string result = value switch
+            {
+                int n when n > 0 => $"Positive integer: {n}",
+                int n when n < 0 => $"Negative integer: {n}",
+                int => "Zero",
+                string s => $"String value: {s}",
+                null => "Null value",
+                _ => "Unknown type"
+            };
+            
+            Console.WriteLine(result);
+        }
+    }
+}
+```

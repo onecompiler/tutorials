@@ -4,14 +4,14 @@ For loop is used to iterate a set of statements based on a condition for a spefi
 
 ### Syntax
 
-```py
+```r
 for (value in vector) {
   # code
 }
 ```
 ### Example
 
-```py
+```r
 day <- c("Monday", "Tuesday","Wednesday", "Thursday","Friday", "Saturday", "Sunday")
 for ( i in day) {
    print(i)
@@ -26,14 +26,14 @@ While is also used to iterate a set of statements based on a condition. Usually 
 
 ### Syntax
 
-```py
+```r
 while(condition){  
 #code
 }  
 ```
 ### Example
 
-```py
+```r
 # printing 1 to 10 using while loop in R
 i <- 1
 while ( i <= 10) {
@@ -49,7 +49,7 @@ Repeat executes a block of code again and again until stop criteria is met.
 
 ### Syntax
 
-```py
+```r
 repeat { 
    #code
    if(condition) {
@@ -59,7 +59,7 @@ repeat {
 ```
 ### Example
 
-```py
+```r
 i <- 1
 repeat {
    print(i)

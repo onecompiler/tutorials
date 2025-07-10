@@ -1,10 +1,10 @@
-Javascript(JS) is a object-oriented programming language which adhere to ECMA Script Standards. Javascript was designed to specify the behaviour of the web pages.
+Javascript(JS) is an object-oriented programming language which adhere to ECMA Script Standards. Javascript was designed to specify the behaviour of the web pages.
 
 ## Key Features
 * Open-source
 * Just-in-time compiled language
 * Embedded along with HTML and makes web pages alive
-* Originally names as LiveScript.
+* Originally named as LiveScript.
 * Executable in both browser and server which has Javascript engines like V8(chrome), SpiderMonkey(Firefox) etc.
 * Many giant companies like Microsoft, Paypal, Netflix, Uber, Google, Facebook, LinkedIn etc use Javascript.
 

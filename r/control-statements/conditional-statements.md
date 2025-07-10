@@ -4,7 +4,7 @@ If is used when we want to execute a code only if a certain condition is satisfi
 
 ### Syntax
 
-```py
+```r
 if(conditional-expression)
 {
     # code
@@ -12,7 +12,7 @@ if(conditional-expression)
 ```
 ### Example
 
-```py
+```r
 x <- 30
 y <- 30
 
@@ -28,7 +28,7 @@ If-else is used when we want to execute one block of code among different blocks
 
 ### Syntax
 
-```py
+```r
 if(conditional-expression)
 {
     # code
@@ -38,7 +38,7 @@ if(conditional-expression)
 ```
 ### Example
 
-```py
+```r
 x <- 30
 y <- 50
 
@@ -57,12 +57,12 @@ Switch is an alternative to IF-ELSE-IF ladder and to select one among many block
 ### Syntax
 
 
-```py
+```r
 switch(expression, case-1, case-2, case-3....)   
 ```
 
 ### Example
-```py
+```r
 day <- switch(5 ,
 "Sunday",
 "Monday",

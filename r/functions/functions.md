@@ -6,7 +6,7 @@ R provides a large number of in-built functions (refer [here](https://cran.r-pro
 
 ## How to define a Function
 
-```py
+```r
 function_name <- function(arg1, arg2, ...) {
   #code 
 }
@@ -14,14 +14,14 @@ function_name <- function(arg1, arg2, ...) {
 
 ## How to call a Function
 
-```c
+```r
 function_name(arguments)
 ```
 ## Examples
 
 ### 1. Function with no arguments
 
-```py
+```r
 greetings <- function() {
   print("I'm in function")
 }
@@ -32,7 +32,7 @@ greetings()
 
 ### 2. Function with arguments
 
-```py
+```r
 sum <- function(x, y) {
   cat("Sum:", x+y)
 }

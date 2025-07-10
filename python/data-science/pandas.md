@@ -44,7 +44,7 @@ Gives results as below:
 import pandas as pd
 list1 = [1,2,3,4,5,6,7,8,9,10]
 df = pd.DataFrame(list1)
-print df
+print(df)
 ```
 
 ### import from csv files
