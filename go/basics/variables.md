@@ -4,7 +4,7 @@ Variables are like containers which holds the data values. A variable specifies 
 
 ## How to declare variables
 
-```c
+```go
 var variable-name data-type
 ```
 Mentioning datatype is optional.
@@ -13,7 +13,7 @@ Mentioning datatype is optional.
 
 `:=` is used as short assignment and you no need to declare `var` as well. Please note you can use short assignment (`:=`) only inside functions. `:=` is not available outside functions. 
 
-```c
+```go
 variable-name := value
 ```
 
@@ -26,7 +26,7 @@ variable-name := value
 
 ### Example
 
-```c
+```go
 
 package main
 

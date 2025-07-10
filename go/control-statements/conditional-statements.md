@@ -6,7 +6,7 @@ You can also use if-else , nested IFs and IF-ELSE-IF ladder when multiple condit
 
 ### Syntax
 
-```c
+```go
 if(conditional-expression)
 {
     //code
@@ -14,7 +14,7 @@ if(conditional-expression)
 ```
 ### Example
 
-```c
+```go
 package main
 import "fmt"
 
@@ -34,7 +34,7 @@ func main() {
 
 ### Syntax
 
-```c
+```go
 if(conditional-expression)
 {
     //code
@@ -44,7 +44,7 @@ if(conditional-expression)
 ```
 ### Example
 
-```c
+```go
 package main
 import "fmt"
 
@@ -65,7 +65,7 @@ func main() {
 ## 3. If-else-if ladder
 
 ### Syntax
-```c
+```go
 if(conditional-expression-1)
 {
     //code
@@ -81,7 +81,7 @@ else {
 ```
 
 ### Example
-```c
+```go
 package main
 import "fmt"
 
@@ -110,7 +110,7 @@ if ( age <= 1 && age >= 0) {
 Nested-Ifs represents if block within another if block. 
 
 ### Syntax
-```c
+```go
 if(conditional-expression-1) {    
      //code    
           if(conditional-expression-2) {  
@@ -123,7 +123,7 @@ if(conditional-expression-1) {
 ```
 
 ### Example
-```c
+```go
 package main
 import "fmt"
 
@@ -146,7 +146,7 @@ Switch is an alternative to IF-ELSE-IF ladder and to select one among many block
 
 ### Syntax
 
-```c
+```go
 switch(conditional-expression){    
 case value1:    
  //code    
@@ -161,7 +161,7 @@ default:
 } 
 ```
 ### Example
-```c
+```go
 package main
 import "fmt"
 

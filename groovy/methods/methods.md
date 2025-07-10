@@ -10,7 +10,7 @@ def methodName(parameters) {
 ## Examples
 
 ```java
-// simple example to show a methos without parameters
+// simple example to show a method without parameters
 greetings();
 
 def greetings()

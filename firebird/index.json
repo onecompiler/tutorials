@@ -1,9 +1,9 @@
 {
     "_id": "firebird",
-    "title": "Fire Bird",
-    "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
+    "title": "Firebird",
+    "description": "Comprehensive Firebird database tutorials for beginners covering installation, SQL, stored procedures, and advanced features.",
     "created": "2019-10-01",
-    "updated": "2020-07-07",
+    "updated": "2025-01-10",
     "cover": "",
     "index": [
         {
@@ -97,6 +97,26 @@
                 {
                     "title": "Stored Procedures",
                     "path": "stored-procedures"
+                }
+            ]
+        },
+        {
+            "title": "Basic SQL Operations",
+            "path": "basic-sql",
+            "links": [
+                {
+                    "title": "Basic Operations",
+                    "path": "basic-operations"
+                }
+            ]
+        },
+        {
+            "title": "Advanced Features",
+            "path": "advanced-features",
+            "links": [
+                {
+                    "title": "Firebird-Specific Features",
+                    "path": "firebird-features"
                 }
             ]
         }

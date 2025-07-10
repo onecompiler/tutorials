@@ -1,9 +1,9 @@
 {
     "_id": "elastic-search",
-    "title": "Elastic Search",
-    "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
+    "title": "Elasticsearch",
+    "description": "Comprehensive Elasticsearch tutorials for beginners covering search, analytics, and distributed data storage with practical examples.",
     "created": "2019-10-01",
-    "updated": "2020-07-07",
+    "updated": "2025-01-10",
     "cover": "",
     "index": [
         {
@@ -11,7 +11,7 @@
             "path": "introduction",
             "links": [
                 {
-                    "title": "What is ElasticSearch",
+                    "title": "What is Elasticsearch",
                     "path": "what-is-elasticsearch"
                 },
                 {
@@ -51,6 +51,16 @@
             ]
         },
         {
+            "title": "Query DSL",
+            "path": "query-dsl",
+            "links": [
+                {
+                    "title": "Query DSL Basics",
+                    "path": "query-dsl-basics"
+                }
+            ]
+        },
+        {
             "title": "Aggregations",
             "path": "aggregations",
             "links": [
@@ -69,16 +79,8 @@
             "path": "advanced-topics",
             "links": [
                 {
-                    "title": "Indexes",
+                    "title": "Index Management",
                     "path": "indexes"
-                },
-                {
-                    "title": "Replication",
-                    "path": "replication"
-                },
-                {
-                    "title": "Sharding",
-                    "path": "sharding"
                 }
             ]
         }

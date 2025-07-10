@@ -71,6 +71,26 @@
                     "path": "collections"
                 }
             ]
+        },
+        {
+            "title": "Pattern Matching",
+            "path": "pattern-matching",
+            "links": [
+                {
+                    "title": "Pattern Matching",
+                    "path": "pattern-matching"
+                }
+            ]
+        },
+        {
+            "title": "Object-Oriented Programming",
+            "path": "object-oriented",
+            "links": [
+                {
+                    "title": "Classes and Objects",
+                    "path": "classes-and-objects"
+                }
+            ]
         }
     ]
 }

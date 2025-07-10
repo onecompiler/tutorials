@@ -31,7 +31,7 @@ Some of the products developed by using Go are Kubernetes, Docker, Dropbox, Info
 
 ## Sample Go program
 
-```c
+```go
 package main
 import "fmt"
 
@@ -46,7 +46,7 @@ Let's look into each line of the above sample program:
 * **`package`** : Used to declare packages which is mandatory for all Go programs. 
 * **`import "fmt"`**: is used to import built-in fmt package.
 * **`func main()`** : it is the starting point of execution of any Go program.
-* **`fmt.printf`**: it's an inbuilt library function which is used to print the given message.
+* **`fmt.Printf`**: it's an inbuilt library function which is used to print the given message.
 
 
 ## Comments

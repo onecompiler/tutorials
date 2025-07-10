@@ -34,16 +34,15 @@ class class_name {
 ### Example
 
 ```java
-class mobile {
-    public:    // access specifier which specifies that accessibility of class members 
-    string name; // string variable (attribute)
+class Mobile {
+    String name; // String variable (attribute)
     int cost; // int variable (attribute)
-};
+}
 ```
 ## How to create a Object
 
 ```java
-mobile m1;
+Mobile m1 = new Mobile();
 ```
 ## How to define methods in a class
 

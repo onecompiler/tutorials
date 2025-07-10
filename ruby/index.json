@@ -71,6 +71,20 @@
                     "path": "file-io"
                 }
             ]
+        },
+        {
+            "title": "Object-Oriented Programming",
+            "path": "object-oriented",
+            "links": [
+                {
+                    "title": "Classes and Objects",
+                    "path": "classes-and-objects"
+                },
+                {
+                    "title": "Modules and Mixins",
+                    "path": "modules-and-mixins"
+                }
+            ]
         }
     ]
 }

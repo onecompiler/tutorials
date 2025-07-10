@@ -2,7 +2,7 @@ Function is a sub-routine which contains set of statements. Usually functions ar
 
 ## How to define a Function
 
-```c
+```go
 func function_name(parameters) return_type{
   //code
 }
@@ -11,14 +11,14 @@ In the above syntax parameters and return type are optional. Also you can return
 
 ## How to call a Function
 
-```c
+```go
 function_name(parameters)
 ```
 # Examples
 
 ## 1. Go Functions with return value
 
-```c
+```go
 package main
 import "fmt"
 
@@ -37,7 +37,7 @@ func main() {
 
 ## 2. Go function with arguments
 
-```c
+```go
 package main
 import "fmt"
 
@@ -59,7 +59,7 @@ func sum(args ... int) int {
 
 ## 3. Go function with multiple return values
 
-```c
+```go
 package main
 import "fmt"
 
@@ -72,7 +72,7 @@ func sumAndAverage(args ... int)(int,int)  {
    i := 0;
    for _,value  := range args{  
       sumValue += value  
-      avgValue -= value 
+      avgValue += value 
       i += 1;
    }  
    finalAvgValue := avgValue/i;

@@ -75,6 +75,16 @@
                     "path": "procedures"
                 }
             ]
+        },
+        {
+            "title": "Object-Oriented Programming",
+            "path": "object-oriented",
+            "links": [
+                {
+                    "title": "Classes and Objects",
+                    "path": "classes-and-objects"
+                }
+            ]
         }
     ]
 }

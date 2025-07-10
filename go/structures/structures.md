@@ -4,7 +4,7 @@ Structure is a user-defined data type where it allows you to combine data of dif
 
 `struct` keyword is used to define a structure. 
 
-```c
+```go
 type structure_name struct{
 
    member definition;
@@ -18,13 +18,13 @@ type structure_name struct{
 
 Structure variables can be declared as below:
 
-```c
+```go
 var structure-variable structure-name 
 ```
 
 ## Example 
 
-```c
+```go
 // structure definition
 type mobile struct {
     model string
@@ -42,7 +42,7 @@ You can access the structure member using `variable_name.membername`
 
 
 ## Example 
-```c
+```go
 package main
 import "fmt"
 // structure definition

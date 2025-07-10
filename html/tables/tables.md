@@ -1,6 +1,8 @@
-HTML tables allows the developer to arrange data into rows and columns.
+HTML tables allow developers to arrange data into rows and columns.
 
-`<table>` tag is used to create a table and `<tr>` tag is used to create table rows and `<td>` tag is used to create data cells.
+`<table>` tag is used to create a table, `<tr>` tag is used to create table rows, and `<td>` tag is used to create data cells.
+
+**Note:** While HTML5 still supports attributes like `border`, `cellpadding`, and `cellspacing` for backward compatibility, it's recommended to use CSS for styling tables instead. These attributes are considered deprecated in favor of CSS properties.
 
 ```html
 <!DOCTYPE html>
@@ -9,23 +11,23 @@ HTML tables allows the developer to arrange data into rows and columns.
     <title>Table</title>
   </head>
   <body>
-      <table border = "1">
+      <table style="border-collapse: collapse; border: 1px solid black;">
          <tr>
-            <td>Row 1, Col 1</td>
-            <td>Row 1, Col 2</td>
-            <td>Row 1, Col 3</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 1, Col 1</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 1, Col 2</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 1, Col 3</td>
          </tr>
          
          <tr>
-            <td>Row 2, Col 1</td>
-            <td>Row 2, Col 2</td>
-            <td>Row 2, Col 3</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 2, Col 1</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 2, Col 2</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 2, Col 3</td>
          </tr>
          
          <tr>
-            <td>Row 3, Col 1</td>
-            <td>Row 3, Col 2</td>
-            <td>Row 3, Col 3</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 3, Col 1</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 3, Col 2</td>
+            <td style="border: 1px solid black; padding: 5px;">Row 3, Col 3</td>
          </tr>
       </table>
   </body>
@@ -43,35 +45,35 @@ You can also define table headings using `<th>` tag.
     <title>Table example</title>
   </head>
   <body>
-      <table border = "3" width = "300" height = "150" cellpadding = "5" cellspacing = "5">
-      <caption>Country and it's official language</caption>
+      <table style="border: 3px solid black; width: 300px; height: 150px; border-spacing: 5px;">
+      <caption>Country and its official language</caption>
          <tr>
-            <th>Country</th>
-            <th>Capital</th>
+            <th style="border: 1px solid black; padding: 5px;">Country</th>
+            <th style="border: 1px solid black; padding: 5px;">Language</th>
          </tr>
          <tr>
-            <td>Russia</td>
-            <td>Russian</td>
+            <td style="border: 1px solid black; padding: 5px;">Russia</td>
+            <td style="border: 1px solid black; padding: 5px;">Russian</td>
          </tr>
          <tr>
-            <td>US</td>
-            <td colspan = "2">English</td>
+            <td style="border: 1px solid black; padding: 5px;">US</td>
+            <td style="border: 1px solid black; padding: 5px;">English</td>
          </tr>
          <tr>
-            <td>UK</td>
-            <td>English</td>
+            <td style="border: 1px solid black; padding: 5px;">UK</td>
+            <td style="border: 1px solid black; padding: 5px;">English</td>
          </tr>
          <tr>
-            <td>Japan</td>
-            <td>Japanese</td>
+            <td style="border: 1px solid black; padding: 5px;">Japan</td>
+            <td style="border: 1px solid black; padding: 5px;">Japanese</td>
          </tr>
          <tr>
-            <td>India</td>
-            <td>Hindi</td>
+            <td style="border: 1px solid black; padding: 5px;">India</td>
+            <td style="border: 1px solid black; padding: 5px;">Hindi</td>
          </tr>
          <tr>
-            <td>France</td>
-            <td>French</td>
+            <td style="border: 1px solid black; padding: 5px;">France</td>
+            <td style="border: 1px solid black; padding: 5px;">French</td>
          </tr>
       </table>
   </body>
@@ -79,31 +81,55 @@ You can also define table headings using `<th>` tag.
 ```
 ### Try yourself [here](https://onecompiler.com/html/3vvy3su9r)
 
-## Table attributes
+## Table attributes and styling
 
-* ### Cellpadding and Cellspacing
+### Modern HTML5 Best Practices
 
-The two attributes are used to to adjust the white space in your table cells. 
-    * ***cellspacing attribute:*** Used to define the space between table cells
-    * ***cellpadding attribute:*** Used to define the distance between cell borders and the content within a cell.
+In modern HTML5, it's recommended to use CSS for styling tables instead of HTML attributes. Here's a comparison:
+
+* **Deprecated attributes** (still work but not recommended):
+  * `border` - Use CSS `border` property instead
+  * `cellpadding` - Use CSS `padding` on `<td>` and `<th>` elements
+  * `cellspacing` - Use CSS `border-spacing` property
+  * `width` and `height` - Use CSS `width` and `height` properties
+
+### CSS Alternatives
+
+```css
+/* Instead of border="1" */
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* Instead of cellpadding="5" */
+td, th {
+  padding: 5px;
+}
+
+/* Instead of cellspacing="5" */
+table {
+  border-spacing: 5px;
+}
+
+/* Instead of width="300" height="150" */
+table {
+  width: 300px;
+  height: 150px;
+}
+```
+
+### Structural attributes (still valid in HTML5)
 
 * ### Colspan and Rowspan
 
-These two attributes are used to merge cells if required.
-    * ***colspan attribute:*** Used to merge two or more columns into a single column. 
-    * ***rowspan attribute:*** Used to merge two or more rows into a single row.
-
-* ### Border
-
-Border attribute is used to put a border across all the cells of a table.
-
-* ### Height and Width
-
-Table's width and height can be set in terms of pixels or in terms of percentage of available screen area using height and width attributes.
+These attributes are still valid and used to merge cells:
+    * ***colspan attribute:*** Merges two or more columns into a single cell
+    * ***rowspan attribute:*** Merges two or more rows into a single cell
 
 * ### Caption 
 
-You can set caption to the table using `caption` attribute.
+You can add a caption to the table using the `<caption>` element (not an attribute).
 
 ```html
 <!DOCTYPE html>
@@ -112,34 +138,34 @@ You can set caption to the table using `caption` attribute.
     <title>Table example</title>
   </head>
   <body>
-      <table border = "3" width = "300" height = "150" cellpadding = "5" cellspacing = "5">
-      <caption>Country and it's official language</caption>
+      <table style="border: 3px solid black; width: 300px; height: 150px; border-spacing: 5px;">
+      <caption>Country and its official language</caption>
          <tr>
-            <th>Country</th>
-            <th>Capital</th>
+            <th style="border: 1px solid black; padding: 5px;">Country</th>
+            <th style="border: 1px solid black; padding: 5px;">Language</th>
          </tr>
          <tr>
-            <td>Russia</td>
-            <td>Russian</td>
+            <td style="border: 1px solid black; padding: 5px;">Russia</td>
+            <td style="border: 1px solid black; padding: 5px;">Russian</td>
          </tr>
          <tr>
-            <td>US</td>
-            <td rowspan = "2">English</td> <!-- Notice we are merging two rows here-->
+            <td style="border: 1px solid black; padding: 5px;">US</td>
+            <td style="border: 1px solid black; padding: 5px;" rowspan="2">English</td> <!-- Notice we are merging two rows here-->
          </tr>
          <tr>
-            <td>UK</td>
+            <td style="border: 1px solid black; padding: 5px;">UK</td>
          </tr>
          <tr>
-            <td>Japan</td>
-            <td>Japanese</td>
+            <td style="border: 1px solid black; padding: 5px;">Japan</td>
+            <td style="border: 1px solid black; padding: 5px;">Japanese</td>
          </tr>
          <tr>
-            <td>India</td>
-            <td>Hindi</td>
+            <td style="border: 1px solid black; padding: 5px;">India</td>
+            <td style="border: 1px solid black; padding: 5px;">Hindi</td>
          </tr>
          <tr>
-            <td>France</td>
-            <td>French</td>
+            <td style="border: 1px solid black; padding: 5px;">France</td>
+            <td style="border: 1px solid black; padding: 5px;">French</td>
          </tr>
       </table>
   </body>

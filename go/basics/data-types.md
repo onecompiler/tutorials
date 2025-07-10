@@ -19,7 +19,7 @@ As the name suggests, data-type specifies the type of the data present in the va
 | Data type | Description | 
 |-----|-----|
 |float32|32-bit signed floating point number|
-|float|64-bit signed floating point number|
+|float64|64-bit signed floating point number|
 |complex32|Number has float32 real and imaginary parts|
 |complex64|Number has float32 real and imaginary parts|
 
@@ -38,7 +38,7 @@ As the name suggests, data-type specifies the type of the data present in the va
 
 ### Example
 
-```c
+```go
 package main
 
 import (
