@@ -1,4 +1,4 @@
-MySQL is a open-source, free and very popular relational database management system which is developed, distributed and supported by Oracle corporation. 
+MySQL is an open-source, free and very popular relational database management system which is developed, distributed and supported by Oracle corporation. 
 
 ## Key Features:
 *	Open-source relational database management systems.
