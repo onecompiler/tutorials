@@ -1,9 +1,9 @@
 {
     "_id": "cassandra",
     "title": "Cassandra",
-    "description": "Easy to Understand database tutorials for beginners with core concepts and examples.",
+    "description": "Comprehensive Apache Cassandra NoSQL database tutorials for beginners covering architecture, data modeling, CQL, and best practices.",
     "created": "2019-10-01",
-    "updated": "2020-07-07",
+    "updated": "2025-01-10",
     "cover": "",
     "index": [
         {
@@ -11,8 +11,38 @@
             "path": "introduction",
             "links": [
                 {
-                    "title": "Introduction",
+                    "title": "Introduction to Cassandra",
                     "path": "introduction"
+                }
+            ]
+        },
+        {
+            "title": "Architecture & Concepts",
+            "path": "architecture",
+            "links": [
+                {
+                    "title": "Cassandra Architecture",
+                    "path": "architecture"
+                }
+            ]
+        },
+        {
+            "title": "Basic Operations",
+            "path": "basics",
+            "links": [
+                {
+                    "title": "Table Operations",
+                    "path": "table-operations"
+                }
+            ]
+        },
+        {
+            "title": "Data Types",
+            "path": "data-types",
+            "links": [
+                {
+                    "title": "Data Types in Cassandra",
+                    "path": "data-types"
                 }
             ]
         },
@@ -25,10 +55,6 @@
                     "path": "creating-keyspace"
                 },
                 {
-                    "title": "Deleting Keyspace",
-                    "path": "deleting-keyspace"
-                },
-                {
                     "title": "Creating Table",
                     "path": "creating-table"
                 },
@@ -37,12 +63,20 @@
                     "path": "creating-data"
                 },
                 {
+                    "title": "Reading Data",
+                    "path": "reading-data"
+                },
+                {
                     "title": "Updating Data",
                     "path": "updating-data"
                 },
                 {
                     "title": "Deleting Data",
                     "path": "deleting-data"
+                },
+                {
+                    "title": "Deleting Keyspace",
+                    "path": "deleting-keyspace"
                 }
             ]
         },
@@ -51,8 +85,12 @@
             "path": "advanced",
             "links": [
                 {
-                    "title": "Collection Data types",
+                    "title": "Collection Data Types",
                     "path": "collection-data-types"
+                },
+                {
+                    "title": "Consistency Levels",
+                    "path": "consistency-levels"
                 }
             ]
         }
