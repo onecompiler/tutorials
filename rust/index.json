@@ -1,0 +1,174 @@
+{
+  "_id": "rust",
+  "title": "Rust",
+  "description": "Learn Rust programming language - a systems programming language focused on safety, speed, and concurrency",
+  "created": "2025-01-13",
+  "updated": "2025-01-13",
+  "cover": "",
+  "index": [
+    {
+      "title": "Getting Started",
+      "path": "basics",
+      "links": [
+        {
+          "title": "Introduction to Rust",
+          "path": "introduction"
+        },
+        {
+          "title": "Hello World",
+          "path": "hello-world"
+        },
+        {
+          "title": "Variables and Mutability",
+          "path": "variables"
+        },
+        {
+          "title": "Data Types",
+          "path": "data-types"
+        },
+        {
+          "title": "Operators",
+          "path": "operators"
+        }
+      ]
+    },
+    {
+      "title": "Control Flow",
+      "path": "control-statements",
+      "links": [
+        {
+          "title": "Conditional Statements",
+          "path": "conditional-statements"
+        },
+        {
+          "title": "Loops",
+          "path": "loops"
+        },
+        {
+          "title": "Pattern Matching",
+          "path": "pattern-matching"
+        }
+      ]
+    },
+    {
+      "title": "Functions",
+      "path": "functions",
+      "links": [
+        {
+          "title": "Functions",
+          "path": "functions"
+        },
+        {
+          "title": "Closures",
+          "path": "closures"
+        }
+      ]
+    },
+    {
+      "title": "Ownership",
+      "path": "ownership",
+      "links": [
+        {
+          "title": "Ownership Rules",
+          "path": "ownership"
+        },
+        {
+          "title": "References and Borrowing",
+          "path": "borrowing"
+        },
+        {
+          "title": "Slices",
+          "path": "slices"
+        }
+      ]
+    },
+    {
+      "title": "Structs and Enums",
+      "path": "structs-enums",
+      "links": [
+        {
+          "title": "Structs",
+          "path": "structs"
+        },
+        {
+          "title": "Enums",
+          "path": "enums"
+        },
+        {
+          "title": "Option and Result",
+          "path": "option-result"
+        }
+      ]
+    },
+    {
+      "title": "Collections",
+      "path": "collections",
+      "links": [
+        {
+          "title": "Vectors",
+          "path": "vectors"
+        },
+        {
+          "title": "Strings",
+          "path": "strings"
+        },
+        {
+          "title": "HashMaps",
+          "path": "hashmaps"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling",
+      "path": "error-handling",
+      "links": [
+        {
+          "title": "Error Handling",
+          "path": "error-handling"
+        },
+        {
+          "title": "Panic and Unwrap",
+          "path": "panic-unwrap"
+        }
+      ]
+    },
+    {
+      "title": "Traits",
+      "path": "traits",
+      "links": [
+        {
+          "title": "Traits",
+          "path": "traits"
+        },
+        {
+          "title": "Generics",
+          "path": "generics"
+        }
+      ]
+    },
+    {
+      "title": "Lifetimes",
+      "path": "lifetimes",
+      "links": [
+        {
+          "title": "Lifetimes",
+          "path": "lifetimes"
+        }
+      ]
+    },
+    {
+      "title": "Cargo and Modules",
+      "path": "cargo",
+      "links": [
+        {
+          "title": "Cargo Basics",
+          "path": "cargo-basics"
+        },
+        {
+          "title": "Modules and Packages",
+          "path": "modules"
+        }
+      ]
+    }
+  ]
+}
