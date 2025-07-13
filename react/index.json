@@ -1,0 +1,250 @@
+{
+  "_id": "react",
+  "title": "React",
+  "description": "Learn React - A JavaScript library for building user interfaces",
+  "created": "2025-01-13",
+  "updated": "2025-01-13",
+  "cover": "",
+  "index": [
+    {
+      "title": "Getting Started",
+      "path": "introduction",
+      "links": [
+        {
+          "title": "Introduction to React",
+          "path": "introduction"
+        },
+        {
+          "title": "Setting Up React",
+          "path": "setup"
+        },
+        {
+          "title": "JSX Basics",
+          "path": "jsx"
+        },
+        {
+          "title": "React Elements and Rendering",
+          "path": "rendering"
+        }
+      ]
+    },
+    {
+      "title": "Components",
+      "path": "components",
+      "links": [
+        {
+          "title": "Functional Components",
+          "path": "functional-components"
+        },
+        {
+          "title": "Class Components",
+          "path": "class-components"
+        },
+        {
+          "title": "Props",
+          "path": "props"
+        },
+        {
+          "title": "Component Composition",
+          "path": "composition"
+        }
+      ]
+    },
+    {
+      "title": "State and Lifecycle",
+      "path": "state-management",
+      "links": [
+        {
+          "title": "State in Components",
+          "path": "state"
+        },
+        {
+          "title": "Component Lifecycle",
+          "path": "lifecycle"
+        },
+        {
+          "title": "Lifting State Up",
+          "path": "lifting-state"
+        }
+      ]
+    },
+    {
+      "title": "Hooks",
+      "path": "hooks",
+      "links": [
+        {
+          "title": "Introduction to Hooks",
+          "path": "introduction-hooks"
+        },
+        {
+          "title": "useState Hook",
+          "path": "usestate"
+        },
+        {
+          "title": "useEffect Hook",
+          "path": "useeffect"
+        },
+        {
+          "title": "useContext Hook",
+          "path": "usecontext"
+        },
+        {
+          "title": "useReducer Hook",
+          "path": "usereducer"
+        },
+        {
+          "title": "Custom Hooks",
+          "path": "custom-hooks"
+        }
+      ]
+    },
+    {
+      "title": "Handling Events",
+      "path": "forms",
+      "links": [
+        {
+          "title": "Event Handling",
+          "path": "events"
+        },
+        {
+          "title": "Forms and Controlled Components",
+          "path": "forms"
+        },
+        {
+          "title": "Form Validation",
+          "path": "validation"
+        }
+      ]
+    },
+    {
+      "title": "Lists and Keys",
+      "path": "components",
+      "links": [
+        {
+          "title": "Rendering Lists",
+          "path": "lists"
+        },
+        {
+          "title": "Keys in React",
+          "path": "keys"
+        }
+      ]
+    },
+    {
+      "title": "Routing",
+      "path": "routing",
+      "links": [
+        {
+          "title": "React Router Basics",
+          "path": "router-basics"
+        },
+        {
+          "title": "Navigation and Links",
+          "path": "navigation"
+        },
+        {
+          "title": "Route Parameters",
+          "path": "route-params"
+        },
+        {
+          "title": "Protected Routes",
+          "path": "protected-routes"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "path": "state-management",
+      "links": [
+        {
+          "title": "Context API",
+          "path": "context-api"
+        },
+        {
+          "title": "Redux Basics",
+          "path": "redux-basics"
+        },
+        {
+          "title": "Redux Toolkit",
+          "path": "redux-toolkit"
+        }
+      ]
+    },
+    {
+      "title": "Styling",
+      "path": "styling",
+      "links": [
+        {
+          "title": "CSS in React",
+          "path": "css"
+        },
+        {
+          "title": "CSS Modules",
+          "path": "css-modules"
+        },
+        {
+          "title": "Styled Components",
+          "path": "styled-components"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Patterns",
+      "path": "advanced-patterns",
+      "links": [
+        {
+          "title": "Higher-Order Components",
+          "path": "hoc"
+        },
+        {
+          "title": "Render Props",
+          "path": "render-props"
+        },
+        {
+          "title": "Error Boundaries",
+          "path": "error-boundaries"
+        },
+        {
+          "title": "Portals",
+          "path": "portals"
+        },
+        {
+          "title": "Refs and DOM",
+          "path": "refs"
+        }
+      ]
+    },
+    {
+      "title": "Performance",
+      "path": "performance",
+      "links": [
+        {
+          "title": "React.memo and Optimization",
+          "path": "optimization"
+        },
+        {
+          "title": "useMemo and useCallback",
+          "path": "memoization"
+        },
+        {
+          "title": "Code Splitting",
+          "path": "code-splitting"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "path": "testing",
+      "links": [
+        {
+          "title": "Testing Basics",
+          "path": "testing-basics"
+        },
+        {
+          "title": "Testing Library",
+          "path": "testing-library"
+        }
+      ]
+    }
+  ]
+}
