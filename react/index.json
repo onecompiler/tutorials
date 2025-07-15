@@ -52,7 +52,7 @@
     },
     {
       "title": "State and Lifecycle",
-      "path": "state-management",
+      "path": "state-lifecycle",
       "links": [
         {
           "title": "State in Components",
@@ -118,7 +118,7 @@
     },
     {
       "title": "Lists and Keys",
-      "path": "components",
+      "path": "lists-and-keys",
       "links": [
         {
           "title": "Rendering Lists",
