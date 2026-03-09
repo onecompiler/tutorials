@@ -91,6 +91,14 @@ let message = function () {
     console.log('Happy Learning!');
 }
 ```
+Apart form that we can also use  an arrow function to assign function to a variable explicity.
+
+### Examples
+```javascript
+let message = ()=>{
+console.log('Happy Learning!');
+}
+```
 You can copy function to an another variable.
 
 ```javascript
