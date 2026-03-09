@@ -93,8 +93,32 @@ int main()
     return 0;
 }
 ```
+
 ### Check result [here](https://onecompiler.com/cpp/3yjazmygf)
 
+## Example
+```c
+#include<iostream>
+using namespace std;
+
+int main(){
+    char b[]= "abc";
+    
+    //in char array ptr, ptr does not store the address(unlike integer array)
+    //but instead prints the whole characters untill it find '\0'  
+    
+    char *p = & b[0];  //prints abc 
+    cout<<p<<endl;
+
+    char *q = & b[1];  //prints bc 
+    cout<<q<<endl;
+
+    char *r = & b[2];  //prints c 
+    cout<<r<<endl;
+}
+```
+
+### Check result [here](https://onecompiler.com/cpp/3yjdvzrwk)
 
 
 
