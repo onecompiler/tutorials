@@ -2,7 +2,7 @@
 
 * All Javascript values except primitives(string, number, bigInt, boolean, null, undefined) are Objects like Arrays, Regular expressions, Functions, Dates, Maths etc.
 
-* Even strings, numbers and booleans can be consisdered as Objects if they are defined with new keyword.
+* Even strings, numbers and booleans can be considered as Objects if they are defined with new keyword.
 
 * As discussed before, Object datatype represents complex entities which consists of key-value pairs. Objects can be created using curly brackets({ }) with an optional list of properties.
 
